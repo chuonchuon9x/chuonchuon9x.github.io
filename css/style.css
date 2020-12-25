@@ -114,6 +114,10 @@ h6 {
 .slide-show {
 	display: none;
 }
+.slide-show img{
+	max-width: 264px;
+	max-height: 264px;
+}
 .click {
 	position: absolute;
 	right: -65%;
@@ -173,24 +177,22 @@ h6 {
 body{
     background: #fff;
 }
-.container{
-    margin: 0 auto;
-    width: 80%;
-}
 .menu-header {
     top: 30px;
     display: flex;
-    z-index: 500;
+    z-index: 1000;
     position: fixed;
 	width: 100%;
 	background-color: #b49a77;
 }
 .logo{
-	float: left;
+	background-color: #b49a77;
+	margin-left: 150px;
 }
 .navigation{
-	float: right;
+	text-align: center;
 	margin-left: 400px;
+	margin-top: 25px;
 }
 .navigation ul li{
     display: inline-block;
@@ -204,7 +206,7 @@ body{
 .icon ul li{
     display: inline-block;
 	margin-left: 20px;
-	
+	margin-top: 25px;
 }
 
 /* Services */
@@ -212,15 +214,17 @@ body{
 	border-style: none none solid none;
 	width: 30%;
 	margin-left: 10%;
+	margin-top: 5%;
 }
 .title {
-	font-size: 25px;
 	margin-left: 15%;
+	margin-top: 5%;
 }
 .square {
 	background: white;
     max-height: 100px;
-    overflow: hidden;
+	overflow: hidden;
+	padding-right: 20%;
 }
 .square1 {
 	background: #cbcbcb;
@@ -243,21 +247,154 @@ body{
     float: right;
     margin: 0.5em;
 }
-/* Tạo ba cột không bằng nhau, float cạnh nhau */
-.column {
-	float: left;
-	padding: -8%;
-  }
-  
-  /* Cột bên trái và phải */
-.column.side {
-	width: 33.3%;
-  }
-  
-  /* Cột chính giữa */
-.column.middle {
-	width: 33.3%;
-  }
-.img-product {
-	width: 50%;
+.item {
+	padding: 1rem;
+	text-align: center;
+	color: #fff;
+}
+.services .wrapper-function .function{
+	border: white solid 4px;
+	max-width: 200px;
+	max-height: 80px;
+	text-align: center;
+	line-height: 0.8;
+	color: white;
+}
+.services .item img{
+	max-width: 600px;
+	max-height: 400px;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 100px 100px 100px;
+	margin-left: 400px;
+}
+.services .wrapper-function{
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 50px 50px 50px;
+	margin-left: 450px;
+	margin-bottom: px;
+}
+.services p{
+	font-size: 25px;
+}
+.services .Hot{
+	font-size: 50px;
+}
+
+/* products */
+.products .line{
+	border-style: none none solid none;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 15%;
+	margin-bottom: 1%;
+}
+.products b{
+	font-size: 20px;
+	margin-left: 45%;
+}
+.products .wrapper{
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-template-rows: 100px 100px 100px 100px;
+	margin-left: 250px;
+	margin-top: 15px;
+}
+.products .wrapper-function{
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-template-rows: 100px 100px 100px 100px;
+	margin-left: 250px;
+	margin-top: 15px;
+}
+.products .item img{
+	max-width: 500px;
+	max-height: 450px;
+	font-size: 45px;
+}
+.products .function{
+	padding: 1rem;
+	text-align: center;
+	color: #fff;
+	border: 2px solid black;
+	max-width: 200px;
+	max-height: 50px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+.products .function a{
+	color: black;
+	display: block;
+}
+/* footer */
+#wrapper-footer{
+    background: #565656;
+    padding-top: 80px;
+    font-family: "Roboto-Light";
+}
+.menu-footer{
+    margin-bottom: 27px;
+}
+.menu-footer li{
+    display: inline-block;
+    width: 42%;
+    color: #ffffff;
+	vertical-align: top;
+	margin-left: 30px;
+}
+.menu-footer li:last-child{
+    margin-right: 0;
+}
+.menu-footer li:nth-child(2){
+    width: 20%;
+}
+.menu-footer li:nth-child(3){
+    width: 30%;
+}
+.menu-footer li .service{
+    display: block;
+    color: #fff;
+    line-height: 27px;
+}
+.menu-footer li h3{
+    font-weight: bold;
+    margin-bottom: 19px;
+    font-size: 27px;
+}
+.menu-footer li p{
+    margin-bottom: 17px;
+}
+.menu-footer li input.email{
+    background: none;
+    border: none none solid none;
+    color: white;
+    margin: 23px 0;
+    width: 100%;
+    padding-left: 17px;
+    font-size: 15px;
+}
+.menu-footer li input.email:active, input{
+	outline: 0;
+    outline-style: none;
+    outline-width: 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin: 23px 0;
+    width: 100%;
+    padding-left: 17px;
+    font-size: 15px;
+}
+.menu-footer li img{
+    margin-left: 13px;
+}
+.copyright{
+    background: #3d3d3d;
+    text-align: center;
+    color: white;
+    padding: 22px 0 30px 0;
 }
