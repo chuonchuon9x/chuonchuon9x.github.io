@@ -152,8 +152,8 @@ h6 {
 }
 .banner-right {
 	position: absolute;
-	top: 10%;
-	right: 1%;
+	top: 15%;
+	right: 5%;
 }
 .pagination {
 	text-align: center;
@@ -178,15 +178,13 @@ body{
     background: #fff;
 }
 .menu-header {
-    top: 30px;
     display: flex;
     z-index: 1000;
     position: fixed;
 	width: 100%;
-	background-color: #b49a77;
+	background: #b49a77;
 }
 .logo{
-	background-color: #b49a77;
 	margin-left: 150px;
 }
 .navigation{
@@ -343,7 +341,7 @@ body{
     width: 42%;
     color: #ffffff;
 	vertical-align: top;
-	margin-left: 30px;
+	margin-left: 40px;
 }
 .menu-footer li:last-child{
     margin-right: 0;
@@ -368,12 +366,10 @@ body{
     margin-bottom: 17px;
 }
 .menu-footer li input.email{
-    background: none;
-    border: none none solid none;
     color: white;
     margin: 23px 0;
-    width: 100%;
-    padding-left: 17px;
+    width: 60%;
+    padding-left: 20px;
     font-size: 15px;
 }
 .menu-footer li input.email:active, input{
@@ -382,12 +378,10 @@ body{
     outline-width: 0;
     background: none;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     color: white;
     margin: 23px 0;
-    width: 100%;
-    padding-left: 17px;
-    font-size: 15px;
+    width: 60%;
 }
 .menu-footer li img{
     margin-left: 13px;
