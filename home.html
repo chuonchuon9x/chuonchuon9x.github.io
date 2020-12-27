@@ -9,16 +9,24 @@
 </head>
 <body>
     <!-- Header -->
-        <header id="header-section">
+        <header class="header-section">
             <div class="container">
                 <div class="menu-header">
                     <div class="logo">
                         <a href="#"><img src="images/logodemo.png" alt=""></a>
                     </div>
-                    <div class="navigation">
+                    <div class="navigation" id="myTopnav">
                         <ul>
                             <li><a href="">Hàng mới về</a></li>
-                            <li><a href="">Sản phẩm</a></li>
+                            <li><a href="">Sản phẩm</a>
+                                <div class="sub-navi">
+                                    <ul>
+                                        <li><a href="">Áo</a></li>
+                                        <li><a href="">Quần</a></li>
+                                        <li><a href="">Váy</a></li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li><a href="">Sản phẩm bán chạy</a></li>
                             <li><a href="">Tin tức</a></li>
                             <li><a href="">Sản phẩm sale</a></li>
@@ -38,7 +46,7 @@
 
     <!-- Banner -->
     <section class="banner-section"> 
-        <div class="container-fluid">
+        <div class="container-fluid" id="container-banner">
             <section class="banner-left">
                 <img src="images/anhbanner.png" alt="">
             </section>
