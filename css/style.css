@@ -217,12 +217,10 @@ body{
 .title {
 	margin-left: 15%;
 	margin-top: 5%;
+	max-width: 1100px;
 }
-.square {
-	background: white;
-    max-height: 100px;
-	overflow: hidden;
-	padding-right: 20%;
+.title p {
+	max-width: 200px;
 }
 .square1 {
 	background: #cbcbcb;
@@ -250,14 +248,6 @@ body{
 	text-align: center;
 	color: #fff;
 }
-.services .wrapper-function .function{
-	border: white solid 4px;
-	max-width: 200px;
-	max-height: 80px;
-	text-align: center;
-	line-height: 0.8;
-	color: white;
-}
 .services .item img{
 	max-width: 600px;
 	max-height: 400px;
@@ -268,12 +258,18 @@ body{
 	grid-template-rows: 100px 100px 100px;
 	margin-left: 400px;
 }
-.services .wrapper-function{
-	display: grid;
-	grid-template-columns: 300px 300px 300px;
-	grid-template-rows: 50px 50px 50px;
-	margin-left: 450px;
-	margin-bottom: px;
+.wrapper a{
+	border: 3px white solid;
+	margin-top: 80px;
+	margin-left: 60px;
+	margin-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1;
 }
 .services p{
 	font-size: 25px;
@@ -283,11 +279,15 @@ body{
 }
 
 /* products */
+.products{
+	max-width: 1711px;
+	max-height: 673;
+}
 .products .line{
 	border-style: none none solid none;
 	width: 40%;
 	margin-left: 30%;
-	margin-top: 15%;
+	margin-top: 10%;
 	margin-bottom: 1%;
 }
 .products b{
@@ -306,7 +306,8 @@ body{
 	grid-template-columns: 300px 300px 300px 300px;
 	grid-template-rows: 100px 100px 100px 100px;
 	margin-left: 250px;
-	margin-top: 15px;
+	max-height: 120px;
+
 }
 .products .item img{
 	max-width: 500px;
@@ -327,14 +328,27 @@ body{
 	color: black;
 	display: block;
 }
+.products .show-more a{
+	border: 1px solid black;
+	background: black;
+	color: white;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 45%;
+}
 /* footer */
-#wrapper-footer{
+.wrapper-footer{
     background: #565656;
     padding-top: 80px;
-    font-family: "Roboto-Light";
+	margin-top: 80px;
 }
 .menu-footer{
     margin-bottom: 27px;
+}
+ul.menu-footer{
+	padding-left: 100px;
 }
 .menu-footer li{
     display: inline-block;
@@ -342,6 +356,7 @@ body{
     color: #ffffff;
 	vertical-align: top;
 	margin-left: 40px;
+	margin-right: -80px;
 }
 .menu-footer li:last-child{
     margin-right: 0;
