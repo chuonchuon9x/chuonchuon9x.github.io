@@ -13,7 +13,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Montserrat", sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	-webkit-font-smoothing: antialiased;
 	background: #ffffff;
 }
@@ -108,7 +108,6 @@ body{
 	top: 25%;
 	left: 43%;
 	font-size: 70px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: white;
 }
 .slider {
@@ -240,12 +239,14 @@ body{
 	margin-left: 60px;
 	margin-right: 50px;
 	padding-top: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 	text-align: center;
 	color: white;
 	font-size: 25px;
 	font-weight: bold;
-	line-height: 1;
+}
+.wrapper a p{
+	margin-top: 10px;
 }
 .services p{
 	font-size: 25px;
