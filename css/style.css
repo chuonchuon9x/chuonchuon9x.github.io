@@ -13,7 +13,7 @@
 html,
 body {
 	height: 100%;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	-webkit-font-smoothing: antialiased;
 	background: #ffffff;
 }
@@ -25,13 +25,14 @@ body{
 .menu-header {
     display: flex;
     z-index: 5000;
-    position: fixed;
+    position: relative;
 	width: 100%;
 	background: #b49a77;
 }
 .logo{
 	margin-left: 150px;
 }
+/* home navi */
 .navigation{
 	text-align: center;
 	margin-left: 400px;
@@ -84,6 +85,68 @@ body{
     transition: all .2s ease-in;
 }
 .navigation ul li .sub-navi li a:hover{
+	background: #717171;
+	border: 1px solid black;
+	padding: 5px 10px 5px 10px;
+}
+/* product navi */
+.menu-header1{
+	display: flex;
+    z-index: 5000;
+    position: relative;
+	width: 100%;
+	background: #ffffff;;
+}
+.navigation-product{
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 25px;
+	flex-grow: 1;
+	max-width: 800px;
+}
+.navigation-product ul{
+	display: block;
+    height: 100%;
+}
+.navigation-product ul li{
+	display: inline-block;
+    margin-right: 31px;
+    height: 100%;
+}
+.navigation-product ul li a{
+	color: #3d3d3d;
+}
+.navigation-product ul li a:hover{
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #b49a77;
+	border: 1px solid black;
+}
+.navigation-product .sub-navi ul li{
+	text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    height: 100%;
+}
+.navigation-product ul li:hover .sub-navi{
+    display: block;
+}
+.navigation-product ul li .sub-navi{
+    position: absolute;
+    width: 15%;
+    display: none;
+}
+.navigation-product ul li .sub-navi li{
+    display: block;
+}
+.navigation-product ul li .sub-navi li a{
+    display: block;
+    color: #3d3d3d;
+    padding: 20px 0 20px 20px;
+    transition: all .2s ease-in;
+}
+.navigation-product ul li .sub-navi li a:hover{
 	background: #717171;
 	border: 1px solid #3d3d3d;
 	padding: 5px 10px 5px 10px;
@@ -261,7 +324,7 @@ body{
     height: 440px;
     left: -35%;
 	top: 26%;
-	margin-top: 780px;
+	margin-top: 870px;
 }
 .services ul li{
 	max-height: 300px;
@@ -400,4 +463,68 @@ ul.menu-footer{
     text-align: center;
     color: white;
     padding: 22px 0 30px 0;
+}
+
+/* tbody products */
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	background-color: #ffffff;
+	margin-left: 120px;
+	padding: 50px 0 50px 0;
+  }
+
+  ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+  }
+  
+  ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: ">\00a0";
+  }
+  
+  ul.breadcrumb li a {
+	color: #3d3d3d;
+	text-decoration: none;
+  }
+  
+  ul.breadcrumb li a:hover {
+	color: #3d3d3d;
+	text-decoration: underline;
+  }
+.small-img{
+	background-color: aqua;
+	max-width: 150px;
+	padding-bottom: 500px;
+	margin-left: 150px;
+	position: relative;
+}
+.product-img{
+	background-color: aqua;
+	max-width: 400px;
+	padding-bottom: 500px;
+	padding-right: 400px;
+	margin-left: 200px;
+	position: absolute;
+	bottom: 1px;
+}
+.description{
+	background-color: aqua;
+	max-width: 350px;
+	padding-right: 300px;
+	margin-left: 620px;
+	position: absolute;
+	bottom: 100px;
+	top: 0px;
+}
+.options{
+	background-color: aqua;
+	max-width: 350px;
+	padding-right: 300px;
+	margin-left: 960px;
+	position: absolute;
+	bottom: 30px;
+	top: 150px;
 }
