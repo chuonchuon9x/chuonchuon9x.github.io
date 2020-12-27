@@ -15,7 +15,7 @@ body {
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: none;
+	background: #ffffff;
 }
 
 /* Header */
@@ -24,7 +24,7 @@ body{
 }
 .menu-header {
     display: flex;
-    z-index: 1000;
+    z-index: 5000;
     position: fixed;
 	width: 100%;
 	background: #b49a77;
@@ -128,6 +128,7 @@ body{
 	position: absolute;
 	right: -65%;
 	bottom: 50%;
+	cursor: pointer;
 }
 .prev {
 	display: inline-block;
@@ -229,6 +230,9 @@ body{
 	grid-template-columns: 300px 300px 300px;
 	grid-template-rows: 100px 100px 100px;
 	margin-left: 400px;
+	position: relative;
+	z-index: 1000;
+	max-width: 900px;
 }
 .wrapper a{
 	border: 3px white solid;
@@ -249,7 +253,24 @@ body{
 .services .Hot{
 	font-size: 50px;
 }
-
+.services .bg-services{
+    background: #f0f0f0;
+    position: absolute;
+    width: 80%;
+    height: 440px;
+    left: -35%;
+	top: 26%;
+	margin-top: 780px;
+}
+.services ul li{
+	max-height: 300px;
+}
+.services ul li.rosara{
+    text-transform: uppercase;
+    position: relative;
+    transform: rotate(-90deg);
+    bottom: 144px;
+}
 /* products */
 .products{
 	max-width: 1711px;
