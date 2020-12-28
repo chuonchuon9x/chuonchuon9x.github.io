@@ -12,12 +12,16 @@
 
 html,
 body {
+	width: 100%;
 	height: 100%;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	-webkit-font-smoothing: antialiased;
 	background: #ffffff;
 }
-
+.container{
+	margin: 0 auto;
+	width: 1920px;
+}
 /* Header */
 body{
     background: #fff;
@@ -26,7 +30,6 @@ body{
     display: flex;
     z-index: 5000;
     position: relative;
-	width: 100%;
 	background: #b49a77;
 }
 .logo{
@@ -90,13 +93,6 @@ body{
 	padding: 5px 10px 5px 10px;
 }
 /* product navi */
-.menu-header1{
-	display: flex;
-    z-index: 5000;
-    position: relative;
-	width: 100%;
-	background: #ffffff;;
-}
 .navigation-product{
 	text-align: center;
 	margin-left: 400px;
@@ -465,66 +461,119 @@ ul.menu-footer{
     padding: 22px 0 30px 0;
 }
 
-/* tbody products */
-ul.breadcrumb {
+/* products-details */
+.menu-header1{
+	display: flex;
+    z-index: 5000;
+    position: relative;
+	width: 100%;
+	background: #ffffff;;
+}
+.breadcrumb {
 	padding: 10px 16px;
 	list-style: none;
 	background-color: #ffffff;
-	margin-left: 120px;
 	padding: 50px 0 50px 0;
+	padding-left: 120px;
   }
 
-  ul.breadcrumb li {
+.breadcrumb li {
 	display: inline;
 	font-size: 18px;
-  }
+}
   
-  ul.breadcrumb li+li:before {
+ul.breadcrumb li+li:before {
 	padding: 8px;
 	color: black;
 	content: ">\00a0";
-  }
+}
   
-  ul.breadcrumb li a {
+ul.breadcrumb li a {
 	color: #3d3d3d;
 	text-decoration: none;
-  }
+	
+}
   
-  ul.breadcrumb li a:hover {
+ul.breadcrumb li a:hover {
 	color: #3d3d3d;
 	text-decoration: underline;
-  }
-.small-img{
-	background-color: aqua;
-	max-width: 150px;
-	padding-bottom: 500px;
-	margin-left: 150px;
-	position: relative;
 }
-.product-img{
-	background-color: aqua;
+.product-details{
+	position: relative;
+	padding-bottom: 550px;
+}
+.product-details .small-img{
+	max-width: 120px;
+	padding-right: 100px;
+	padding-bottom: 0px;
+	margin-left: 150px;
+	padding-top: 50px;
+	position: absolute;
+}
+.product-details .small-img img{
+	max-width: 118px;
+	max-height: 112px;
+}
+.product-details .small-img .line-small{
+	border: 1px solid black;
+	margin-left: 58px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	padding-bottom: 50px;
+}
+.product-details .product-img{
 	max-width: 400px;
 	padding-bottom: 500px;
-	padding-right: 400px;
-	margin-left: 200px;
-	position: absolute;
-	bottom: 1px;
-}
-.description{
-	background-color: aqua;
-	max-width: 350px;
-	padding-right: 300px;
-	margin-left: 620px;
-	position: absolute;
-	bottom: 100px;
-	top: 0px;
-}
-.options{
-	background-color: aqua;
-	max-width: 350px;
-	padding-right: 300px;
-	margin-left: 960px;
+	padding-top: 10px;
+	margin-left: 300px;
 	position: absolute;
 	bottom: 30px;
-	top: 150px;
+	top: 0;
+}
+.product-img img{
+	max-width: 348px;
+	max-height: 523px;
+}
+.description{
+	max-width: 200px;
+	padding-right: 300px;
+	margin-left: 670px;
+	position: absolute;
+	bottom: 100px;
+	top: 20px;
+}
+.description .line-1 {
+	border: 2px black solid;
+	border-style: solid none none none;
+	width: 450px;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	margin-left: 140px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+ .description .content-1 {
+	margin-left: 10px;
+}
+.description .content-1 p{
+	color: black;
+	width: 300px;
+	line-height: 1.8;
+}
+.options-products{
+	background-color: aqua;
+	max-width: 350px;
+	padding-right: 300px;
+	margin-left: 1030px;
+	position: absolute;
+	bottom: 30px;
+	top: 120px;
+}
+.options-products .content-products .radio{
+	display: inline-block;
+}
+.options-products .content-products p{
+	width: 300px;
 }
