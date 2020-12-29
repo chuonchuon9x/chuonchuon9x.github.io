@@ -26,15 +26,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// Scroll
-$(window).scroll(function() { 
-  var menu = document.querySelectorAll('menu-header');
-  var menu = menu[0];
-  var scroll = pageYOffset;
-
-  if (scroll >= 100) {
-      menu.addClass("bg-header");
-  } else {
-      menu.removeClass("bg-header");
+function Color(n) {
+  var color = document.getElementsByClassName('color');
+  for (var i = 0; i < color.length; i++){
+      color[i].classList = color[i].className.replace(" active", "");
   }
-});
+  color[n].className += "active";
+}

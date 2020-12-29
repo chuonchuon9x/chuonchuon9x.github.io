@@ -22,15 +22,15 @@ body {
 }
 
 /* Header */
-body{
-	background: #fff;
+.wrapper-banner{
+	display: flex;
+	z-index: 10000;
+	position: fixed;
+	background: #b49a77;
 	width: 100%;
 }
 .menu-header {
 	display: flex;
-	z-index: 5000;
-	position: fixed;
-	background: #b49a77;
 }
 .logo{
 	margin-left: 150px;
