@@ -22,7 +22,7 @@ body {
 }
 
 /* Header */
-.wrapper-banner{
+.wrapper-header{
 	display: flex;
 	z-index: 10000;
 	position: fixed;
@@ -91,6 +91,9 @@ body {
 	padding: 5px 10px 5px 10px;
 }
 /* Banner */
+.wrapper-banner{
+	background: #b49a77;
+}
 .banner {
 	background-color: #b49a77;
 }
@@ -474,6 +477,9 @@ ul.menu-footer{
 	background: #717171;
 	border: 1px solid #3d3d3d;
 	padding: 5px 10px 5px 10px;
+}
+.icon{
+	margin-right: 200px;
 }
 .icon ul li{
     display: inline-block;
