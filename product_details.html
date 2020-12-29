@@ -8,11 +8,11 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="wrapper-header">
         <div class="container">
             <div class="menu-header1">
                 <div class="logo">
-                    <a href="#"><img src="images/logoproduct1.png" alt=""></a>
+                    <a href="home.html"><img src="images/logoproduct1.png" alt=""></a>
                 </div>
                 <div class="navigation-product">
                     <ul>
@@ -41,14 +41,17 @@
             </div>
         </div>
 </header>
-<tbody>
+<tbody class="wrapper-body">
     <div class="container">
-        <ul class="breadcrumb">
+        <!-- Breadcrumb -->
+        <ul class="breadcrumb" style="justify-content: space-between;">
             <li><a href="#">Trang chủ</a></li>
             <li><a href="#">Áo</a></li>
             <li><a href="#">A 003</a></li>
         </ul>
-        <div class="product-details" style="align-items: center;">
+        <!-- End Breadcrumb -->
+        <!-- Product-details -->
+        <div class="product-details">
             <div class="small-img">
                 <img src="images/product12.png" alt="">
                 <img src="images/product13.png" alt="">
@@ -57,6 +60,10 @@
             </div>
             <div class="product-img">
                 <img src="images/product2.png" alt="">  
+                <div class="pagination">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
             </div>
             <div class="description">
                 <div class="line-1">Sơ mi trắng thêu hoa</div>
@@ -73,18 +80,62 @@
             </div>
             <div class="options-products">
                 <div class="content-products">
-                    <p>Mã: M 454</p>
-                    <p>Màu: </p>
-                    <div class="radio">
-                        <input type="radio" name="" id="radio1">
-                        <input type="radio" name="" id="radio2">
-                        <input type="radio" name="" id="radio3">
+                    <p>Mã: <span>M 454</span></p>
+                    <div class="color">
+                        <span>Màu:</span>
+                        <ul>
+                            <li class="white color active" ></li>
+                            <li class="black color" ></li>
+                            <li class="red color" ></li>
+                        </ul>
                     </div>
-                    <p>Size: </p>
-                    <p>Mã: M 454</p>
+                    <div class="size">
+                        <span>Size:</span>
+                        <ul>
+                            <li class="S size active">S</li>
+                            <li class="M size">M</li>
+                            <li class="L size">L</li>
+                        </ul>
+                    </div>
+                    <div class="cart">
+                        <span>Số lượng:</span>
+                        <form action="" method="post" class="cart-form">
+                            <input type="text" id="amount" value="">
+                            <button type="submit">Thêm vào giỏ</button>
+                        </form>
+                    </div>
+                    <form action="#" method="post" class="coupon">
+                        <input type="text" placeholder="Nhập mã giảm giá">
+                        <button type="submit">Mua ngay</button>
+                    </form>
+                    <div class="contact">
+                        <img src="images/logoproduct.png" title="Hotline" alt="">
+                        <div class="phone">
+                            <p>Tổng đài hỗ trợ</p>
+                            <p class="phone-number">0969 301 474</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="related-product" >
+            <div class="products-line">Sản phẩm liên quan</div>
+            <div class="products"> 
+                <div class="wrapper">
+                    <div class="item"><img src="images/product4.png" alt=""></div>
+                    <div class="item"><img src="images/product5.png" alt=""></div>
+                    <div class="item"><img src="images/product6.png" alt=""></div>
+                    <div class="item"><img src="images/product7.png" alt=""></div>
+                </div> 
+                <div class="wrapper-function">
+                    <div class="function"><a href="">Xem chi tiết</a></div>
+                    <div class="function"><a href="">Xem chi tiết</a></div>
+                    <div class="function"><a href="">Xem chi tiết</a></div>    
+                    <div class="function"><a href="">Xem chi tiết</a></div><br>
+                </div>
+            </div> 
+        </div>
+        <!-- End product-details -->
     </div>
 </tbody>
 
@@ -132,7 +183,7 @@
             </li>
         </ul>
     </section>
-    <section class="copyright">
+    <section class="copyright container">
         <div>
             <p>&copy; Copyright Rosara Việt Nam - Thế giới thời trang nữ.</p>
         </div>
