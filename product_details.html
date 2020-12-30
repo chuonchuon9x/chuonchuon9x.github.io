@@ -11,7 +11,7 @@
     <!-- Header -->
         <header class="wrapper-header" id="shadow-header">
             <div class="container">
-                <div class="header">
+                <div class="header-product">
                     <div class="logo">
                         <a href="home.html">
                             <img src="images/logoproduct1.png" alt="">
@@ -48,10 +48,10 @@
             </div>
         </header>
     <!-- End header -->
-<tbody class="wrapper-body">
+<tbody class="wrapper-body" style="top: 0; bottom: 0;">
     <div class="container">
         <!-- Breadcrumb -->
-        <ul class="breadcrumb" style="justify-content: space-between;">
+        <ul class="breadcrumb">
             <li><a href="#">Trang chủ</a></li>
             <li><a href="#">Áo</a></li>
             <li><a href="#">A 003</a></li>
@@ -60,19 +60,21 @@
         <!-- Product-details -->
         <div class="product-details">
             <div class="small-img">
-                <img src="images/product12.png" alt="">
-                <img src="images/product13.png" alt="">
+                <img src="images/product12.png" alt="" onclick="currentSlide(1)">
+                <img src="images/product13.png" alt="" onclick="currentSlide(2)">
                 <div class="line-small"></div>
-                <img src="images/product14.png" alt="">
+                <img src="images/product14.png" alt="" onclick="currentSlide(3)">
             </div>
             <div class="product-img">
                 <div>
-                    <img src="images/product2.png" alt="">  
+                    <img class="slide-show" src="images/product1.png" alt="">
+                    <img class="slide-show" src="images/product2.png" alt="">
+                    <img class="slide-show" src="images/product3.png" alt="">  
                 </div>
-                <div class="pagination">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                <div class="pagination1">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
             </div>
             <div class="description">
@@ -99,23 +101,23 @@
                             <li class="red color-choose" onclick="color(2)"></li>
                         </ul>
                     </div>
-                    <div class="size">
+                    <div class="size-box">
                         <span>Size:</span>
                         <ul>
-                            <li class="size active">S</li>
-                            <li class="M size">M</li>
-                            <li class="L size">L</li>
+                            <li class="S size-choose active" onclick="size(0)">S</li>
+                            <li class="M size-choose" onclick="size(1)">M</li>
+                            <li class="L size-choose" onclick="size(2)">L</li>
                         </ul>
                     </div>
                     <div class="cart">
                         <span>Số lượng:</span>
                         <form action="" method="post" class="cart-form">
-                            <input type="text" id="qty" value="">
+                            <input type="text" name="quantity" id="qty">
                             <button type="submit">Thêm vào giỏ</button>
                         </form>
                     </div>
                     <form action="#" method="post" class="coupon">
-                        <input type="text" placeholder="Nhập mã giảm giá">
+                        <input type="text" name="coupon" id="coup" placeholder="Nhập mã giảm giá">
                         <button type="submit">Mua ngay</button>
                     </form>
                     <div class="contact">

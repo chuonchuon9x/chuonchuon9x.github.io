@@ -52,3 +52,13 @@ function color(n) {
   chooseColor[n].className += " active";
 }
 // End choose color
+
+// Choose Size
+function size(n) {
+  var chooseSize = document.getElementsByClassName("size-choose");
+  for (var i = 0; i < chooseSize.length; i++){
+    chooseSize[i].classList = chooseSize[i].className.replace(" active", "");
+  }
+  chooseSize[n].className += " active";
+}
+// End choose size
