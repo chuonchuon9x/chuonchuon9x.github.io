@@ -3,44 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logodemo.png">
     <title>Trang sản phẩm chi tiết</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <!-- Header -->
-    <header class="wrapper-header">
-        <div class="container">
-            <div class="menu-header1">
-                <div class="logo">
-                    <a href="home.html"><img src="images/logoproduct1.png" alt=""></a>
-                </div>
-                <div class="navigation-product">
-                    <ul>
-                        <li><a href="">Hàng mới về</a></li>
-                        <li><a href="">Sản phẩm</a>
-                            <div class="sub-navi">
-                                <ul>
-                                    <li><a href="">Áo</a></li>
-                                    <li><a href="">Quần</a></li>
-                                    <li><a href="">Váy</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="">Sản phẩm bán chạy</a></li>
-                        <li><a href="">Tin tức</a></li>
-                        <li><a href="">Sản phẩm sale</a></li>
-                    </ul>
-                </div>
-                <div class="icon">
-                    <ul>
-                        <li><a href=""><img src="images/logoproduct2.png" alt=""></a></li>
-                        <li><a href=""><img src="images/logoproduct3.png" alt=""></a></li>
-                        <li><a href=""><img src="images/logoproduct4.png" alt=""></a></li>
-                    </ul>
-                </div>
+        <header class="wrapper-header" id="shadow-header">
+            <div class="container">
+                <div class="header">
+                    <div class="logo">
+                        <a href="home.html">
+                            <img src="images/logoproduct1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="navigation products-header">
+                        <ul>
+                            <li>
+                                <a href="">Hàng mới về</a>
+                            </li>
+                            <li>
+                                <a href="product_details.html">Sản phẩm</a>
+                                <div class="sub-navi">
+                                    <ul>
+                                        <li><a href="">Áo</a></li>
+                                        <li><a href="">Quần</a></li>
+                                        <li><a href="">Váy</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="">Sản phẩm bán chạy</a></li>
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">Sản phẩm sale</a></li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <ul>
+                            <li><a href=""><img src="images/logoproduct2.png" alt=""></a></li>
+                            <li><a href=""><img src="images/logoproduct3.png" alt=""></a></li>
+                            <li><a href=""><img src="images/logoproduct4.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </div>
-</header>
+        </header>
+    <!-- End header -->
 <tbody class="wrapper-body">
     <div class="container">
         <!-- Breadcrumb -->
@@ -59,10 +66,13 @@
                 <img src="images/product14.png" alt="">
             </div>
             <div class="product-img">
-                <img src="images/product2.png" alt="">  
+                <div>
+                    <img src="images/product2.png" alt="">  
+                </div>
                 <div class="pagination">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
                 </div>
             </div>
             <div class="description">
@@ -81,18 +91,18 @@
             <div class="options-products">
                 <div class="content-products">
                     <p>Mã: <span>M 454</span></p>
-                    <div class="color">
+                    <div class="color-radio">
                         <span>Màu:</span>
                         <ul>
-                            <li class="white color active" onclick="Color(0)"></li>
-                            <li class="black color" onclick="Color(2)"></li>
-                            <li class="red color" onclick="Color(3)"></li>
+                            <li class="white color-choose active" onclick="color(0)"></li>
+                            <li class="black color-choose" onclick="color(1)"></li>
+                            <li class="red color-choose" onclick="color(2)"></li>
                         </ul>
                     </div>
                     <div class="size">
                         <span>Size:</span>
                         <ul>
-                            <li class="S size active">S</li>
+                            <li class="size active">S</li>
                             <li class="M size">M</li>
                             <li class="L size">L</li>
                         </ul>
@@ -128,10 +138,10 @@
                     <div class="item"><img src="images/product7.png" alt=""></div>
                 </div> 
                 <div class="wrapper-function">
-                    <div class="function"><a href="">Xem chi tiết</a></div>
-                    <div class="function"><a href="">Xem chi tiết</a></div>
-                    <div class="function"><a href="">Xem chi tiết</a></div>    
-                    <div class="function"><a href="">Xem chi tiết</a></div><br>
+                    <div class="function"><a href="">Chi tiết</a></div>
+                    <div class="function"><a href="">Chi tiết</a></div>
+                    <div class="function"><a href="">Chi tiết</a></div>    
+                    <div class="function"><a href="">Chi tiết</a></div><br>
                 </div>
             </div> 
         </div>
@@ -139,6 +149,7 @@
     </div>
 </tbody>
 
+<!-- Footer -->
 <footer class="wrapper-footer">
     <section class="container">
         <ul class="menu-footer">
@@ -179,16 +190,18 @@
                     <img src="images/yt.png" alt="">
                     <img src="images/insta.png" alt="">
                 </p>
-               
             </li>
         </ul>
     </section>
-    <section class="copyright container">
+    <section class="copyright">
         <div>
             <p>&copy; Copyright Rosara Việt Nam - Thế giới thời trang nữ.</p>
         </div>
     </section>
 </footer>
-<!-- End Header -->
+<!-- End footer -->
+<!-- Script -->
+<script src="js/javascript.js"></script>
+<!-- End Script -->
 </body>
 </html>

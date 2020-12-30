@@ -25,11 +25,30 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+// End Slide
 
-function Color(n) {
-  var color = document.getElementsByClassName('color');
-  for (var i = 0; i < color.length; i++){
-      color[i].classList = color[i].className.replace(" active", "");
+// Scroll Header
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", function () {
+      var menu = document.getElementsByClassName('wrapper-header');
+      var menu = menu[0];
+      var height = pageYOffset;
+      if (height  > 768){
+          menu.classList.add("bg-header")
+      }
+      else{
+          menu.classList.remove('bg-header');
+      }
+  })
+})
+// End Scroll Header
+
+// Choose color 
+function color(n) {
+  var chooseColor = document.getElementsByClassName("color-choose");
+  for (var i = 0; i < chooseColor.length; i++){
+    chooseColor[i].classList = chooseColor[i].className.replace(" active", "");
   }
-  color[n].className += "active";
+  chooseColor[n].className += " active";
 }
+// End choose color
