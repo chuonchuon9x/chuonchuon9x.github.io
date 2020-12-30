@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var menu = document.getElementsByClassName('wrapper-header');
       var menu = menu[0];
       var height = pageYOffset;
-      if (height  > 768){
+      if (height  > 1100){
           menu.classList.add("bg-header")
       }
       else{
