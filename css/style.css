@@ -98,9 +98,11 @@ body{
 	background-color: #b49a77;
 }
 .banner-left {
-	position: relative;
     display: inline-block;
-    left: 8%;
+}
+.banner-left img{
+	position: relative;
+	left: 20%;
 }
 .sale {
 	position: absolute;
@@ -250,6 +252,10 @@ body{
 }
 .services .wrapper a p{
 	margin-top: 10px;
+}
+.services .wrapper a.DB{
+	font-size: 27px;
+	line-height: 1;
 }
 .services p{
 	font-size: 25px;
@@ -502,22 +508,31 @@ ul.breadcrumb li a:hover {
 .options-products .content-products .size-box ul{
 	display: flex;
 	margin-left: 50px;
+	position: absolute;
+	bottom: 215px;
 }
 .options-products .content-products .color-radio{
-	margin: 24px 0;
+	margin: 20px 0 20px 0;
 }
 .options-products .content-products .cart{
-	margin: 33px 0;
+	margin: 0 0 20px 0;
 }
 .options-products .content-products .color-radio span{
 	font-weight: normal;
     font-size: 16px;
     margin-left: 0;
 }
+.options-products .content-products .size-box{
+	margin: 25px 0 0 0 ;
+}
 .options-products .content-products .size-box span{
 	font-weight: normal;
     font-size: 16px;
-    margin-left: 0;
+	margin-left: 0;
+	position: relative;
+}
+.options-products .content-products .cart{
+	margin: 10px 0 0 0;
 }
 .options-products .content-products .cart span{
 	font-weight: normal;
@@ -755,8 +770,7 @@ ul.menu-footer{
     width: 100%;
 }
 .wrapper-header1 #shadow-header{
-	box-shadow: 0px 20px 37px -37px #000;
-    background: #ffffff;
+
 }
 .wrapper-header1 .header-product{
 	display: flex;
@@ -765,6 +779,7 @@ ul.menu-footer{
     width: 100%;
 	flex-wrap: nowrap;
 	bottom: 100px;
+	background: white;
 }
 .wrapper-header1 .logo{
     margin: 20px 35% 0px 80px;
