@@ -20,7 +20,7 @@ body{
     z-index: 5000;
     width: 100%;
 }
-.wrapper-header.bg-header{
+.wrapper-header .header .bg-header{
     background-color: #b49a77;
 }
 .wrapper-header .header{
