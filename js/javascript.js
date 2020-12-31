@@ -32,7 +32,7 @@ function showSlides(n) {
         var menu = document.getElementsByClassName('wrapper-header');
         var menu = menu[0];
         var height = pageYOffset;
-        if (height  > 800){
+        if (height  > 300){
             menu.classList.add("bg-header")
         }
         else{

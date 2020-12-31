@@ -1,0 +1,104 @@
+@media screen and (max-width: 1100px){
+	.logo{
+		margin: 10px 0 0 50px;
+	}
+	.logo img{
+		max-width: 80%;
+	}
+	.wrapper-header .header .navigation{
+		margin: 10px 300px 0 -300px;
+	}
+	.wrapper-header .header .icon{
+		margin: 10px 250px 0 -250px;
+	}
+	.wrapper-banner .container{
+		width: 100%;
+	}
+	.wrapper-banner .banner .banner-left img{
+		max-width: 250px;
+		left: 100px;
+	}
+	.wrapper-banner .banner .sale{
+		font-size: 60px;
+		max-height: 100px;
+		max-width: 200px;
+		left: 340px;
+		top: 100px;
+		bottom: 0;
+		right: 0;
+	}
+	.wrapper-banner .banner .slider .slide-show img{
+		max-width: 150px;
+	}
+	.wrapper-banner .banner .slider{
+		left: 100px;
+		right: -100px;
+	}
+	.wrapper-banner .banner .slider .click{
+		left: 250px;
+		right: -250px;
+		top: 30px;
+	}
+	.wrapper-banner .banner .slider .slide-show .content{
+		left: 150px;
+		right: -150px;
+	}
+	.wrapper-banner .banner .banner-right{
+		margin: 80px 0 0 0;
+	}
+	.wrapper-banner .banner .banner-right img {
+		max-width: 100px;
+	}
+	#wrapper-body .container{
+		width: 100%;
+	}
+	#wrapper-body .services .line{
+		width: 20%;
+		margin: 55px 0 0 60px;
+	}
+	.services .title{
+		margin: 55px 0 0 100px;
+	}
+	.services .wrapper{
+		margin: 0 0 0 90px;
+	}
+	.services .bg-service{
+		bottom: -620px;
+		top: 580px
+	}
+	.products .line{
+		margin: 110px 0 20px 355px;
+	}
+	.products b{
+		margin: 0 0 0 450px;
+	}
+	.products .wrapper{
+		margin: 40px 0 0 50px;
+		left: -20px;
+		right: 20px;
+	}
+	.products .wrapper-function{
+		margin: 0 0 0 10px;
+	}
+	.products .wrapper-function a{
+		margin: 0 0 0 -20px;
+	}
+	.wrapper-footer .container{
+		width: 100%;
+	}
+	.wrapper-footer ul.menu-footer{
+		padding: 0 0 0 40px;
+	}
+	.wrapper-footer .menu-footer li{
+		margin: 0 30px 0 0;
+	}
+	.wrapper-footer .menu-footer li#TDB{
+		padding-left: 40px;
+	}
+	.wrapper-footer .menu-footer li input.email{
+		width: 100%;
+    }
+    .wrapper-footer .menu-footer li img{
+        margin: 0 0 0 5px;
+    }
+}
