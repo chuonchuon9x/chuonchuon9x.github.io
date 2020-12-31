@@ -855,3 +855,17 @@ ul.menu-footer{
     margin-right: 20px;
 }
 /* End products header */
+@media screen and (max-width: 1200px){	
+	.wrapper-header1 .header-product .navigation{
+		margin: 10px 300px 0 -300px;
+	}
+	.wrapper-header1 .header-product .icon{
+		margin: 10px 250px 0 -250px;
+	}
+	.wrapper-body .container{
+		width: 100%;
+	}
+	.wrapper-body .product-details{
+		width: 100%;
+	}
+}
