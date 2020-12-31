@@ -326,7 +326,7 @@ body{
 	margin: 10% 0 2% 35%;
 }
 .products b{
-	font-size: 20px;
+	font-size: 25px;
 	margin-left: 45%;
 }
 .products .wrapper{
@@ -410,6 +410,7 @@ ul.breadcrumb li a:hover {
 }
 .product-details{
 	position: relative;
+	margin: 50px 0 0 0;
 	padding-bottom: 550px;
 }
 .product-details .small-img{
