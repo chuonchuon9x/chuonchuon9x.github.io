@@ -46,3 +46,24 @@
     dots[slideIndex-1].className += " active";
     }
     // End Slide
+
+    //Zoom Footer
+    function zoomfooter() {
+        let window = document.documentElement.clientHeight;
+        let body = document.getElementById("wrapper-body").offsetHeight;
+        let footer = document.getElementById("wrapper-footer").offsetHeight;
+        let footer1 = document.getElementById("wrapper-footer");
+        let totalweb;
+          totalweb = body + footer;
+          if(window > totalweb){
+              footer1.classList.add('fixwindow');
+            }
+            else{
+              footer1.classList.remove('fixwindow');
+            }
+      }
+    zoomfooter();
+    window.onresize = function () {
+        zoomfooter();
+    }
+  // End zoom footer

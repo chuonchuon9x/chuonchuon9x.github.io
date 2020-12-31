@@ -257,6 +257,9 @@ body{
 	font-size: 27px;
 	line-height: 1;
 }
+.services .wrapper a.sales50{
+	margin: -21px 70px 65px 70px;
+}
 .services p{
 	font-size: 25px;
 }
@@ -264,14 +267,14 @@ body{
 	font-size: 50px;
 }
 .services .bg-service{
-    background-color: #f0f0f0;
-    padding-bottom: 200px;
-    padding-top: 200px;
-    width: 48%;
-	position: relative;
-	bottom: 300px;
+	background: #f0f0f0;
+    position: absolute;
+    width: 92%;
+    height: 450px;
+    left: -35%;
+    top: 1000px;
 }
-.services .bg-service .rosara{
+.services .wrapper .rosara{
     display: flex;
     align-items: center;
     text-align: center;
@@ -280,9 +283,10 @@ body{
     margin: 0 0 0 -600px;
     position: relative;
     left: 120px;
-    bottom: 400px;
+	bottom: 400px;
+	top: -150px;
 }
-.services .bg-service .rosara::after{
+.services .wrapper .rosara::after{
     content: '';
     flex: 1;
     margin-left: 1rem;
@@ -290,13 +294,13 @@ body{
     background-color: #000;
     max-width: 20px;
 }
-.services .bg-service .rosara::before{
+.services .wrapper .rosara::before{
     content: '';
     flex: 1;
     margin-right: 1rem;
     height: 2px;
     background-color: #000;
-    max-width: 100px;
+    max-width: 120px;
 }
 /* End services */
 
@@ -304,13 +308,17 @@ body{
 .products {
 	top: -320px;
     justify-content: space-between;
-    height: 100%;
+	height: 100%;
+	margin: 600px 0 0 0;
+	position: relative;
 }
 .products .bg-products{
-    background-color: #f0f0f0;
-    padding: 100px 0 260px 0;
-    bottom: 400px;
-	position: relative;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background: #f0f0f0;
+	top: 22%;
+	left: 0;
 }
 .products .line{
 	border-style: none none solid none;
@@ -350,7 +358,7 @@ body{
 }
 .products .function a{
     display: block;
-    padding: 1rem;
+    padding: 10px 16px 10px 16px;
 	text-align: center;
 	color: black;
     border: 2px solid black;
@@ -378,9 +386,8 @@ body{
 	padding: 10px 16px;
 	list-style: none;
 	background-color: #ffffff;
-	padding: 50px 0 50px 0;
-	padding-left: 120px;
-	margin: 100px 0 0 0;
+	padding: 50px 0 50px 120px;
+	margin: 0 0 0 -60px;
 }
 .breadcrumb li {
 	display: inline;
@@ -470,8 +477,6 @@ ul.breadcrumb li a:hover {
 	padding-bottom: 20px;
 	text-align: center;
 	font-size: 40px;
-	font-weight: bold;
-	
 }
  .description .content-1 {
 	margin-left: 10px;
@@ -649,6 +654,14 @@ ul.breadcrumb li a:hover {
 }
 .related-product {
 	margin-top: 50px;
+	height: 700px;
+}
+.related-product .products{
+	top: -320px;
+    justify-content: space-between;
+	height: 100%;
+	margin: 350px 0 0 0;
+	position: relative;
 }
 .related-product .products-line{
 	display: flex;
@@ -657,20 +670,21 @@ ul.breadcrumb li a:hover {
     margin-right: 100px;
 	position: relative;
 	left: 100px;
+	font-size: 20px;
 }
 .related-product .products-line::after{
 	content: '';
     flex: 1;
-    margin-left: 1rem;
-    height: 2px;
+	margin: 10px 0 0 1rem;
+    height: 3px;
     background-color: #000;
     max-width: 100%;
 }
 .related-product .products-line::before{
 	content: '';
     flex: 1;
-    margin-right: 1rem;
-    height: 2px;
+    margin: 10px 1rem 0 0 ;
+    height: 3px;
     background-color: #000;
     max-width: 100px;
 }
@@ -685,11 +699,12 @@ ul.breadcrumb li a:hover {
 /* footer */
 .wrapper-footer{
     background: #565656;
-    padding-top: 80px;
-    height: 100%;
+	padding-top: 80px;
 }
-.wrapper-footer.bottom{
-    position: absolute;
+.wrapper-footer.fixwindow{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 .menu-footer{
     margin-bottom: 27px;
@@ -764,19 +779,19 @@ ul.menu-footer{
 }
 /* End footer */
 
+/* products header */
 .wrapper-header1{
-	position: fixed;
+	position: relative;
     z-index: 5000;
-    width: 100%;
+	width: 100%;
+	background: #ffffff;
+	box-shadow: 0px 5px 30px -25px #000;
 }
 .wrapper-header1 .header-product{
 	display: flex;
     z-index: 500;
     position: relative;
-    width: 100%;
 	flex-wrap: nowrap;
-	bottom: 100px;
-	background: white;
 }
 .wrapper-header1 .logo{
     margin: 20px 35% 0px 80px;
@@ -836,3 +851,4 @@ ul.menu-footer{
 .wrapper-header1 .icon img{
     margin-right: 20px;
 }
+/* End products header */
