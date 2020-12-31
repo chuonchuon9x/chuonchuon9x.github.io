@@ -388,6 +388,8 @@ body{
 	background-color: #ffffff;
 	padding: 50px 0 50px 120px;
 	margin: 0 0 0 -60px;
+	top: 50px;
+	position: relative;
 }
 .breadcrumb li {
 	display: inline;
@@ -781,7 +783,7 @@ ul.menu-footer{
 
 /* products header */
 .wrapper-header1{
-	position: relative;
+	position: fixed;
     z-index: 5000;
 	width: 100%;
 	background: #ffffff;
