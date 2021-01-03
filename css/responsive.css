@@ -1,5 +1,14 @@
-/* Home responsive */
-@media screen and (max-width: 1200px){
+/* Home responsive Ipad pro 10.5 */
+@media screen and (max-width: 1112px){
+	.container{
+		max-width: 1112px;
+	}
+	.wrapper-header{
+		width: 1112px;
+	}
+	.wrapper-header .header{
+		width: 1112px;
+	}
 	.logo{
 		margin: 10px 0 0 50px;
 	}
@@ -7,13 +16,10 @@
 		max-width: 80%;
 	}
 	.wrapper-header .header .navigation{
-		margin: 10px 300px 0 -300px;
+		margin: 10px 50px 0 -150px;
 	}
 	.wrapper-header .header .icon{
-		margin: 10px 250px 0 -250px;
-	}
-	.wrapper-banner .container{
-		width: 100%;
+		margin: 10px 0 0 0;
 	}
 	.wrapper-banner .banner .banner-left img{
 		max-width: 250px;
@@ -28,6 +34,9 @@
 		bottom: 0;
 		right: 0;
 	}
+	.wrapper-banner .banner{
+		width: 1112px;
+	}
 	.wrapper-banner .banner .slider .slide-show img{
 		max-width: 150px;
 	}
@@ -38,20 +47,20 @@
 	.wrapper-banner .banner .slider .click{
 		left: 250px;
 		right: -250px;
-		top: 30px;
+		top: 25px;
 	}
 	.wrapper-banner .banner .slider .slide-show .content{
 		left: 150px;
 		right: -150px;
 	}
 	.wrapper-banner .banner .banner-right{
-		margin: 80px 0 0 0;
+		margin: 100px 0 0 0;
 	}
 	.wrapper-banner .banner .banner-right img {
 		max-width: 100px;
 	}
-	#wrapper-body .container{
-		width: 100%;
+	#wrapper-body .services .container{
+		width: 1200px;
 	}
 	#wrapper-body .services .line{
 		width: 20%;
@@ -67,6 +76,9 @@
 		bottom: -620px;
 		top: 580px
 	}
+	#wrapper-body .products .container{
+		max-width: 1112px;
+	}
 	.products .line{
 		margin: 110px 0 20px 355px;
 	}
@@ -78,11 +90,18 @@
 		left: -20px;
 		right: 20px;
 	}
+	.products .wrapper .item{
+		margin: 0 0 0 20px;
+	}
+	.products .wrapper .item img{
+		max-width: 240px;
+		max-height: 360px;
+	}
 	.products .wrapper-function{
 		margin: 0 0 0 10px;
 	}
 	.products .wrapper-function a{
-		margin: 0 0 0 -20px;
+		margin: 0 0 0 30px;
 	}
 	.wrapper-footer .container{
 		width: 100%;
@@ -101,5 +120,280 @@
     }
     .wrapper-footer .menu-footer li img{
         margin: 0 0 0 5px;
-    }
+	}
+	.wrapper-footer .container{
+		max-width: 1112px;
+	}
 }
+/* End responsive */
+
+/* Home responsive Ipad pro 12.9 */
+@media screen and (max-width: 1024px){
+	.container{
+		max-width: 1024px;
+	}
+	.wrapper-header{
+		width: 1024px;
+	}
+	.wrapper-header .header{
+		width: 1024px;
+	}
+	.logo{
+		margin: 10px 0 0 50px;
+	}
+	.logo img{
+		max-width: 80%;
+	}
+	.wrapper-header .header .navigation{
+		margin: 10px 50px 0 -150px;
+	}
+	.wrapper-header .header .icon{
+		margin: 10px 0 0 0;
+	}
+	.wrapper-banner .banner .banner-left img{
+		max-width: 250px;
+		left: 100px;
+	}
+	.wrapper-banner .banner .sale{
+		font-size: 60px;
+		max-height: 100px;
+		max-width: 200px;
+		left: 340px;
+		top: 100px;
+		bottom: 0;
+		right: 0;
+	}
+	.wrapper-banner .banner{
+		width: 1024px;
+	}
+	.wrapper-banner .banner .slider .slide-show img{
+		max-width: 150px;
+	}
+	.wrapper-banner .banner .slider{
+		left: 100px;
+		right: -100px;
+	}
+	.wrapper-banner .banner .slider .click{
+		left: 250px;
+		right: -250px;
+		top: 25px;
+	}
+	.wrapper-banner .banner .slider .slide-show .content{
+		left: 150px;
+		right: -150px;
+	}
+	.wrapper-banner .banner .banner-right{
+		margin: 100px 0 0 0;
+	}
+	.wrapper-banner .banner .banner-right img {
+		max-width: 100px;
+	}
+	#wrapper-body .services .container{
+		width: 1200px;
+	}
+	#wrapper-body .services .line{
+		width: 20%;
+		margin: 55px 0 0 60px;
+	}
+	.services .title{
+		margin: 55px 0 0 100px;
+	}
+	.services .wrapper{
+		margin: 0 0 0 90px;
+	}
+	.services .bg-service{
+		bottom: -620px;
+		top: 580px
+	}
+	#wrapper-body .products .container{
+		max-width: 1024px;
+	}
+	.products .line{
+		margin: 110px 0 20px 355px;
+	}
+	.products b{
+		margin: 0 0 0 450px;
+	}
+	.products .wrapper{
+		margin: 40px 0 0 50px;
+		left: -20px;
+		right: 20px;
+	}
+	.products .wrapper .item{
+		margin: 0 0 0 20px;
+	}
+	.products .wrapper .item img{
+		max-width: 240px;
+		max-height: 360px;
+	}
+	.products .wrapper-function{
+		margin: 0 0 0 10px;
+	}
+	.products .wrapper-function a{
+		margin: 0 0 0 30px;
+	}
+	.wrapper-footer .container{
+		width: 100%;
+	}
+	.wrapper-footer ul.menu-footer{
+		padding: 0 0 0 40px;
+	}
+	.wrapper-footer .menu-footer li{
+		margin: 0 30px 0 0;
+	}
+	.wrapper-footer .menu-footer li#TDB{
+		padding-left: 40px;
+	}
+	.wrapper-footer .menu-footer li input.email{
+		width: 100%;
+    }
+    .wrapper-footer .menu-footer li img{
+        margin: 0 0 0 5px;
+	}
+	.wrapper-footer .container{
+		max-width: 1024px;
+	}
+}
+/* End responsive */
+
+/* Home responsive Ipad pro 12.9 */
+@media screen and (max-width: 768px){
+	.container{
+		max-width: 768px;
+	}
+	.wrapper-header{
+		width: 768px;
+	}
+	.wrapper-header .header{
+		width: 768px;
+	}
+	.logo{
+		margin: 10px 0 0 50px;
+	}
+	.logo img{
+		max-width: 60%;
+	}
+	.wrapper-header .header .navigation{
+		margin: 0 10px 0 -200px;
+	}
+	.wrapper-header .header .navigation a{
+		font-size: 13px;
+	}
+	.wrapper-header .header .icon{
+		margin: 0 0 0 0;
+	}
+	.wrapper-header .header .icon img{
+		max-width: 50%;
+	}
+	.wrapper-banner .banner .banner-left img{
+		max-width: 180px;
+		left: 100px;
+	}
+	.wrapper-banner .banner .sale{
+		font-size: 45px;
+		max-height: 80px;
+		max-width: 200px;
+		left: 260px;
+		top: 70px;
+		bottom: 0;
+		right: 0;
+	}
+	.wrapper-banner .banner{
+		width: 768px;
+	}
+	.wrapper-banner .banner .slider .slide-show img{
+		max-width: 120px;
+	}
+	.wrapper-banner .banner .slider{
+		left: 30px;
+		top: -10px;
+	}
+	.wrapper-banner .banner .slider .click{
+		left: 250px;
+		right: -250px;
+		top: 25px;
+	}
+	.wrapper-banner .banner .slider .slide-show .content{
+		left: 130px;
+		right: -150px;
+	}
+	.wrapper-banner .banner .slider .slide-show .content span.text{
+		font-size: 40px;
+		font-weight: bold;
+	}
+	.wrapper-banner .banner .slider .slide-show .content span.size{
+		font-size: 13px;
+	}
+	.wrapper-banner .banner .banner-right{
+		margin: 100px 0 0 0;
+	}
+	.wrapper-banner .banner .banner-right img {
+		max-width: 100px;
+	}
+	#wrapper-body .services .container{
+		width: 1200px;
+	}
+	#wrapper-body .services .line{
+		width: 20%;
+		margin: 55px 0 0 60px;
+	}
+	.services .title{
+		margin: 55px 0 0 100px;
+	}
+	.services .wrapper{
+		margin: 0 0 0 90px;
+	}
+	.services .bg-service{
+		bottom: -620px;
+		top: 580px
+	}
+	#wrapper-body .products .container{
+		max-width: 768px;
+	}
+	.products .line{
+		margin: 110px 0 20px 355px;
+	}
+	.products b{
+		margin: 0 0 0 450px;
+	}
+	.products .wrapper{
+		margin: 40px 0 0 50px;
+		left: -20px;
+		right: 20px;
+	}
+	.products .wrapper .item{
+		margin: 0 0 0 20px;
+	}
+	.products .wrapper .item img{
+		max-width: 240px;
+		max-height: 360px;
+	}
+	.products .wrapper-function{
+		margin: 0 0 0 10px;
+	}
+	.products .wrapper-function a{
+		margin: 0 0 0 30px;
+	}
+	.wrapper-footer .container{
+		width: 100%;
+	}
+	.wrapper-footer ul.menu-footer{
+		padding: 0 0 0 40px;
+	}
+	.wrapper-footer .menu-footer li{
+		margin: 0 30px 0 0;
+	}
+	.wrapper-footer .menu-footer li#TDB{
+		padding-left: 40px;
+	}
+	.wrapper-footer .menu-footer li input.email{
+		width: 100%;
+    }
+    .wrapper-footer .menu-footer li img{
+        margin: 0 0 0 5px;
+	}
+	.wrapper-footer .container{
+		max-width: 768px;
+	}
+}
+/* End responsive */

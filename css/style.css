@@ -341,7 +341,9 @@ body{
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: 100px 100px 100px 100px;
-	margin-left: 70px;
+	margin-left: 100px;
+	left: -20px;
+	right: 25px;
 	max-height: 120px;
     position: relative;
     z-index: 1000;
@@ -855,7 +857,7 @@ ul.menu-footer{
     margin-right: 20px;
 }
 /* End products header */
-@media screen and (max-width: 1200px){	
+/* @media screen and (max-width: 736px){	
 	.wrapper-header1 .header-product .navigation{
 		margin: 10px 300px 0 -300px;
 	}
@@ -868,4 +870,4 @@ ul.menu-footer{
 	.wrapper-body .product-details{
 		width: 100%;
 	}
-}
+} */
