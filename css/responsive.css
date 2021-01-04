@@ -224,14 +224,17 @@
 		margin: 0 0 0 90px;
 	}
 	.services .wrapper a{
-		margin: 20px 30px 0 40px;
+		margin: 20px 20px 0 40px;
+	}
+	.services .wrapper a.DB{
+		margin: 20px 0 0 30px;
 	}
 	.services .wrapper a.sales50{
-		margin: -80px 40px 80px 40px;
+		margin: -80px 15px 80px 40px;
 	}
 	.services .wrapper .rosara{
 		left: 150px;
-		top: -200px;
+		top: -180px;
 	}
 	.services .wrapper .item img{
 		max-width: 200px;
@@ -276,7 +279,7 @@
 	}
 	.wrapper-footer ul.menu-footer{
 		padding: 0 0 0 0;
-		margin: 0 0 30px 0;
+		margin: 0 0 30px 30px;
 	}
 	.wrapper-footer .menu-footer li{
 		margin: 0 20px 0 0;
@@ -293,7 +296,7 @@
 }
 /* End responsive */
 
-/* Home responsive Iphone 6/7/8 plus XR/XS max */
+/* Home responsive 576px->767px*/
 @media (min-width: 576px) and (max-width: 767px){
 	
 /* End responsive */
