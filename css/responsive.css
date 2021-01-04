@@ -1,13 +1,13 @@
-/* Home responsive Ipad pro 10.5 */
-@media screen and (max-width: 1112px){
+/* Home responsive 992px->1200px */
+@media (min-width: 992px) and (max-width: 1200px){
 	.container{
-		max-width: 1112px;
+		max-width: 960px;
 	}
 	.wrapper-header{
-		width: 1112px;
+		width: 100%;
 	}
 	.wrapper-header .header{
-		width: 1112px;
+		width: 960px;
 	}
 	.logo{
 		margin: 10px 0 0 50px;
@@ -16,7 +16,7 @@
 		max-width: 80%;
 	}
 	.wrapper-header .header .navigation{
-		margin: 10px 50px 0 -150px;
+		margin: 10px 50px 0 -200px;
 	}
 	.wrapper-header .header .icon{
 		margin: 10px 0 0 0;
@@ -29,13 +29,11 @@
 		font-size: 60px;
 		max-height: 100px;
 		max-width: 200px;
-		left: 340px;
+		left: 450px;
 		top: 100px;
-		bottom: 0;
-		right: 0;
 	}
 	.wrapper-banner .banner{
-		width: 1112px;
+		width: 960px;
 	}
 	.wrapper-banner .banner .slider .slide-show img{
 		max-width: 150px;
@@ -60,14 +58,14 @@
 		max-width: 100px;
 	}
 	#wrapper-body .services .container{
-		width: 1200px;
+		width: 960px;
 	}
 	#wrapper-body .services .line{
 		width: 20%;
 		margin: 55px 0 0 60px;
 	}
 	.services .title{
-		margin: 55px 0 0 100px;
+		margin: 55px 0 0 25px;
 	}
 	.services .wrapper{
 		margin: 0 0 0 90px;
@@ -76,8 +74,11 @@
 		bottom: -620px;
 		top: 580px
 	}
+	.services .wrapper a.DB{
+		margin: 80px 50px 0 70px;
+	}
 	#wrapper-body .products .container{
-		max-width: 1112px;
+		max-width: 960px;
 	}
 	.products .line{
 		margin: 110px 0 20px 355px;
@@ -103,17 +104,14 @@
 	.products .wrapper-function a{
 		margin: 0 0 0 30px;
 	}
-	.wrapper-footer .container{
+	.wrapper-footer{
 		width: 100%;
 	}
-	.wrapper-footer ul.menu-footer{
-		padding: 0 0 0 40px;
+	.wrapper-footer .container{
+		max-width: 960px;
 	}
 	.wrapper-footer .menu-footer li{
 		margin: 0 30px 0 0;
-	}
-	.wrapper-footer .menu-footer li#TDB{
-		padding-left: 40px;
 	}
 	.wrapper-footer .menu-footer li input.email{
 		width: 100%;
@@ -122,150 +120,24 @@
         margin: 0 0 0 5px;
 	}
 	.wrapper-footer .container{
-		max-width: 1112px;
+		max-width: 960px;
+	}
+	.wrapper-footer li p#connect{
+		font-size: 12px;
 	}
 }
 /* End responsive */
 
-/* Home responsive Ipad pro 12.9 */
-@media screen and (max-width: 1024px){
+/* Home responsive 768px->991px */
+@media (min-width: 768px) and (max-width: 991px){
 	.container{
-		max-width: 1024px;
+		max-width: 720px;
 	}
 	.wrapper-header{
-		width: 1024px;
-	}
-	.wrapper-header .header{
-		width: 1024px;
-	}
-	.logo{
-		margin: 10px 0 0 50px;
-	}
-	.logo img{
-		max-width: 80%;
-	}
-	.wrapper-header .header .navigation{
-		margin: 10px 50px 0 -150px;
-	}
-	.wrapper-header .header .icon{
-		margin: 10px 0 0 0;
-	}
-	.wrapper-banner .banner .banner-left img{
-		max-width: 250px;
-		left: 100px;
-	}
-	.wrapper-banner .banner .sale{
-		font-size: 60px;
-		max-height: 100px;
-		max-width: 200px;
-		left: 340px;
-		top: 100px;
-		bottom: 0;
-		right: 0;
-	}
-	.wrapper-banner .banner{
-		width: 1024px;
-	}
-	.wrapper-banner .banner .slider .slide-show img{
-		max-width: 150px;
-	}
-	.wrapper-banner .banner .slider{
-		left: 100px;
-		right: -100px;
-	}
-	.wrapper-banner .banner .slider .click{
-		left: 250px;
-		right: -250px;
-		top: 25px;
-	}
-	.wrapper-banner .banner .slider .slide-show .content{
-		left: 150px;
-		right: -150px;
-	}
-	.wrapper-banner .banner .banner-right{
-		margin: 100px 0 0 0;
-	}
-	.wrapper-banner .banner .banner-right img {
-		max-width: 100px;
-	}
-	#wrapper-body .services .container{
-		width: 1200px;
-	}
-	#wrapper-body .services .line{
-		width: 20%;
-		margin: 55px 0 0 60px;
-	}
-	.services .title{
-		margin: 55px 0 0 100px;
-	}
-	.services .wrapper{
-		margin: 0 0 0 90px;
-	}
-	.services .bg-service{
-		bottom: -620px;
-		top: 580px
-	}
-	#wrapper-body .products .container{
-		max-width: 1024px;
-	}
-	.products .line{
-		margin: 110px 0 20px 355px;
-	}
-	.products b{
-		margin: 0 0 0 450px;
-	}
-	.products .wrapper{
-		margin: 40px 0 0 50px;
-		left: -20px;
-		right: 20px;
-	}
-	.products .wrapper .item{
-		margin: 0 0 0 20px;
-	}
-	.products .wrapper .item img{
-		max-width: 240px;
-		max-height: 360px;
-	}
-	.products .wrapper-function{
-		margin: 0 0 0 10px;
-	}
-	.products .wrapper-function a{
-		margin: 0 0 0 30px;
-	}
-	.wrapper-footer .container{
 		width: 100%;
 	}
-	.wrapper-footer ul.menu-footer{
-		padding: 0 0 0 40px;
-	}
-	.wrapper-footer .menu-footer li{
-		margin: 0 30px 0 0;
-	}
-	.wrapper-footer .menu-footer li#TDB{
-		padding-left: 40px;
-	}
-	.wrapper-footer .menu-footer li input.email{
-		width: 100%;
-    }
-    .wrapper-footer .menu-footer li img{
-        margin: 0 0 0 5px;
-	}
-	.wrapper-footer .container{
-		max-width: 1024px;
-	}
-}
-/* End responsive */
-
-/* Home responsive Ipad pro 10.5 */
-@media screen and (max-width: 896px){
-	.container{
-		max-width: 896px;
-	}
-	.wrapper-header{
-		width: 896px;
-	}
 	.wrapper-header .header{
-		width: 896px;
+		width: 720px;
 	}
 	.logo{
 		margin: 10px 0 0 50px;
@@ -293,13 +165,11 @@
 		font-size: 45px;
 		max-height: 80px;
 		max-width: 200px;
-		left: 260px;
+		left: 400px;
 		top: 70px;
-		bottom: 0;
-		right: 0;
 	}
 	.wrapper-banner .banner{
-		width: 896px;
+		width: 720px;
 	}
 	.wrapper-banner .banner .slider .slide-show img{
 		max-width: 120px;
@@ -314,6 +184,14 @@
 		top: 10px;
 		max-height: 20px;
 		max-width: 80px;
+	}
+	.wrapper-banner .banner .slider .prev{
+		margin-right: 0px;
+		max-width: 15px;
+	}
+	.wrapper-banner .banner .slider .click .next{
+		margin-right: 0px;
+		max-width: 15px;
 	}
 	.wrapper-banner .banner .slider .slide-show .content{
 		left: 130px;
@@ -330,175 +208,17 @@
 		margin: 60px 0 0 0;
 	}
 	.wrapper-banner .banner .banner-right img {
-		max-width: 80px;
+		max-width: 70px;
 	}
 	#wrapper-body .services .container{
-		width: 1200px;
+		width: 720px;
 	}
 	#wrapper-body .services .line{
 		width: 20%;
 		margin: 55px 0 0 60px;
 	}
 	.services .title{
-		margin: 55px 0 0 100px;
-	}
-	.services .wrapper{
-		margin: 0 0 0 90px;
-	}
-	.services .wrapper a{
-		margin: 20px 40px 0 40px;
-	}
-	.services .wrapper a.sales50{
-		margin: -80px 40px 80px 40px;
-	}
-	.services .wrapper .rosara{
-		left: 150px;
-		top: -200px;
-	}
-	.services .wrapper .item img{
-		max-width: 200px;
-	}
-	.services .bg-service{
-		bottom: -620px;
-		top: 480px;
-		max-height: 350px;
-	}
-	#wrapper-body .products .container{
-		max-width: 896px;
-	}
-	.products .line{
-		margin: 110px 0 20px 310px;
-	}
-	.products b{
-		margin: 0 0 0 380px;
-	}
-	.products .wrapper{
-		margin: 40px 0 0 50px;
-		left: -20px;
-		right: 20px;
-		max-height: 320px;
-	}
-	.products .wrapper .item{
-		margin: 0 0 0 20px;
-	}
-	.products .wrapper .item img{
-		max-width: 200px;
-	}
-	.products .wrapper-function{
-		margin: 0 0 0 50px;
-	}
-	.products .wrapper-function a{
-		margin: 0 0 0 0;
-	}
-	.wrapper-footer .container{
-		width: 100%;
-	}
-	.wrapper-footer ul.menu-footer{
-		padding: 0 0 0 40px;
-	}
-	.wrapper-footer .menu-footer li{
-		margin: 0 30px 0 0;
-	}
-	.wrapper-footer .menu-footer li#TDB{
-		padding-left: 40px;
-	}
-	.wrapper-footer .menu-footer li input.email{
-		width: 100%;
-    }
-    .wrapper-footer .menu-footer li img{
-        margin: 0 0 0 5px;
-	}
-	.wrapper-footer .container{
-		max-width: 896px;
-	}
-}
-/* End responsive */
-
-/* Home responsive Ipad pro 10.5 */
-@media screen and (max-width: 834px){
-	.container{
-		max-width: 834px;
-	}
-	.wrapper-header{
-		width: 834px;
-	}
-	.wrapper-header .header{
-		width: 834px;
-	}
-	.logo{
-		margin: 10px 0 0 50px;
-	}
-	.logo img{
-		max-width: 60%;
-	}
-	.wrapper-header .header .navigation{
-		margin: 0 10px 0 -200px;
-	}
-	.wrapper-header .header .navigation a{
-		font-size: 13px;
-	}
-	.wrapper-header .header .icon{
-		margin: 0 0 0 0;
-	}
-	.wrapper-header .header .icon img{
-		max-width: 50%;
-	}
-	.wrapper-banner .banner .banner-left img{
-		max-width: 180px;
-		left: 100px;
-	}
-	.wrapper-banner .banner .sale{
-		font-size: 45px;
-		max-height: 80px;
-		max-width: 200px;
-		left: 260px;
-		top: 70px;
-		bottom: 0;
-		right: 0;
-	}
-	.wrapper-banner .banner{
-		width: 834px;
-	}
-	.wrapper-banner .banner .slider .slide-show img{
-		max-width: 120px;
-	}
-	.wrapper-banner .banner .slider{
-		left: 30px;
-		top: -10px;
-	}
-	.wrapper-banner .banner .slider .click{
-		left: 200px;
-		right: -250px;
-		top: 10px;
-		max-height: 20px;
-		max-width: 80px;
-	}
-	.wrapper-banner .banner .slider .slide-show .content{
-		left: 130px;
-		right: -150px;
-	}
-	.wrapper-banner .banner .slider .slide-show .content span.text{
-		font-size: 40px;
-		font-weight: bold;
-	}
-	.wrapper-banner .banner .slider .slide-show .content span.size{
-		font-size: 13px;
-	}
-	.wrapper-banner .banner .banner-right{
-		margin: 60px 0 0 0;
-	}
-	.wrapper-banner .banner .banner-right img {
-		max-width: 80px;
-	}
-	#wrapper-body .services .container{
-		width: 1200px;
-	}
-	#wrapper-body .services .line{
-		width: 20%;
-		margin: 55px 0 0 60px;
-	}
-	.services .title{
-		margin: 55px 0 0 100px;
+		margin: 55px 0 0 25px;
 	}
 	.services .wrapper{
 		margin: 0 0 0 90px;
@@ -522,7 +242,7 @@
 		max-height: 350px;
 	}
 	#wrapper-body .products .container{
-		max-width: 834px;
+		max-width: 720px;
 	}
 	.products .line{
 		margin: 110px 0 20px 250px;
@@ -531,7 +251,7 @@
 		margin: 0 0 0 300px;
 	}
 	.products .wrapper{
-		margin: 40px 0 0 50px;
+		margin: 40px -20px 0 10px;
 		left: -20px;
 		right: 20px;
 		max-height: 280px;
@@ -543,7 +263,7 @@
 		max-width: 170px;
 	}
 	.products .wrapper-function{
-		margin: 0 0 0 50px;
+		margin: 0 0 0 15px;
 	}
 	.products .wrapper-function a{
 		margin: 0 0 0 0;
@@ -555,183 +275,25 @@
 		width: 100%;
 	}
 	.wrapper-footer ul.menu-footer{
-		padding: 0 0 0 40px;
+		padding: 0 0 0 0;
+		margin: 0 0 30px 0;
 	}
 	.wrapper-footer .menu-footer li{
-		margin: 0 30px 0 0;
-	}
-	.wrapper-footer .menu-footer li#TDB{
-		padding-left: 40px;
+		margin: 0 20px 0 0;
 	}
 	.wrapper-footer .menu-footer li input.email{
 		width: 100%;
     }
     .wrapper-footer .menu-footer li img{
-        margin: 0 0 0 5px;
+        margin: 0 20px 0 5px;
 	}
 	.wrapper-footer .container{
-		max-width: 834px;
+		max-width: 720px;
 	}
 }
 /* End responsive */
 
-/* Home responsive Ipad */
-@media screen and (max-width: 768px){
-	.container{
-		max-width: 768px;
-	}
-	.wrapper-header{
-		width: 768px;
-	}
-	.wrapper-header .header{
-		width: 768px;
-	}
-	.logo{
-		margin: 10px 0 0 50px;
-	}
-	.logo img{
-		max-width: 60%;
-	}
-	.wrapper-header .header .navigation{
-		margin: 0 10px 0 -200px;
-	}
-	.wrapper-header .header .navigation a{
-		font-size: 13px;
-	}
-	.wrapper-header .header .icon{
-		margin: 0 0 0 0;
-	}
-	.wrapper-header .header .icon img{
-		max-width: 50%;
-	}
-	.wrapper-banner .banner .banner-left img{
-		max-width: 180px;
-		left: 100px;
-	}
-	.wrapper-banner .banner .sale{
-		font-size: 45px;
-		max-height: 80px;
-		max-width: 200px;
-		left: 260px;
-		top: 70px;
-		bottom: 0;
-		right: 0;
-	}
-	.wrapper-banner .banner{
-		width: 768px;
-	}
-	.wrapper-banner .banner .slider .slide-show img{
-		max-width: 120px;
-	}
-	.wrapper-banner .banner .slider{
-		left: 30px;
-		top: -10px;
-	}
-	.wrapper-banner .banner .slider .click{
-		left: 200px;
-		right: -250px;
-		top: 10px;
-		max-height: 20px;
-		max-width: 80px;
-	}
-	.wrapper-banner .banner .slider .slide-show .content{
-		left: 130px;
-		right: -150px;
-	}
-	.wrapper-banner .banner .slider .slide-show .content span.text{
-		font-size: 40px;
-		font-weight: bold;
-	}
-	.wrapper-banner .banner .slider .slide-show .content span.size{
-		font-size: 13px;
-	}
-	.wrapper-banner .banner .banner-right{
-		margin: 60px 0 0 0;
-	}
-	.wrapper-banner .banner .banner-right img {
-		max-width: 80px;
-	}
-	#wrapper-body .services .container{
-		width: 1200px;
-	}
-	#wrapper-body .services .line{
-		width: 20%;
-		margin: 55px 0 0 60px;
-	}
-	.services .title{
-		margin: 55px 0 0 100px;
-	}
-	.services .wrapper{
-		margin: 0 0 0 90px;
-	}
-	.services .wrapper a{
-		margin: 20px 30px 0 40px;
-	}
-	.services .wrapper a.sales50{
-		margin: -80px 40px 80px 40px;
-	}
-	.services .wrapper .rosara{
-		left: 150px;
-		top: -200px;
-	}
-	.services .wrapper .item img{
-		max-width: 200px;
-	}
-	.services .bg-service{
-		bottom: -620px;
-		top: 480px;
-		max-height: 350px;
-	}
-	#wrapper-body .products .container{
-		max-width: 768px;
-	}
-	.products .line{
-		margin: 110px 0 20px 250px;
-	}
-	.products b{
-		margin: 0 0 0 300px;
-	}
-	.products .wrapper{
-		margin: 40px 0 0 50px;
-		left: -20px;
-		right: 20px;
-		max-height: 280px;
-	}
-	.products .wrapper .item{
-		margin: 0 0 0 20px;
-	}
-	.products .wrapper .item img{
-		max-width: 170px;
-	}
-	.products .wrapper-function{
-		margin: 0 0 0 50px;
-	}
-	.products .wrapper-function a{
-		margin: 0 0 0 0;
-	}
-	.products .show-more{
-		margin-left: -50px;
-	}
-	.wrapper-footer .container{
-		width: 100%;
-	}
-	.wrapper-footer ul.menu-footer{
-		padding: 0 0 0 40px;
-	}
-	.wrapper-footer .menu-footer li{
-		margin: 0 30px 0 0;
-	}
-	.wrapper-footer .menu-footer li#TDB{
-		padding-left: 40px;
-	}
-	.wrapper-footer .menu-footer li input.email{
-		width: 100%;
-    }
-    .wrapper-footer .menu-footer li img{
-        margin: 0 0 0 5px;
-	}
-	.wrapper-footer .container{
-		max-width: 768px;
-	}
-}
+/* Home responsive Iphone 6/7/8 plus XR/XS max */
+@media (min-width: 576px) and (max-width: 767px){
+	
 /* End responsive */
