@@ -61,3 +61,11 @@ function showSlides(n) {
       zoomfooter();
   }
 // End zoom footer
+function showMenu() {
+  var x = document.getElementById("myNav");
+  if (x.className === "navigation") {
+    x.className += " responsive";
+  }else {
+    x.className = "navigation";
+  }
+}

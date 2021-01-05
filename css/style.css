@@ -109,8 +109,12 @@ body{
 }
 .sale {
 	position: absolute;
-	top: 25%;
-	left: 45%;
+	top: auto;
+	left: auto;
+	bottom: auto;
+	right: auto;
+	margin-top: -650px;
+	margin-left: 600px;
 	font-size: 100px;
 	color: white;
 }

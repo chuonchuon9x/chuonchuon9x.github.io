@@ -1,5 +1,5 @@
 /* Home responsive 992px->1200px */
-@media (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
 	.container{
 		max-width: 960px;
 	}
@@ -29,8 +29,11 @@
 		font-size: 60px;
 		max-height: 100px;
 		max-width: 200px;
-		left: 450px;
-		top: 100px;
+		top: auto;
+		left: auto;
+		bottom: auto;
+		right: auto;
+		margin: -300px 0 0 340px;
 	}
 	.wrapper-banner .banner{
 		width: 960px;
@@ -129,7 +132,7 @@
 /* End responsive */
 
 /* Home responsive 768px->991px */
-@media (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 991px){
 	.container{
 		max-width: 720px;
 	}
@@ -165,8 +168,11 @@
 		font-size: 45px;
 		max-height: 80px;
 		max-width: 200px;
-		left: 400px;
-		top: 70px;
+		top: auto;
+		left: auto;
+		bottom: auto;
+		right: auto;
+		margin: -220px 0 0 270px;
 	}
 	.wrapper-banner .banner{
 		width: 720px;
@@ -274,9 +280,6 @@
 	.products .show-more{
 		margin-left: -50px;
 	}
-	.wrapper-footer .container{
-		width: 100%;
-	}
 	.wrapper-footer ul.menu-footer{
 		padding: 0 0 0 0;
 		margin: 0 0 30px 30px;
@@ -288,7 +291,7 @@
 		width: 100%;
     }
     .wrapper-footer .menu-footer li img{
-        margin: 0 20px 0 5px;
+        margin: 0 10px 0 0px;
 	}
 	.wrapper-footer .container{
 		max-width: 720px;
@@ -298,5 +301,261 @@
 
 /* Home responsive 576px->767px*/
 @media (min-width: 576px) and (max-width: 767px){
+	.container{
+		max-width: 540px;
+	}
+	.wrapper-header{
+		width: 100%;
+		position: fixed;
+	}
+	.wrapper-header .header{
+		width: 540px;
+		display: block;
+	}
+	.wrapper-header .logo{
+		margin: 10px 320px 0 25px;
+		position: relative;
+	}
+	.logo img{
+		max-width: 60%;
+	}
+	.wrapper-header .navigation ul li a{
+		display: none;
+	}
+	.wrapper-header .icon-navi{
+		float: right;
+		display: block;
+		margin: -50px 0 0 0;
+	}
+	.wrapper-header .navigation.responsive{
+		position: relative;
+		margin: 0 0 0 25px;
+		padding-bottom: 20px;
+	}
+	.wrapper-header .navigation.responsive .icon-navi{
+		position: absolute;
+		right: 0;
+		left: 0;
+	}
+	.wrapper-header .navigation.responsive ul{
+		display: flex;
+	}
+	.wrapper-header .navigation.responsive ul li a{
+		display: block;
+		text-align: left;
+		padding-top: 25px;
+	}
+	.wrapper-header .navigation.responsive .sub-navi{
+		float: none;
+	}
+	.wrapper-header .navigation.responsive .sub-navi ul{
+		position: relative;
+	}
+	.wrapper-header .navigation.responsive .sub-navi ul li a{
+		display: flex;
+		width: 100%;
+		text-align: left;
+	}
+	.wrapper-header .icon{
+		margin-top: 0px;
+		position: absolute;
+		margin: 10px 0 0 0;
+		bottom: 0px;
+		top: 0px;
+		right: 0px;
+		left: 350px;
+		max-width: 100px;
+		max-height: 50px;
+	}
+	.wrapper-banner .banner{
+		width: 540px;
+	}
+	.wrapper-banner .banner .banner-left img{
+		max-width: 180px;
+		margin: 150px 0 0 0;
+		left: 0;
+	}
+	.wrapper-banner .banner .sale{
+		font-size: 45px;
+		max-height: 80px;
+		max-width: 200px;
+		margin: -240px 0 0 170px;
+		left: auto;
+		top: auto;
+		bottom: auto;
+		right: auto;
+	}
+	.wrapper-banner .banner .slider{
+		left: 0;
+		margin: 0 0 0 100px;
+		top: -10px;
+	}
+	.wrapper-banner .banner .slider .slide-show img{
+		max-width: 120px;
+	}
+	.wrapper-banner .banner .slider .click{
+		left: 200px;
+		right: -150px;
+		top: 10px;
+		max-height: 20px;
+		max-width: 80px;
+	}
+	.wrapper-banner .banner .slider .prev{
+		margin-right: 0px;
+		max-width: 15px;
+	}
+	.wrapper-banner .banner .slider .click .next{
+		margin-right: 0px;
+		max-width: 15px;
+	}
+	.wrapper-banner .banner .slider .slide-show .content{
+		left: 130px;
+		right: -150px;
+	}
+	.wrapper-banner .banner .slider .slide-show .content span.text{
+		font-size: 40px;
+		font-weight: bold;
+	}
+	.wrapper-banner .banner .slider .slide-show .content span.size{
+		font-size: 13px;
+	}
+	.wrapper-banner .banner .banner-right{
+		margin: 150px 0 0 0;
+	}
+	.wrapper-banner .banner .banner-right img {
+		max-width: 70px;
+	}
+	#wrapper-body .services .container{
+		width: 540px;
+	}
+	#wrapper-body .services .line{
+		width: 20%;
+		margin: 55px 0 0 60px;
+	}
+	.services .title{
+		margin: 55px 0 0 25px;
+	}
+	.services .Hot{
+		font-size: 30px;
+	}
+	.services p{
+		font-size: 20px;
+	}
+	.services .wrapper{
+		margin: 0 0 0 90px;
+	}
+	.services .wrapper a{
+		margin: -20px 10px 300px 25px;
+		padding: 10px 0 50px 0;
+	}
+	.services .wrapper a.DB{
+		margin: -20px 10px 300px 25px;
+		padding: 15px 0 45px 0;
+		font-size: 15px;
+	}
+	.services .wrapper a.sales50{
+		margin: -120px 10px 300px 20px;
+		padding: 10px 0 50px 0;
+	}
+	.services .wrapper .rosara{
+		left: 200px;
+		bottom: 0px;
+		top: -250px;
+		font-size: 12px;
+	}
+	.services .wrapper .rosara::before {
+		max-width: 80px;
+	}
+	.services .square1{
+		width: 40px;
+		height: 40px;
+	}
+	.services .square2{
+		width: 40px;
+		height: 40px;
+	}
+	.services .square3{
+		width: 40px;
+		height: 40px;
+	}
+	.services .wrapper .item img{
+		max-width: 130px;
+	}
+	.services .bg-service{
+		bottom: 0;
+		top: 600px;
+		max-height: 250px;
+	}
+	.products{
+		top: -550px;
+	}
+	#wrapper-body .products .container{
+		max-width: 540px;
+	}
+	.products .line{
+		margin: 110px 0 20px 150px;
+		width: 250px;
+	}
+	.products b{
+		margin: 0 0 0 180px;
+	}
+	.products .wrapper{
+		margin: 20px 0 0 0;
+		left: 0;
+		right: 0;
+	}
+	.products .wrapper .item{
+		margin: 0 0 0 0;
+	}
+	.products .wrapper .item img{
+		max-width: 130px;
+	}
+	.products .wrapper-function{
+		bottom: 195px;
+		margin: 0 0 0 10px;
+		max-height: 50px;
+	}
+	.products .wrapper-function a{
+		margin: 0 0 0 10px;
+		padding: 0 0 0 0;
+		font-size: 12px;
+	}
+	.products .bg-products{
+		top: 100px;
+		bottom: 0;
+		height: 210px;
+	}
+	.products .function{
+		margin: 0 0 0 10px;
+	}
+	.products .show-more{
+		margin: -200px 0 0 200px;
+	}
+	.products .show-more a{
+		margin: 0 0 0 0;
+		padding: 5px 40px 5px 40px;
+		font-size: 14px;
+	}
+	.wrapper-footer{
+		margin-top: -450px;
+	}
+	.wrapper-footer .container{
+		max-width: 540px;
+	}
+	.wrapper-footer ul.menu-footer{
+		padding: 0 0 0 0;
+		margin: 0 0 20px 20px;
+	}
+	.wrapper-footer .menu-footer li{
+		margin: 0 20px 20px 0;
+		display: block;
+		width: 100%;
+	}
+	.wrapper-footer .menu-footer li input.email{
+		width: 100%;
+    }
+    .wrapper-footer .menu-footer li img{
+        margin: 0 10px 0 0;
+	}
 }
 /* End responsive */
