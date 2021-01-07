@@ -82,8 +82,9 @@ body{
 	display: none;
 }
 .wrapper-header .icon{
-    padding-top: 18px;
-    margin: 10px 0 0 46px;
+    padding-top: 0;
+	margin: 0;
+	display: flex;
 }
 .wrapper-header .icon ul{
     display: flex;
@@ -597,10 +598,7 @@ ul.breadcrumb li a:hover {
     width: 57px;
     height: 27px;
     border: 1px solid;
-    margin-right: 22px;
     text-align: center;
-    cursor: pointer;
-	line-height: 23px;
 }
 .options-products .content-products .size-box ul li.active{
 	background: #464646;

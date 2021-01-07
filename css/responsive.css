@@ -9,6 +9,15 @@
 	.wrapper-header .header{
 		width: 960px;
 	}
+	.wrapper-header1{
+		width: 100%;
+	}
+	.wrapper-header1 .header-products{
+		width: 960px;
+	}
+	.wrapper-header1 .icon-navi{
+		display: none;
+	}
 	.logo{
 		margin: 10px 0 0 50px;
 	}
@@ -19,11 +28,88 @@
 		margin: 10px 50px 0 -200px;
 	}
 	.wrapper-header .header .icon{
-		margin: 10px 0 0 0;
+		margin: 0;
+	}
+	.wrapper-header1 .navigation{
+		margin: 10px 0 0 -200px;
+	}
+	.wrapper-header1 .navigation ul li a{
+		padding: 10px 0 0 0;
+	}
+	.wrapper-header1 .icon{
+		margin: 0 0 0 0;
+		padding: 20px 0 0 50px;
+	}
+	.wrapper-body .breadcrumb{
+		width: 960px;
+	}
+	.product-details .small-img img{
+		max-width: 80px;
+	}
+	.product-details .small-img .line-small{
+		margin: 5px 0 5px 40px;
+	}
+	.product-img img{
+		max-width: 70%;
+		margin: 0 50px 0 -50px;
+	}
+	.product-details .description{
+		margin: 0 0 0 400px;
+		bottom: 180px;
+		padding: 0 250px 0 0;
+	}
+	.product-details .options-products{
+		margin: 0 0 0 660px;
+		top: 100px;
+	}
+	.product-details .description .line-1{
+		margin: 20px 0 0 100px;
+		width: 300px;
+		font-size: 30px;
+	}
+	.product-details .content-1 p{
+		line-height: 1.5;
+		width: 230px;
+	}
+	.product-img .pagination1{
+		max-width: 100px;
+		margin: 10px 0 10px 15px;
+	}
+	.related-product{
+		width: 960px;
+		max-height: 500px;
+		position: relative;
+	}
+	.related-product .products-line{
+		right: 0;
+		left: 0;
+		margin: 0 0 0 50px;
+	}
+	.related-product .products-line::before {
+		max-width: 50px;
+	}
+	.related-product .products-line::after {
+		max-width: 70%;
+	}
+	.related-product .products{
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+	.related-product .products .wrapper{
+		margin: 0 0 0 25px;
+		width: 100%;
+	}
+	.products .wrapper .item img{
+		width: 90%;
 	}
 	.wrapper-banner .banner .banner-left img{
 		max-width: 250px;
 		left: 100px;
+	}
+	.related-product .products .wrapper-function{
+		margin: 0;
+		top: -80px;
 	}
 	.wrapper-banner .banner .sale{
 		font-size: 60px;
@@ -117,6 +203,9 @@
 	.wrapper-footer{
 		width: 100%;
 	}
+	.wrapper-footer ul.menu-footer{
+		margin: 0 0 20px 50px;
+	}
 	.wrapper-footer .container{
 		max-width: 960px;
 	}
@@ -155,6 +244,42 @@
 	.logo img{
 		max-width: 60%;
 	}
+	.icon-navi{
+		display: none;
+	}
+	.wrapper-header1 {
+		position: fixed;
+		z-index: 5000;
+		width: 100%;
+		background: #ffffff;
+		box-shadow: 0px 5px 30px -20px #000;
+	}	
+	.wrapper-header1 .icon-navi{
+		display: none;
+	}
+	.wrapper-header1 .logo{
+		margin: 10px 0 0 0;
+	}
+	.wrapper-header1 .logo img{
+		max-width: 100%;
+	}
+	.wrapper-header1 .navigation{
+		margin: 0 -20px 0 100px;
+	}
+	.wrapper-header1 .navigation ul{
+		margin: 10px 0 0 0;
+	}
+	.wrapper-header1 .navigation ul li a{
+		padding: 10px 0 0 0;
+		font-size: 13px;
+	}
+	.wrapper-header1 .navigation ul li .sub-navi ul{
+		margin: 0;
+	}
+	.wrapper-header1 .icon{
+		margin: 20px 0 0 50px;
+		padding: 0;
+	}
 	.wrapper-header .header .navigation{
 		margin: 0 10px 0 -200px;
 	}
@@ -163,6 +288,157 @@
 	}
 	.wrapper-header .header .icon{
 		margin: 0 0 0 0;
+	}
+	.wrapper-body .breadcrumb{
+		margin: 0;
+		padding: 50px 0 50px 0;
+	}
+	.wrapper-body ul.breadcrumb li a{
+		font-size: 13px;
+	}
+	.wrapper-body .product-details{
+		margin: 0;
+		padding-bottom: 450px;
+	}
+	.wrapper-body .product-details .small-img{
+		margin: 30px 0 0 0;
+	}
+	.wrapper-body .product-details .small-img img{
+		max-width: 70px;
+	}
+	.wrapper-body .product-details .small-img .line-small{
+		margin: 5px 0 5px 35px;
+	}
+	.wrapper-body .product-details .product-img{
+		max-width: 200px;
+		margin: 50px 0 0 80px;
+	}
+	.wrapper-body .product-details .description{
+		top: 75px;
+		bottom: 200px;
+		margin: 0 0 0 290px;
+		padding: 0;
+	}
+	.wrapper-body .product-details .description .line-1 {
+		width: 100%;
+		font-size: 20px;
+		margin: 10px 0 20px 100px;
+	}
+	.wrapper-body .product-details .description .content-1{
+		margin: -30px 0 0 10px;
+	}
+	.wrapper-body .product-details .description .content-1 p{
+		width: 180px;
+		font-size: 13px;
+		line-height: 1.5;
+	}
+	.wrapper-body .product-details .product-img img{
+		width: 100%;
+	}
+	.wrapper-body .product-details .options-products{
+		margin: 0 0 0 500px;
+	}
+	.wrapper-body .product-details .options-products .content-products p{
+		font-size: 13px;
+	}
+	.wrapper-body .product-details .options-products .content-products p span{
+		font-size: 15px;
+	}
+	.wrapper-body .options-products .content-products .color-radio span{
+		font-size: 13px;
+	}
+	.wrapper-body .options-products .content-products .color-radio ul li{
+		margin: -25px 20px 0 0;
+		width: 25px;
+		height: 25px;
+	}
+	.wrapper-body .options-products .content-products .size-box span{
+		font-size: 13px;
+	}
+	.wrapper-body .options-products .content-products .size-box ul{
+		top: 80px;
+		bottom: 285px;
+	}
+	.wrapper-body .options-products .content-products .size-box ul li.active{
+		width: 30px;
+		height: 25px;
+		padding: 2px 25px 0 15px;
+	}
+	.wrapper-body .options-products .content-products .size-box .S{
+		padding: 3px 15px 20px 15px;
+		margin: 0 15px 0 0;
+	}
+	.wrapper-body .options-products .content-products .size-box .M{
+		padding: 3px 15px 20px 15px;
+		margin: 0 15px 0 0;
+	}
+	.wrapper-body .options-products .content-products .size-box .L{
+		padding: 3px 15px 20px 15px;
+		margin: 0 15px 0 0;
+	}
+	.wrapper-body .options-products .content-products .cart{
+		width: 100%;
+		margin: 30px 0 20px 0;
+	}
+	.wrapper-body .options-products .content-products .cart span{
+		font-size: 13px;
+		width: 25%;
+	}
+	.wrapper-body .options-products .content-products .cart .cart-form{
+		width: 75%;
+		display: flex;
+		margin: -40px 0 0 50px;
+		max-height: 50px;
+	}
+	.wrapper-body .options-products .content-products .cart .cart-form button{
+		font-size: 10px;
+		margin: 20px 0 0 0;
+	}
+	.wrapper-body .options-products .content-products .coupon button {
+		width: 50%;
+		margin: 10px 0 10px 40px;
+		background: no-repeat;
+		border: 1px solid #9e0b0f;
+		color: #9e0b0f;
+		font-size: 15px;
+		padding: 5px 18px;
+		transition: all .2s ease-in;
+		cursor: pointer;
+		max-height: 40px;
+	}
+	.wrapper-body .options-products .content-products .contact {
+		margin: 5px 0 0 5px;
+	}
+
+	.wrapper-body .related-product .products-line {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		margin-right: 100px;
+		position: relative;
+		left: 50px;
+		font-size: 20px;
+	}
+	.wrapper-body .related-product {
+		margin-top: 50px;
+		height: 450px;
+	}
+	.wrapper-body .related-product .products .wrapper {
+		margin: 0;
+	}
+	.wrapper-body .related-product .products .wrapper-function {
+		margin: 0 0 0 0;
+	}
+	.wrapper-body .products .item img {
+		max-width: 100%;
+	}
+	.wrapper-body .products .function a {
+		display: block;
+		padding: 5px 16px 5px 16px;
+		text-align: center;
+		color: black;
+		border: 2px solid black;
+		font-size: 18px;
 	}
 	.wrapper-header .header .icon img{
 		max-width: 50%;
@@ -601,7 +877,7 @@
 			width: 80px;
 		}
 		.logo img{
-			max-width: 80px;
+			max-width: 100%;
 		}
 		.wrapper-header .navigation ul li a{
 			display: none;
@@ -653,6 +929,72 @@
 			max-height: 50px;
 		}
 		.wrapper-header .icon img{
+			width: 15px;
+		}
+		.wrapper-header1{
+			width: 100%;
+			position: fixed;
+		}
+		.wrapper-header1 .header-products{
+			width: 310px;
+			padding: 0 0 10px 0;
+			display: block;
+		}
+		.wrapper-header1 .logo{
+			margin: 10px 0 0 0;
+			position: relative;
+			width: 80px;
+		}
+		.wrapper-header1 .navigation ul li a{
+			display: none;
+		}
+		.wrapper-header1 .icon-navi {
+			display: block;
+			margin: 20px 0 0 200px;
+		}
+		.wrapper-header1 .icon-navi img{
+			width: 15px;
+		}
+		.wrapper-header1 .navigation.responsive {
+			position: relative;
+			margin: 50px 0 0 -300px;
+		}
+		.wrapper-header1 .navigation.responsive .icon-navi{
+			position: absolute;
+			right: 0;
+			left: 0;
+		}
+		.wrapper-header1 .navigation.responsive ul{
+			display: flex;
+		}
+		.wrapper-header1 .navigation.responsive ul li a{
+			display: block;
+			text-align: left;
+			font-size: 11px;
+		}
+		.wrapper-header1 .navigation.responsive .sub-navi{
+			float: none;
+		}
+		.wrapper-header1 .navigation.responsive .sub-navi ul{
+			position: relative;
+		}
+		.wrapper-header1 .navigation.responsive .sub-navi ul li a{
+			display: flex;
+			width: 100%;
+			text-align: left;
+		}
+		.wrapper-header1 .icon{
+			position: absolute;
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
+			bottom: 0;
+			top: 20px;
+			right: 0;
+			left: 150px;
+			max-width: 100px;
+			max-height: 50px;
+		}
+		.wrapper-header1 .icon img{
 			width: 15px;
 		}
 		.wrapper-banner{
@@ -767,29 +1109,30 @@
 			width: 100%;
 		}
 		.services .wrapper a{
-			margin: -40px 5px 300px 20px;
+			margin: -35px 0 300px 20px;
 			padding: 0 0 35px 0;
 			border: 2px solid white;
 		}
 		.services .wrapper a.DB{
-			margin: -40px 5px 300px 20px;
+			margin: -35px 0 300px 20px;
 			padding: 5px 0 30px 0;
 			font-size: 12px;
 			border: 2px solid white;
 		}
 		.services .wrapper a.sales50{
-			margin: -140px 5px 300px 20px;
+			margin: -135px 0 300px 20px;
 			padding: 0px 0 35px 0;
 			border: 2px solid white;
 		}
 		.services .wrapper .item img{
-			width: 120%;
+			width: 130%;
 		}
 		.services .wrapper .rosara{
 			left: 250px;
 			bottom: 0px;
 			top: -320px;
 			font-size: 10px;
+			margin: 0 0 0 -590px;
 		}
 		.services .wrapper .rosara::after {
 			max-width: 10px;
@@ -798,7 +1141,7 @@
 			max-width: 30px;
 		}
 		.products{
-			top: -550px;
+			top: -550px
 		}
 		#wrapper-body .products .container{
 			width: 100%;
@@ -816,6 +1159,8 @@
 			left: 0;
 			right: 0;
 			height: 150px;
+			grid-template-columns: 50% 50%;
+			grid-template-rows: 240px;
 		}
 		.products .wrapper .item{
 			margin: 0 0 0 0;
@@ -826,8 +1171,10 @@
 		.products .wrapper-function{
 			bottom: 40px;
 			left: -20px;
-			margin: 0 0 0 20px;
+			margin: 100px 0 0 20px;
 			max-height: 50px;
+			grid-template-columns: 50% 50%;
+			grid-template-rows: 240px;
 		}
 		.products .wrapper-function a{
 			margin: 0 0 0 10px;
@@ -845,7 +1192,7 @@
 			margin: 0 0 0 10px;
 		}
 		.products .show-more{
-			margin: -50px 0 0 120px;
+			margin: 200px 0 0 120px;
 		}
 		.products .show-more a{
 			margin: 0 0 0 0;
@@ -853,7 +1200,7 @@
 			font-size: 10px;
 		}
 		.wrapper-footer{
-			margin-top: -450px;
+			margin-top: -500px;
 		}
 		.wrapper-footer .container{
 			max-width: 310px;
@@ -863,7 +1210,7 @@
 			margin: 0 0 20px 20px;
 		}
 		.wrapper-footer .menu-footer li{
-			margin: 0 20px 20px 0;
+			margin: 0 20px 20px -10px;
 			display: block;
 			width: 100%;
 		}

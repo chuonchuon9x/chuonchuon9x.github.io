@@ -67,3 +67,11 @@
         zoomfooter();
     }
   // End zoom footer
+  function showMenu() {
+    var x = document.getElementById("myNav");
+    if (x.className === "navigation products-header") {
+      x.className += " responsive";
+    }else {
+      x.className = "navigation products-header";
+    }
+  }
