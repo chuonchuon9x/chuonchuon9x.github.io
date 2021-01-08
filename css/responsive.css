@@ -868,7 +868,7 @@
 /* End responsive */
 
 /* Home responsive 320px->575px */
-	@media (min-width: 320px) and (max-width: 575px){
+@media (min-width: 320px) and (max-width: 575px){
 		.container{
 			max-width: 310px;
 		}
@@ -1014,7 +1014,6 @@
 			align-items: center;
 			text-align: center;
 			margin-bottom: 3rem;
-			margin-left: 70px;
 		  }
 		  
 		  .nav__img {
@@ -1088,7 +1087,7 @@
 			transform: rotate(180deg);
 		  }
 		  .nav {
-			width: 288px;
+			width: 170px;
 		  }
 		.wrapper-banner{
 			width: 100%;
@@ -1313,5 +1312,5 @@
 		.wrapper-footer .menu-footer li img{
 			margin: 0 10px 0 0;
 		}
-	}
+}
 /* End responsive */
