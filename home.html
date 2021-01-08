@@ -7,6 +7,7 @@
     <title>Trang Chủ</title>
     <link media="all" type="text/css" rel="stylesheet" href="css/style.css" />
     <link type="text/css" rel="stylesheet" href="css/responsive.css">
+     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!-- Header -->
@@ -18,7 +19,7 @@
                             <img src="images/logodemo.png" alt="">
                         </a>
                     </div>
-                    <a class="icon-navi" onclick="showMenu()"><img src="images/menu1.png" alt=""></a>
+                    <!-- <a class="icon-navi" onclick="showMenu()"><img src="images/menu1.png" alt=""></a> -->
                     <div class="navigation" id="myNav">
                         <ul>
                             <li>
@@ -44,14 +45,50 @@
                             </div>
                         </ul>
                     </div>
-                    <!-- <div class="icon">
-                        <ul>
-                            <li><a href=""><img src="images/logo1.png" alt=""></a></li>
-                            <li><a href=""><img src="images/logo2.png" alt=""></a></li>
-                            <li><a href=""><img src="images/logo3.png" alt=""></a></li>
-                        </ul>
-                    </div> -->
-                </nav>
+                </div>
+                <header class="header-mobile">
+                    <a href="#" class="header__logo"><img src="images/logodemo.png" alt=""></a>
+        
+                    <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+        
+                    <nav class="nav" id="nav-menu">
+                        <div class="nav__content bd-grid">
+                            <a href="" class="nav__perfil">
+                                <div class="nav__img">
+                                    <img src="images/logo1.png" alt="">
+                                </div>
+                                <div class="nav__img">
+                                    <img src="images/logo2.png" alt="">
+                                </div>
+                                <div class="nav__img">
+                                    <img src="images/logo3.png" alt="">
+                                </div>
+                            </a>
+            
+                            <div class="nav__menu">
+                                <ul class="nav__list">
+                                    <li class="nav__item"><a href="#" class="nav__link">Hàng mới về</a></li>
+            
+                                    <li class="nav__item dropdown">
+                                        <a href="#" class="nav__link dropdown__link">Sản phẩm <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                            
+            
+                                        <ul class="dropdown__menu">
+                                            <li class="dropdown__item"><a href="#" class="nav__link">Áo </a></li>
+                                            <li class="dropdown__item"><a href="#" class="nav__link">Quần </a></li>
+                                            <li class="dropdown__item"><a href="#" class="nav__link">Váy </a></li>
+                                        </ul>
+                                    </li>
+            
+                                    <li class="nav__item"><a href="#" class="nav__link">Sản phẩm bán chạy</a></li>
+        
+                                    <li class="nav__item"><a href="#" class="nav__link">Tin tức</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">Sản phẩm sale</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
             </div>
         </header>
     <!-- End header -->

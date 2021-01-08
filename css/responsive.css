@@ -9,9 +9,13 @@
 	.wrapper-header .header{
 		width: 960px;
 	}
+	.wrapper-header .header-mobile{
+		display: none;
+	}
 	.wrapper-header1{
 		width: 100%;
 	}
+
 	.wrapper-header1 .header-products{
 		width: 960px;
 	}
@@ -237,6 +241,9 @@
 	}
 	.wrapper-header .header{
 		width: 720px;
+	}
+	.wrapper-header .header-mobile{
+		display: none;
 	}
 	.logo{
 		margin: 10px 0 0 50px;
@@ -602,6 +609,9 @@
 		width: 540px;
 		display: block;
 	}
+	.wrapper-header .header-mobile{
+		display: none;
+	}
 	.wrapper-header .logo{
 		margin: 10px 320px 0 25px;
 		position: relative;
@@ -867,69 +877,7 @@
 			position: fixed;
 		}
 		.wrapper-header .header{
-			width: 310px;
-			padding: 0 0 10px 0;
-			display: block;
-		}
-		.wrapper-header .logo{
-			margin: 10px 0 0 0;
-			position: relative;
-			width: 80px;
-		}
-		.logo img{
-			max-width: 100%;
-		}
-		.wrapper-header .navigation ul li a{
 			display: none;
-		}
-		.wrapper-header .icon-navi{
-			display: block;
-			margin: -35px 0 0 270px;
-		}
-		.wrapper-header .icon-navi img{
-			width: 15px;
-		}
-		.wrapper-header .navigation.responsive{
-			position: relative;
-			margin: 10px 0 0 0;
-		}
-		.wrapper-header .navigation.responsive .icon-navi{
-			position: absolute;
-			right: 0;
-			left: 0;
-		}
-		.wrapper-header .navigation.responsive ul{
-			display: flex;
-		}
-		.wrapper-header .navigation.responsive ul li a{
-			display: block;
-			text-align: left;
-			font-size: 10px;
-		}
-		.wrapper-header .navigation.responsive .sub-navi{
-			float: none;
-		}
-		.wrapper-header .navigation.responsive .sub-navi ul{
-			position: relative;
-		}
-		.wrapper-header .navigation.responsive .sub-navi ul li a{
-			display: flex;
-			width: 100%;
-			text-align: left;
-		}
-		.wrapper-header .icon{
-			position: absolute;
-			padding: 0 0 0 0;
-			margin: 0 0 0 0;
-			bottom: 0;
-			top: 20px;
-			right: 0;
-			left: 150px;
-			max-width: 100px;
-			max-height: 50px;
-		}
-		.wrapper-header .icon img{
-			width: 15px;
 		}
 		.wrapper-header1{
 			width: 100%;
@@ -997,6 +945,151 @@
 		.wrapper-header1 .icon img{
 			width: 15px;
 		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		  
+		a {
+			text-decoration: none;
+		}
+		  
+		.bd-grid {
+			max-width: 1024px;
+			display: grid;
+			grid-template-columns: 100%;
+			margin-left: 1.5rem;
+			margin-right: 1.5rem;
+		}
+		  
+		/*===== HEADER =====*/
+		.header {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px 15px 0 15px;
+			z-index: 100;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		  
+		.header__logo {
+			color: #0E1026;
+		}
+		  
+		.header__toggle {
+			font-size: 1.7rem;
+			margin-left: 150px;
+			cursor: pointer;
+			color: #ffffff;
+		}
+		  
+		/*===== NAV =====*/
+		@media screen and (max-width: 768px) {
+			.nav {
+			  position: fixed;
+			  top: 0;
+			  left: -100%;
+			  background-color: gray;
+			  width: 80%;
+			  height: 100vh;
+			  padding: 2rem 0;
+			  z-index: 100;
+			  transition: .5s;
+			  overflow-y: auto;
+			}
+		  }
+		  
+		  .nav__content {
+			display: flex;
+			flex-direction: column;
+		  }
+		  
+		  .nav__perfil {
+			display: flex;
+			align-items: center;
+			text-align: center;
+			margin-bottom: 3rem;
+			margin-left: 70px;
+		  }
+		  
+		  .nav__img {
+			display: flex;
+			justify-content: center;
+			width: 20px;
+			height: 20px;
+			overflow: hidden;
+			margin-bottom: 1rem;
+			margin-right: 20px;
+		  }
+		  
+		  .nav__img img {
+			width: 70px;
+		  }
+		  
+		  .nav__name {
+			display: block;
+			font-size: 1rem;
+			color: #FBFBFB;
+		  }
+		  
+		  .nav__item {
+			margin-bottom: 2rem;
+		  }
+		  
+		  .nav__link {
+			color: #ffffff;
+		  }
+		  
+		  .nav__link:hover {
+			color: #FBFBFB;
+		  }
+		  
+		  /*Show menu*/
+		  .show {
+			left: 0;
+		  }
+		  
+		  /*Active link*/
+		  .active {
+			color: #FBFBFB;
+		  }
+		  
+		  /*=== Dropdown ===*/
+		  .dropdown__link {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		  }
+		  
+		  .dropdown__icon {
+			font-size: 1.3rem;
+			transition: .5s;
+		  }
+		  
+		  .dropdown__menu {
+			margin: 1rem 0 0 1rem;
+			display: none;
+		  }
+		  
+		  .dropdown__item {
+			margin: 1rem 0;
+		  }
+		  
+		  .dropdown:hover > .dropdown__menu {
+			display: block;
+		  }
+		  
+		  .dropdown:hover .dropdown__icon {
+			transform: rotate(180deg);
+		  }
+		  .nav {
+			width: 288px;
+		  }
 		.wrapper-banner{
 			width: 100%;
 		}
