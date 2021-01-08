@@ -67,11 +67,16 @@
         zoomfooter();
     }
   // End zoom footer
-  function showMenu() {
-    var x = document.getElementById("myNav");
-    if (x.className === "navigation products-header") {
-      x.className += " responsive";
-    }else {
-      x.className = "navigation products-header";
+  // show Menu
+  var showMenu = (toggleId, navId)=>{
+    var toggle = document.getElementById(toggleId),
+    nav = document.getElementById(navId)
+  
+    if(toggle && nav){
+      toggle.addEventListener('click', ()=>{
+        nav.classList.toggle('show')
+        toggle.classList.toggle('bx-x')
+      })
     }
   }
+  showMenu('header-toggle','nav-menu')

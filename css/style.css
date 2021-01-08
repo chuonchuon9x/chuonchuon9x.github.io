@@ -86,9 +86,6 @@ body{
 	margin: 0;
 	display: flex;
 }
-.wrapper-header .icon ul{
-    display: flex;
-}
 .wrapper-header .icon img{
     margin-right: 20px;
 }
@@ -419,17 +416,15 @@ ul.breadcrumb li a:hover {
 	text-decoration: underline;
 }
 .product-details{
-	position: relative;
+	/*! position: relative; */
 	margin: 50px 0 0 0;
-	padding-bottom: 550px;
+	display: flex;
 }
 .product-details .small-img{
 	max-width: 120px;
 	padding-right: 120px;
-	padding-bottom: 0px;
-	margin-left: 50px;
 	padding-top: 50px;
-	position: absolute;
+	margin-left: 50px;
 }
 .product-details .small-img img{
 	max-width: 118px;
@@ -443,17 +438,11 @@ ul.breadcrumb li a:hover {
 	padding-bottom: 50px;
 }
 .product-details .product-img{
-	max-width: 400px;
-	padding-bottom: 500px;
-	padding-top: 10px;
-	margin-left: 200px;
-	position: absolute;
-	bottom: 30px;
-	top: 0;
+	max-width: 100%;
+	margin-left: 50px;
 }
 .product-img img{
-	max-width: 348px;
-	max-height: 523px;
+	max-width: 100%;
 }
 .product-img .pagination1 {
 	text-align: center;
@@ -476,9 +465,7 @@ ul.breadcrumb li a:hover {
 .description{
 	max-width: 200px;
 	padding-right: 320px;
-	margin-left: 600px;
-	position: absolute;
-	bottom: 100px;
+	margin: 0 0 150px 50px;
 	top: 20px;
 	background: #f1f1f1;
 }
@@ -501,8 +488,7 @@ ul.breadcrumb li a:hover {
 }
 .options-products{
 	max-width: 350px;
-	margin-left: 930px;
-	position: absolute;
+	margin: 100px 0 0 50px;
 	bottom: 30px;
 	top: 120px;
 }
@@ -851,12 +837,10 @@ ul.menu-footer{
     border: 2px solid #fff;
     background: dimgray;
 }
-.wrapper-header1 .icon{
-    padding-top: 18px;
-    margin: 10px 0 0 46px;
-}
-.wrapper-header1 .icon ul{
-    display: flex;
+.wrapper-header1 .header-product .icon{
+    padding-top: 0;
+	margin: 0;
+	display: flex;
 }
 .wrapper-header1 .icon img{
     margin-right: 20px;
