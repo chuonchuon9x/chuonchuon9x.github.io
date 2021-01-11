@@ -331,10 +331,11 @@
 	}
 	.wrapper-body .product-details{
 		margin: 50 0 0 0;
-		padding-bottom: 450px;
+		padding-bottom: 0;
 	}
 	.wrapper-body .product-details .small-img{
 		margin: 30px 0 0 0;
+		padding: 0;
 	}
 	.wrapper-body .product-details .small-img img{
 		max-width: 70px;
@@ -366,11 +367,10 @@
 		line-height: 1.5;
 	}
 	.wrapper-body .product-details .product-img img{
-		width: ;
 		max-width: 200px;
 	}
 	.wrapper-body .product-details .options-products{
-		margin: 0 25px;
+		margin: 70px 25px 0 25px;
 	}
 	.wrapper-body .product-details .options-products .content-products p{
 		font-size: 13px;
@@ -427,6 +427,7 @@
 	.wrapper-body .options-products .content-products .cart .cart-form button{
 		font-size: 10px;
 		margin: 20px 0 0 0;
+		padding: 7px 10px 30px 10px;
 	}
 	.wrapper-body .options-products .content-products .coupon button {
 		width: 50%;
@@ -435,7 +436,7 @@
 		border: 1px solid #9e0b0f;
 		color: #9e0b0f;
 		font-size: 15px;
-		padding: 5px 18px;
+		padding: 5px 0;
 		transition: all .2s ease-in;
 		cursor: pointer;
 		max-height: 40px;
@@ -454,7 +455,7 @@
 		font-size: 20px;
 	}
 	.wrapper-body .related-product {
-		margin-top: 50px;
+		margin: 50px 0 250px 0;
 		height: 450px;
 	}
 	.wrapper-body .related-product .products .wrapper {
@@ -901,7 +902,7 @@
 /* Home responsive 320px->575px */
 @media (min-width: 320px) and (max-width: 575px){
 		.container{
-			max-width: 100%;
+			max-width: 310px;
 		}
 		.wrapper-header{
 			width: 100%;
@@ -914,7 +915,6 @@
 			display: none;
 		}
 		.wrapper-header1 .header-mobile{
-			margin-left: 10px;
 			margin-top: 10px;
 		}
 		ul {
