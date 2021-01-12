@@ -900,7 +900,7 @@
 /* End responsive */
 
 /* Home responsive 320px->575px */
-@media (min-width: 320px) and (max-width: 575px){
+@media (min-width: 320px) and (max-width: 767px){
 		.container{
 			max-width: 310px;
 		}
@@ -1124,7 +1124,7 @@
 			right: 0;
 		}
 		.related-product .products{
-			margin: 0 0 0 10px;
+			margin: 0 0 0 20px;
 			top: 0;
 		}
 		.related-product .products .wrapper{
@@ -1137,7 +1137,7 @@
 			top: 0px;
 			bottom: 0px;
 			right: 0px;
-			margin: 65px 0 0 0;
+			margin: 50px 0 0 0;
 			max-width: 310px;
 		}
 		.related-product .products .function{
