@@ -512,9 +512,7 @@ ul.breadcrumb li a:hover {
 
 .options-products .content-products .size-box ul{
 	display: flex;
-	margin-left: 50px;
-	position: absolute;
-	bottom: 215px;
+	margin: -25px 0 0 40px;
 }
 .options-products .content-products .color-radio{
 	margin: 20px 0 20px 0;
