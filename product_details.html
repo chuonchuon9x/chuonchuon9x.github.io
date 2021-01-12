@@ -101,72 +101,76 @@
         <!-- End Breadcrumb -->
         <!-- Product-details -->
         <div class="product-details">
-            <div class="small-img">
-                <img src="images/product12.png" alt="" onclick="currentSlide(1)">
-                <img src="images/product13.png" alt="" onclick="currentSlide(2)">
-                <div class="line-small"></div>
-                <img src="images/product14.png" alt="" onclick="currentSlide(3)">
-            </div>
-            <div class="product-img">
-                <div>
-                    <img class="slide-show" src="images/product1.png" alt="">
-                    <img class="slide-show" src="images/product3.png" alt="">
-                    <img class="slide-show" src="images/product2.png" alt="">  
+            <div class="img-product">
+                <div class="small-img">
+                    <img src="images/product12.png" alt="" onclick="currentSlide(1)">
+                    <img src="images/product13.png" alt="" onclick="currentSlide(2)">
+                    <div class="line-small"></div>
+                    <img src="images/product14.png" alt="" onclick="currentSlide(3)">
                 </div>
-                <div class="pagination1">
-                    <span class="dot active" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-            </div>
-            <div class="description">
-                <div class="line-1">Sơ mi trắng thêu hoa</div>
-                <div class="content-1">
-                    <h2><p>Mô tả</p></h2>
-                    <p>Miêu tả: Áo kiểu tay ngắn nhún thun ở tay, cổ sau phối khoen tròn.</p>
-                    <p>Size: S/M.</p>
-                    <p>Đặc tính: Thanh lịch, hiện đại.</p>
-                    <p>Thể loại: Trang phục công sở.</p>
-                    <p>Màu sắc: Đen - Xanh.</p>
-                    <p>Chất liệu: Bố sớ sọc.</p>
-                    <p>Số đo mẫu nữ: Chiều cao: 175 cm. Số đo 3 vòng: 86 - 61 - 90.</p>
-                </div>
-            </div>
-            <div class="options-products">
-                <div class="content-products">
-                    <p>Mã: <span>M 454</span></p>
-                    <div class="color-radio">
-                        <span>Màu:</span>
-                        <ul>
-                            <li class="white color-choose active" onclick="color(0)"></li>
-                            <li class="black color-choose" onclick="color(1)"></li>
-                            <li class="red color-choose" onclick="color(2)"></li>
-                        </ul>
+                <div class="product-img">
+                    <div>
+                        <img class="slide-show" src="images/product1.png" alt="">
+                        <img class="slide-show" src="images/product3.png" alt="">
+                        <img class="slide-show" src="images/product2.png" alt="">  
                     </div>
-                    <div class="size-box">
-                        <span>Size:</span>
-                        <ul>
-                            <li class="S size-choose active" onclick="size(0)">S</li>
-                            <li class="M size-choose" onclick="size(1)">M</li>
-                            <li class="L size-choose" onclick="size(2)">L</li>
-                        </ul>
+                    <div class="pagination1">
+                        <span class="dot active" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
                     </div>
-                    <div class="cart">
-                        <span>Số lượng:</span>
-                        <form action="#" method="post" class="cart-form">
-                            <input type="text" name="quantity" id="qty">
-                            <button type="submit">Thêm vào giỏ</button>
+                </div>
+            </div>
+            <div class="content-product">
+                <div class="description">
+                    <div class="line-1">Sơ mi trắng thêu hoa</div>
+                    <div class="content-1">
+                        <h2><p>Mô tả</p></h2>
+                        <p>Miêu tả: Áo kiểu tay ngắn nhún thun ở tay, cổ sau phối khoen tròn.</p>
+                        <p>Size: S/M.</p>
+                        <p>Đặc tính: Thanh lịch, hiện đại.</p>
+                        <p>Thể loại: Trang phục công sở.</p>
+                        <p>Màu sắc: Đen - Xanh.</p>
+                        <p>Chất liệu: Bố sớ sọc.</p>
+                        <p>Số đo mẫu nữ: Chiều cao: 175 cm. Số đo 3 vòng: 86 - 61 - 90.</p>
+                    </div>
+                </div>
+                <div class="options-products">
+                    <div class="content-products">
+                        <p>Mã: <span>M 454</span></p>
+                        <div class="color-radio">
+                            <span>Màu:</span>
+                            <ul>
+                                <li class="white color-choose active" onclick="color(0)"></li>
+                                <li class="black color-choose" onclick="color(1)"></li>
+                                <li class="red color-choose" onclick="color(2)"></li>
+                            </ul>
+                        </div>
+                        <div class="size-box">
+                            <span>Size:</span>
+                            <ul>
+                                <li class="S size-choose active" onclick="size(0)">S</li>
+                                <li class="M size-choose" onclick="size(1)">M</li>
+                                <li class="L size-choose" onclick="size(2)">L</li>
+                            </ul>
+                        </div>
+                        <div class="cart">
+                            <span>Số lượng:</span>
+                            <form action="#" method="post" class="cart-form">
+                                <input type="text" name="quantity" id="qty">
+                                <button type="submit">Thêm vào giỏ</button>
+                            </form>
+                        </div>
+                        <form action="#" method="post" class="coupon">
+                            <input type="text" name="coupon" id="coup" placeholder="Nhập mã giảm giá">
+                            <button type="submit">Mua ngay</button>
                         </form>
-                    </div>
-                    <form action="#" method="post" class="coupon">
-                        <input type="text" name="coupon" id="coup" placeholder="Nhập mã giảm giá">
-                        <button type="submit">Mua ngay</button>
-                    </form>
-                    <div class="contact">
-                        <img src="images/logoproduct.png" alt="">
-                        <div class="phone">
-                            <p>Tổng đài hỗ trợ</p>
-                            <p>0969 301 474</p>
+                        <div class="contact">
+                            <img src="images/logoproduct.png" alt="">
+                            <div class="phone">
+                                <p>Tổng đài hỗ trợ</p>
+                                <p>0969 301 474</p>
+                            </div>
                         </div>
                     </div>
                 </div>

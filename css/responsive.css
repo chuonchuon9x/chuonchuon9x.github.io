@@ -401,14 +401,17 @@
 	.wrapper-body .options-products .content-products .size-box .S{
 		padding: 3px 15px 20px 15px;
 		margin: 0 15px 0 0;
+		height: 25px;
 	}
 	.wrapper-body .options-products .content-products .size-box .M{
 		padding: 3px 15px 20px 15px;
 		margin: 0 15px 0 0;
+		height: 25px;
 	}
 	.wrapper-body .options-products .content-products .size-box .L{
 		padding: 3px 15px 20px 15px;
 		margin: 0 15px 0 0;
+		height: 25px;
 	}
 	.wrapper-body .options-products .content-products .cart{
 		width: 100%;
@@ -911,11 +914,17 @@
 		.wrapper-header .header{
 			display: none;
 		}
+		.wrapper-header .header-mobile{
+			display: flex;
+			margin: 10px 0;
+		}
 		.wrapper-header1 .header-product{
 			display: none;
 		}
 		.wrapper-header1 .header-mobile{
 			margin-top: 10px;
+			display: flex;
+			justify-content: center;
 		}
 		ul {
 			margin: 0;
@@ -952,12 +961,15 @@
 		.header__logo {
 			color: #0E1026;
 		}
+		.header__logo img{
+			max-width: 90px;
+		}
 		.wrapper-header1 #header-toggle{
-			margin-left: 200px;
+			margin: 5px 0 0 200px;
 		}  
 		.header__toggle {
 			font-size: 1.7rem;
-			margin-left: 150px;
+			margin: 15px 0 0 180px;
 			cursor: pointer;
 			color: #ffffff;
 		}
@@ -1070,8 +1082,18 @@
 			margin-left: 10px;
 			padding: 50px 0;
 		}
+		.breadcrumb li{
+			font-size: 13px;
+		}
 		.product-details{
-			
+			display: grid;
+			justify-content: center;
+		}
+		.product-details .content-product{
+			display: block;
+		}
+		.product-details .img-product{
+			margin: 0;
 		}
 		.product-details .small-img{
 			max-width: 60px;
@@ -1093,7 +1115,7 @@
 			max-width: 210px;
 		}
 		.description{
-			margin: 360px 0 400px -280px;
+			margin: 0;
 			padding-right: 300px;
 		}
 		.description .line-1{
@@ -1107,7 +1129,7 @@
 			width: 300px;
 		}
 		.options-products{
-			margin: 760px 0 0 -300px;
+			margin: 50px 0 0 0;
 		}
 		.options-products .content-products{
 			width: 300px;
@@ -1116,7 +1138,7 @@
 			margin: -24px 50px 0 0;
 		}
 		.related-product{
-			margin: 0 0 350px 0;
+			margin: 50px 0 350px 0;
 		}
 		.related-product .products-line{
 			margin: 0 10px;
@@ -1174,17 +1196,17 @@
 		.wrapper-banner .banner .slider{
 			left: 0;
 			margin: 0 0 0 50px;
-			top: -10px;
+			top: 0;
 		}
 		.wrapper-banner .banner .slider .slide-show img{
-			max-width: 60px;
+			max-width: 80px;
 		}
 		.wrapper-banner .banner .pagination{
-			margin: -10px 0 0 30px;
+			margin: 0 0 0 30px;
 		}
 		.wrapper-banner .banner .pagination .dot{
-			width: 5px;
-			height: 5px;
+			width: 10px;
+			height: 10px;
 		}
 		.wrapper-banner .banner .slider .click{
 			left: 100px;
@@ -1194,20 +1216,18 @@
 			max-width: 80px;
 		}
 		.wrapper-banner .banner .slider .click img{
-			width: 5px;
+			width: 13px;
 		}
 		.wrapper-banner .banner .slider .click .prev{
 			margin-right: 0px;
 			max-width: 15px;
 		}
 		.wrapper-banner .banner .slider .click .next{
-			margin-right: 0px;
+			margin-left: 10px;
 			max-width: 15px;
 		}
 		.wrapper-banner .banner .slider .slide-show .content{
-			left: 60px;
-			right: -100px;
-			top: 5px;
+			margin: 0 -30px 10px 0;
 			line-height: 0.8;
 		}
 		.wrapper-banner .banner .slider .slide-show .content span.text{
@@ -1218,10 +1238,7 @@
 			font-size: 10px;
 		}
 		.wrapper-banner .banner .banner-right{
-			margin: 100px 0 0 0;
-		}
-		.wrapper-banner .banner .banner-right img {
-			max-width: 40px;
+			display: none;
 		}
 		.services .line{
 			width: 20%;
@@ -1327,10 +1344,10 @@
 			grid-template-rows: 240px;
 		}
 		.products .wrapper-function a{
-			margin: 0 20px 0 10px;
-			padding: 0 0 0 0;
+			margin: -10px 10px 0 10px;
+			padding: 5px 0;
 			border: 1px solid black;
-			font-size: 10px;
+			font-size: 15px;
 		}
 		.products .bg-products{
 			top: 50px;
@@ -1360,7 +1377,7 @@
 			margin: 0 0 20px 20px;
 		}
 		.wrapper-footer .menu-footer li{
-			margin: 0 20px 20px -10px;
+			margin: 0 0 20px 0;
 			display: block;
 			width: 100%;
 		}
