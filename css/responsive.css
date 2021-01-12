@@ -366,6 +366,9 @@
 		font-size: 13px;
 		line-height: 1.5;
 	}
+	.product-details .img-product{
+		margin: 0;
+	}
 	.wrapper-body .product-details .product-img img{
 		max-width: 200px;
 	}
@@ -430,7 +433,7 @@
 	.wrapper-body .options-products .content-products .cart .cart-form button{
 		font-size: 10px;
 		margin: 20px 0 0 0;
-		padding: 7px 10px 30px 10px;
+		padding: 7px 10px 10px 10px;
 	}
 	.wrapper-body .options-products .content-products .coupon button {
 		width: 50%;
@@ -462,10 +465,14 @@
 		height: 450px;
 	}
 	.wrapper-body .related-product .products .wrapper {
-		margin: 0;
+		margin-left: 10px ;
+		left: 0;
+		right: 0;
 	}
 	.wrapper-body .related-product .products .wrapper-function {
 		margin: 0 0 0 0;
+		left: -5px;
+		top: -50px;
 	}
 	.wrapper-body .products .item img {
 		max-width: 100%;
@@ -474,7 +481,6 @@
 		display: block;
 		padding: 5px 16px 5px 16px;
 		text-align: center;
-		color: black;
 		border: 2px solid black;
 		font-size: 18px;
 	}
@@ -918,6 +924,9 @@
 			display: flex;
 			margin: 10px 0;
 		}
+		.wrapper-header1 .container{
+			width: 100%;
+		}
 		.wrapper-header1 .header-product{
 			display: none;
 		}
@@ -1170,7 +1179,7 @@
 		}
 		.related-product .products .function a{
 			margin: 0 30px 0 5px;
-			font-size: 12px;
+			font-size: 15px;
 		}
 		.wrapper-banner{
 			width: 100%;
@@ -1362,12 +1371,12 @@
 			margin: 0 0 0 10px;
 		}
 		.products .show-more{
-			margin: 200px 0 0 120px;
+			margin: 200px 0 0 100px;
 		}
 		.products .show-more a{
 			margin: 0 0 0 0;
 			padding: 5px 20px 5px 20px;
-			font-size: 10px;
+			font-size: 15px;
 		}
 		.wrapper-footer{
 			margin-top: -500px;
