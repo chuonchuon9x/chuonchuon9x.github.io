@@ -1103,6 +1103,7 @@
 		}
 		.product-details .content-product{
 			display: block;
+			margin-top: 25px;
 		}
 		.product-details .img-product{
 			margin: 0;
