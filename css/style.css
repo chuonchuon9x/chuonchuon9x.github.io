@@ -354,9 +354,10 @@ body{
     z-index: 1000;
 }
 .products .item img{
-	max-width: 500px;
-	max-height: 450px;
+	/*! max-width: 500px; */
+	/*! max-height: 450px; */
 	font-size: 45px;
+	width: 85%;
 }
 .products .function{
 	max-width: 200px;
@@ -688,7 +689,7 @@ ul.breadcrumb li a:hover {
 	margin: 15px 0 0 100px;
 }
 .related-product .products .wrapper-function{
-	margin: 0 0 0 80px;
+	margin: 0 0 0 100px;
 }
 /* End Products details */
 

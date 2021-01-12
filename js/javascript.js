@@ -28,17 +28,17 @@ function showSlides(n) {
 // End Slide
 
 // Scroll Header
-    window.addEventListener("scroll", function () {
-        var menu = document.getElementsByClassName('wrapper-header');
-        var menu = menu[0];
-        var height = pageYOffset;
-        if (height  > 300){
-            menu.classList.add("bg-header")
-        }
-        else{
-            menu.classList.remove('bg-header');
-        }
-    })
+  window.addEventListener("scroll", function () {
+    var menu = document.getElementsByClassName('wrapper-header');
+    var menu = menu[0];
+    var height = pageYOffset;
+    if (height  > 300){
+      menu.classList.add("bg-header")
+    }
+    else{
+      menu.classList.remove('bg-header');
+    }
+  })
 // End Scroll Header
 
 //Zoom Footer
