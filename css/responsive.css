@@ -1325,6 +1325,9 @@
 		#wrapper-body .products .container{
 			width: 100%;
 		}
+		#wrapper-body .container{
+			width: 100%;
+		}
 		.products .line{
 			margin: 0 0 20px 80px;
 			width: 50%;
