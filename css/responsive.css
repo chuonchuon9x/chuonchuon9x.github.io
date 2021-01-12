@@ -1092,10 +1092,11 @@
 			padding: 50px 0;
 		}
 		.breadcrumb li{
-			font-size: 13px;
+			font-size: 15px;
 		}
 		ul.breadcrumb li + li::before{
 			padding: 5px;
+			content: "/";
 		}
 		.product-details{
 			display: grid;
