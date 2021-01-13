@@ -196,11 +196,11 @@ body{
 	border-style: none none solid none;
 	width: 30%;
 	margin-left: 10%;
-	margin-top: 5%;
+	padding-top: 5%;
 }
 .services .title {
-	margin-left: 15%;
-	margin-top: 5%;
+	padding-left: 15%;
+	padding-top: 5%;
 }
 .services .title p {
 	max-width: 200px;
@@ -239,7 +239,7 @@ body{
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	grid-template-rows: 100px 100px 100px;
-	margin-left: 200px;
+	padding-left: 200px;
 	position: relative;
 	z-index: 1000;
 }
@@ -312,10 +312,8 @@ body{
 
 /* Product */
 .products {
-	top: -320px;
-    justify-content: space-between;
 	height: 100%;
-	margin: 600px 0 0 0;
+	margin: 300px 0 0 0;
 	position: relative;
 }
 .products .bg-products{
@@ -324,7 +322,6 @@ body{
     height: 70%;
     background: #f0f0f0;
 	top: 22%;
-	left: 0;
 }
 .products .line{
 	border-style: none none solid none;
@@ -333,13 +330,12 @@ body{
 }
 .products b{
 	font-size: 25px;
-	margin-left: 45%;
+	padding-left: 45%;
 }
 .products .wrapper{
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 100px 100px 100px 100px;
-    margin: 40px 0 0 100px;
+    padding: 40px 0 0 100px;
     position: relative;
     z-index: 1000;
 }
@@ -355,17 +351,13 @@ body{
     z-index: 1000;
 }
 .products .item img{
-	/*! max-width: 500px; */
-	/*! max-height: 450px; */
 	font-size: 45px;
 	width: 85%;
 }
-.products .function{
-	max-width: 200px;
-	max-height: 50px;
-    margin: 0 20px 0 45px ;
+.products .btn-details{
+    padding: 10px 70px 0 30px;
 }
-.products .function a{
+.products .btn-details a{
     display: block;
     padding: 10px 16px 10px 16px;
 	text-align: center;
@@ -373,16 +365,18 @@ body{
     border: 2px solid black;
     font-size: 18px;
 }
-.products .function a:hover{
+.products .btn-details a:hover{
     background: black;
     color: white;
+}
+.products .show-more{
+	padding: 50px 0 0 45%;
 }
 .products .show-more a{
 	border: 1px solid black;
 	background: black;
 	color: white;
 	padding: 10px 60px 10px 60px;
-	margin-left: 43%;
 }
 .products .show-more a:hover{
     background: gray;
@@ -395,10 +389,10 @@ body{
 	padding: 10px 16px;
 	list-style: none;
 	background-color: #ffffff;
-	padding: 50px 0 50px 120px;
-	margin: 0 0 0 -60px;
-	top: 50px;
-	position: relative;
+	padding: 125px 0 50px 100px;
+	/*! margin: 0 0 0 -60px; */
+	/*! top: 50px; */
+	/*! position: relative; */
 }
 .breadcrumb li {
 	display: inline;
@@ -418,16 +412,17 @@ ul.breadcrumb li a:hover {
 	text-decoration: underline;
 }
 .product-details{
-	margin: 50px 0 0 0;
+	width: 100%;
 	display: flex;
 	justify-content: center	;
+	padding-left: 100px;
 }
 .product-details .img-product{
 	display: flex;
-	margin-left: 50px;
+	width: 40%;
 }
 .product-details .small-img{
-	max-width: 120px;
+	width: 20%;
 	padding-right: 120px;
 	padding-top: 50px;
 }
@@ -436,23 +431,20 @@ ul.breadcrumb li a:hover {
 	max-height: 112px;
 }
 .product-details .small-img .line-small{
-	border: 1px solid black;
-	margin-left: 58px;
-	margin-top: 3px;
-	margin-bottom: 5px;
+	border-style: none none none solid;
+	margin: 5px 60px;
 	padding-bottom: 50px;
 }
 .product-details .product-img{
-	max-width: 100%;
-	margin-left: 50px;
+	width: 80%;
+	padding-left: 25px;
 }
 .product-img img{
-	max-width: 100%;
-	max-height: 508px;
+	display: block;
 }
 .product-img .pagination1 {
 	text-align: center;
-	margin: 10px 30px;
+	padding: 10px 30px;
 }
 .product-img .pagination1 .dot1 {
 	cursor: pointer;
@@ -469,43 +461,37 @@ ul.breadcrumb li a:hover {
 	background-color: #3d3d3d;
 }
 .product-details .content-product{
+	width: 60%;
 	display: flex;
+	padding: 0 0 150px 25px;
 }
 .description{
-	max-width: 200px;
 	padding-right: 320px;
-	margin: 0 0 150px 25px;
-	top: 20px;
 	background: #f1f1f1;
+	padding: 0 25px;
+	width: 100%;
 }
 .description .line-1 {
 	border: 2px black solid;
 	border-style: solid none none none;
-	width: 450px;
-	margin: 20px 0 0 140px;
-	padding-bottom: 20px;
+	width: 100%;
+	margin: 20px 0 0 100px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 31px;
+	font-weight: bold;
 }
  .description .content-1 {
-	margin-left: 10px;
+	padding-top: 20px;
 }
 .description .content-1 p{
 	color: black;
-	width: 300px;
 	line-height: 1.8;
 }
 .options-products{
-	max-width: 350px;
-	margin: 100px 0 0 25px;
-	bottom: 30px;
-	top: 120px;
+	padding: 80px 0 0 25px;
 }
 .options-products .content-products{
-	display: inline-block;
-    width: 100%;
-    position: relative;
-    vertical-align: top;
+	
 }
 .options-products .content-products span{
 	font-weight: bold;
@@ -645,7 +631,7 @@ ul.breadcrumb li a:hover {
     cursor: pointer;
 }
 .options-products .content-products .contact{
-	margin: 24px 0 0 24px;
+	padding: 25px 0 0 25px;
 }
 .options-products .content-products .contact img{
 	display: inline-block;
@@ -656,8 +642,8 @@ ul.breadcrumb li a:hover {
     vertical-align: top;
 }
 .related-product {
-	margin-top: 50px;
-	height: 700px;
+	padding-top: 25px;
+	max-height: 600px;
 }
 .related-product .products{
 	top: -320px;
@@ -692,7 +678,8 @@ ul.breadcrumb li a:hover {
     max-width: 100px;
 }
 .related-product .products .wrapper{
-	margin: 15px 0 0 100px;
+	margin: 50px -50px 0 0;
+	padding-left: 100px;
 }
 .related-product .products .wrapper-function{
 	margin: 0 0 0 100px;
@@ -703,6 +690,7 @@ ul.breadcrumb li a:hover {
 .wrapper-footer{
     background: #565656;
 	padding-top: 80px;
+	margin-top: 50px;
 }
 .wrapper-footer.fixwindow{
 	position: absolute;
@@ -797,7 +785,8 @@ ul.menu-footer{
 	flex-wrap: nowrap;
 }
 .wrapper-header1 .logo{
-    margin: 20px 35% 0px 80px;
+    /*! margin: 20px 35% 0px 80px; */
+    padding: 20px 35% 0px 80px;
 }
 .wrapper-header1 .navigation{
     flex-grow: 1;
