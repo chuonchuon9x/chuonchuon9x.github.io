@@ -441,6 +441,7 @@ ul.breadcrumb li a:hover {
 }
 .product-img img{
 	display: block;
+	width: 100%;
 }
 .product-img .pagination1 {
 	text-align: center;
