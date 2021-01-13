@@ -14,6 +14,11 @@ body{
     width: 1300px;
     min-height: 100%;
 }
+
+.show-sub{
+	display: block;
+}
+
 /* Header */
 .wrapper-header{
     position: fixed;

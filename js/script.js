@@ -28,17 +28,21 @@ function showSlides(n) {
 // End Slide
 
 // Scroll Header
-  window.addEventListener("scroll", function () {
-    var menu = document.getElementsByClassName('wrapper-header');
-    var menu = menu[0];
-    var height = pageYOffset;
-    if (height  > 300){
-      menu.classList.add("bg-header")
-    }
-    else{
-      menu.classList.remove('bg-header');
-    }
+if (document.querySelector("header.wrapper-header1") === null) {
+  document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+      var menu = document.getElementsByClassName("wrapper-header");
+      var menu = menu[0];
+      var height = pageYOffset;
+      if (height  > 300){
+        menu.classList.add("bg-header")
+      }
+      else{
+        menu.classList.remove('bg-header');
+      }
+    })
   })
+}
 // End Scroll Header
 
 //Zoom Footer
@@ -74,3 +78,29 @@ var showMenu = (toggleId, navId)=>{
   }
 }
 showMenu('header-toggle','nav-menu')
+
+
+function myHandle() {
+  document.getElementById("dropdown_menu").classList.toggle("show-sub");
+  document.getElementById("handle-menu").classList.toggle("dropdown_icon")
+}
+
+// Choose color 
+  function color(n) {
+    var chooseColor = document.getElementsByClassName("color-choose");
+    for (var i = 0; i < chooseColor.length; i++){
+    chooseColor[i].classList = chooseColor[i].className.replace(" active", "");
+    }
+    chooseColor[n].className += " active";
+}
+// End choose color
+
+// Choose Size
+function size(n) {
+    var chooseSize = document.getElementsByClassName("size-choose");
+    for (var i = 0; i < chooseSize.length; i++){
+    chooseSize[i].classList = chooseSize[i].className.replace(" active", "");
+    }
+    chooseSize[n].className += " active";
+}
+// End choose size
