@@ -645,7 +645,6 @@ ul.breadcrumb li a:hover {
 }
 .related-product {
 	padding-top: 25px;
-	max-height: 600px;
 }
 .related-product .products{
 	top: -320px;
