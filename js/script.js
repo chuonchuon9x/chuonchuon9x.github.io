@@ -107,16 +107,16 @@ function size(n) {
 // End choose size
 
 // Click menu when click out side
-window.onclick = function(event) {
-  if (!event.target.matches('.header__toggle')) {
-    var menuMobile = document.getElementsByClassName("nav");
-    var i;
-    for (i = 0; i < menuMobile.length; i++) {
-      var showMenuMobile = menuMobile[i];
-      if (showMenuMobile.classList.contains('show')) {
-        showMenuMobile.classList.remove('show');
-      }
-    }
-  }
-}
+  // window.onclick = function(event) {
+  //   if (!event.target.matches('.header__toggle')) {
+  //     var menuMobile = document.getElementsByClassName("nav");
+  //     var i;
+  //     for (i = 0; i < menuMobile.length; i++) {
+  //       var showMenuMobile = menuMobile[i];
+  //       if (showMenuMobile.classList.contains('show')) {
+  //         showMenuMobile.classList.remove('show');
+  //       }
+  //     }
+  //   }
+  // }
 // End Click menu when click out side

@@ -37,7 +37,8 @@ body{
 	padding: 10px 0;
 }
 .wrapper-header .logo{
-    margin-right: 35%;
+	padding-right: 35%;
+	padding-left: 5%;
 }
 .wrapper-header .navigation{
     flex-grow: 1;
@@ -193,10 +194,6 @@ body{
 /* End Banner */
 
 /* Services */
-.services{
-	max-height: 600px;
-	justify-content: space-between;
-}
 .services .line {
 	border-style: none none solid none;
 	width: 30%;

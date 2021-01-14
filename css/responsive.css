@@ -645,7 +645,7 @@
 		}
 		.wrapper-header .header-mobile{
 			display: flex;
-			margin: 10px 0;
+			padding: 10px 10px;
 		}
 		.wrapper-header1 .container{
 			width: 100%;
@@ -917,7 +917,8 @@
 			width: 100%;
 		}
 		.wrapper-banner .banner{
-			width: 310px;
+			width: 100%;
+			padding: 0 10px;
 		}
 		.wrapper-banner .banner .banner-left{
 			margin: 100px 0 0 0;
