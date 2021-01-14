@@ -73,17 +73,18 @@ var showMenu = (toggleId, navId)=>{
   if(toggle && nav){
     toggle.addEventListener('click', ()=>{
       nav.classList.toggle('show')
-      toggle.classList.toggle('bx-x')
     })
   }
 }
 showMenu('header-toggle','nav-menu')
+// End showMenu
 
-
+// showSubMenuMobile
 function myHandle() {
   document.getElementById("dropdown_menu").classList.toggle("show-sub");
   document.getElementById("handle-menu").classList.toggle("dropdown_icon")
 }
+// End showSubMenuMobile
 
 // Choose color 
   function color(n) {
@@ -104,3 +105,18 @@ function size(n) {
     chooseSize[n].className += " active";
 }
 // End choose size
+
+// Click menu when click out side
+window.onclick = function(event) {
+  if (!event.target.matches('.header__toggle')) {
+    var menuMobile = document.getElementsByClassName("nav");
+    var i;
+    for (i = 0; i < menuMobile.length; i++) {
+      var showMenuMobile = menuMobile[i];
+      if (showMenuMobile.classList.contains('show')) {
+        showMenuMobile.classList.remove('show');
+      }
+    }
+  }
+}
+// End Click menu when click out side

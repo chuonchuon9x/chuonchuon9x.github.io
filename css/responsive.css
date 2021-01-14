@@ -795,7 +795,9 @@
 			left: 120px;
 			color: white;
 		  }
-		  
+		  .color-menu{
+			  color: black;
+		  }
 		  .dropdown__menu {
 			margin: 1rem 0 0 1rem;
 			display: none;
