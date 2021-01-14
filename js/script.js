@@ -22,7 +22,7 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "flex";
   dots[slideIndex-1].className += " active";
 }
 // End Slide
@@ -108,7 +108,7 @@ function size(n) {
 
 // Click menu when click out side
   window.addEventListener('click', function(event) {
-    if (!event.target.matches('.header__toggle')) {
+    if (!event.target.matches('.header__toggle') && !event.target.matches('.dropdown__icon')) {
       var menuMobile = document.getElementsByClassName("nav");
       var i;
       for (i = 0; i < menuMobile.length; i++) {
