@@ -654,7 +654,7 @@
 			display: none;
 		}
 		.wrapper-header1 .header-mobile{
-			margin-top: 10px;
+			padding: 10px 10px;
 			display: flex;
 			justify-content: center;
 		}
@@ -845,7 +845,7 @@
 		.product-details .img-product{
 			margin: 0;
 			width: 100%;
-			padding-left: 5px;
+			padding: 0 10px;
 		}
 		.product-details .small-img{
 			max-width: 60px;
@@ -876,7 +876,7 @@
 			width: 100%;
 		}
 		.options-products .content-products{
-			padding-left: 15px;
+			padding: 0 15px;
 		}
 		.options-products .content-products .color-radio ul li{
 			margin: -24px 50px 0 0;
