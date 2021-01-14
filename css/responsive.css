@@ -937,23 +937,20 @@
 			font-size: 30px;
 			max-height: 80px;
 			max-width: 200px;
-			margin: 105px 0 0 95px;
-			/*! left: auto; */
-			/*! top: auto; */
-			/*! bottom: auto; */
-			/*! right: auto; */
+			margin: 105px 0 0 0;
 		}
 		.wrapper-banner .banner .slider{
-			left: -80px;
+			left: 0;
 			margin: 0;
 			top: 0;
 			padding-top: 145px;
+			position: unset;
 		}
 		.wrapper-banner .banner .slider .slide-show img{
 			max-width: 80px;
 		}
 		.wrapper-banner .banner .pagination{
-			margin: 0 0 0 30px;
+			margin: 0;
 		}
 		.wrapper-banner .banner .pagination .dot{
 			width: 10px;
@@ -965,7 +962,10 @@
 			/*! top: -10px; */
 			max-height: 20px;
 			max-width: 80px;
-			padding-top: 140px;
+			/*! padding-top: 140px; */
+			position: unset;
+			/*! margin: auto; */
+			margin-left: 80px;
 		}
 		.wrapper-banner .banner .slider .click img{
 			width: 13px;
@@ -979,8 +979,9 @@
 			max-width: 15px;
 		}
 		.wrapper-banner .banner .slider .slide-show .content{
-			margin: 0 -30px 10px 0;
+			margin: auto;
 			line-height: 0.8;
+			position: unset;
 		}
 		.wrapper-banner .banner .slider .slide-show .content span.text{
 			font-size: 20px;
