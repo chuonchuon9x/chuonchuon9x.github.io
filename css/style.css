@@ -37,8 +37,7 @@ body{
 	padding: 10px 0;
 }
 .wrapper-header .logo{
-	padding-right: 35%;
-	padding-left: 5%;
+    margin-right: 35%;
 }
 .wrapper-header .navigation{
     flex-grow: 1;
@@ -788,7 +787,8 @@ ul.menu-footer{
 	flex-wrap: nowrap;
 }
 .wrapper-header1 .logo{
-    padding: 20px 35% 20px 80px;
+    /*! margin: 20px 35% 0px 80px; */
+    padding: 20px 35% 0px 80px;
 }
 .wrapper-header1 .navigation{
     flex-grow: 1;
