@@ -920,7 +920,7 @@
 		.wrapper-banner .banner{
 			width: 100%;
 			display: flex;
-			justify-content: space-between;
+			justify-content: space-around;
 			padding: 0 10px;
 		}
 		.wrapper-banner .banner .banner-left{
