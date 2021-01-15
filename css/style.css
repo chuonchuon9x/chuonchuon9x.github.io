@@ -361,16 +361,17 @@ body{
 	height: 40px;
 	line-height: 40px;
 	margin-top: 10px;
+	border: 2px solid black;
+	text-align: center;
 }
 .products .btn-details a{
-    display: block;
-	text-align: center;
 	color: black;
-    border: 2px solid black;
     font-size: 18px;
 }
+.products .btn-details:hover{
+	background-color: #3d3d3d;
+}
 .products .btn-details a:hover{
-    background: black;
     color: white;
 }
 .products .show-more{
