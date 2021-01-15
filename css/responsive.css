@@ -864,6 +864,9 @@
 			display: block;
 			width: 100%;
 		}
+		.product-details .product-img  img.slide-show{
+			padding: 0;
+		}
 		.description{
 			width: 100%;
 			padding: 0 15px;
@@ -1036,8 +1039,8 @@
 		}
 		.services .item a.DB p{
 			padding-top: 0;
-			font-size: 12px;
-			line-height: 25px;
+			font-size: 15px;
+			line-height: 22px;
 		}
 		.services .rosara{
 			display: none;
