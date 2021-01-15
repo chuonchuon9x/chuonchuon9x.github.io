@@ -196,15 +196,22 @@ body{
 .services .line {
 	border-style: none none solid none;
 	width: 30%;
-	margin-left: 10%;
+	margin-left: 5%;
 	padding-top: 5%;
 }
 .services .title {
-	padding-left: 15%;
-	padding-top: 5%;
+	/*! padding-left: 15%; */
+	/*! padding-top: 5%; */
+	padding: 5% 15% 0 15%;
 }
 .services .title p {
-	max-width: 200px;
+	color: #000;
+	text-align: left;
+}
+.services .Hot{
+	font-size: 50px;
+	color: #000;
+	text-align: left;
 }
 .services .square1 {
 	background: #cbcbcb;
@@ -228,50 +235,44 @@ body{
     margin: 0.5em;
 }
 .services .item {
-	padding: 1rem;
-	text-align: center;
-	color: #fff;
+	width: 25%;
+	padding: 20px;
 }
 .services .item img{
-	max-width: 600px;
-	max-height: 400px;
+	width: 100%;
+	background-color: #000 transparent;
 }
 .services .wrapper {
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
-	grid-template-rows: 100px 100px 100px;
-	padding-left: 200px;
+	display: flex;
 	position: relative;
 	z-index: 1000;
-}
-.services .wrapper a{
-	border: 3px white solid;
-	margin: 80px 70px 0 70px;
-	padding: 20px 0px 70px 0px;
-	text-align: center;
-	color: white;
-	font-size: 25px;
-	font-weight: bold;
-}
-.services .wrapper a:hover{
-    background: white;
-    color: black;
-}
-.services .wrapper a p{
-	margin-top: 10px;
+	padding: 0;
+	justify-content: center;
+	width: 100%;
 }
 .services .wrapper a.DB{
-	font-size: 27px;
-	line-height: 1;
+	left: 877.5px;
+	padding-top: 20px;
 }
 .services .wrapper a.sales50{
-	margin: -21px 70px 65px 70px;
+	left: 225px;
+	margin: 0;
 }
-.services p{
+.services .item p{
 	font-size: 25px;
+	text-align: center;
+	color: white;
+	position: relative;
+	border: white 2px solid;
+	width: 80%;
+	height: 20%;
+	padding-top: 30px;
+	left: 25px;
+	bottom: 250px;
+	font-weight: bold;
 }
-.services .Hot{
-	font-size: 50px;
+.services .item p:hover{
+	background-color: #3d3d3d;
 }
 .services .bg-service{
 	background: #f0f0f0;
@@ -281,30 +282,30 @@ body{
     left: -35%;
     top: 1000px;
 }
-.services .wrapper .rosara{
+.services .rosara{
     display: flex;
     align-items: center;
     text-align: center;
     transform: rotate(-90deg);
 	text-transform: uppercase;
-    margin: 0 0 0 -600px;
-    position: relative;
-    left: 120px;
-	bottom: 400px;
-	top: -150px;
+	position: relative;
+	z-index: 1000;
+	bottom: 200px;
+	left: 40px;
+	width: 20%;
 }
-.services .wrapper .rosara::after{
+.services .rosara::after{
     content: '';
     flex: 1;
-    margin-left: 1rem;
+    margin-left: 15px;
     height: 2px;
     background-color: #000;
     max-width: 20px;
 }
-.services .wrapper .rosara::before{
+.services .rosara::before{
     content: '';
     flex: 1;
-    margin-right: 1rem;
+    margin-right: 15px;
     height: 2px;
     background-color: #000;
     max-width: 120px;
@@ -314,7 +315,6 @@ body{
 /* Product */
 .products {
 	height: 100%;
-	margin: 300px 0 0 0;
 	position: relative;
 }
 .products .bg-products{
@@ -327,7 +327,7 @@ body{
 .products .line{
 	border-style: none none solid none;
 	width: 35%;
-	margin: 10% 0 2% 35%;
+	margin: 0% 0 2% 35%;
 }
 .products b{
 	font-size: 25px;
@@ -695,7 +695,6 @@ ul.breadcrumb li a:hover {
 }
 .wrapper-footer.fixwindow{
 	position: absolute;
-	bottom: 0;
 	width: 100%;
 }
 .menu-footer{
@@ -745,7 +744,6 @@ ul.menu-footer{
     color: white;
     margin: 23px 0;
     width: 60%;
-    padding-left: 20px;
     font-size: 15px;
 }
 .menu-footer li input.email:active, input{

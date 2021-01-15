@@ -44,7 +44,7 @@
 		max-width: 80%;
 	}
 	.wrapper-header .header .navigation{
-		margin: 10px 50px 0 -200px;
+		margin: 0 0 0 -200px;
 	}
 	.wrapper-header .header .icon{
 		margin: 0;
@@ -200,29 +200,30 @@
 		padding: 55px 0 0 60px;
 	}
 	.services .wrapper{
-		padding: 0 0 0 90px;
+		padding: 0 ;
 	}
 	.services .bg-service{
 		top: 580px;
+		height: 335px;
 	}
-	.services .wrapper a.sales50{
-		margin: -20px 40px 65px 50px;
+	.services .item p{
+		bottom: 200px;
+		padding-top: 20px;
 	}
-	.services .wrapper a{
-		margin: 80px 40px 0 50px;
+	.services .item .DB p{
+		padding-top: 5px;
 	}
 	.services .wrapper .rosara{
 		bottom: 0;
 		top: -120px;
 	}
-	.services .wrapper a.DB{
-		margin: 80px 40px 0 50px;
+	.services .rosara{
+		bottom: 150px;
+		left: 35px;
+		width: 20%;
 	}
 	#wrapper-body .products .container{
 		max-width: 960px;
-	}
-	.products .line{
-		margin: 110px 0 20px 355px;
 	}
 	.products .wrapper{
 		padding: 20px 0 0 20px;
@@ -328,7 +329,7 @@
 		padding: 0;
 	}
 	.wrapper-header .header .navigation{
-		margin: 0 10px 0 -200px;
+		margin: 0 0 0 -200px;
 	}
 	.wrapper-header .header .navigation a{
 		font-size: 13px;
@@ -559,39 +560,45 @@
 		width: 20%;
 		padding-top: 50px;
 	}
+	.services .square3{
+		width: 40px;
+		height: 40px;
+	}
+	.services .square2{
+		width: 40px;
+		height: 40px;
+	}
+	.services .square1{
+		width: 40px;
+		height: 40px;
+	}
 	.services .wrapper{
-		padding-left: 50px;
+		padding-left: 0;
 	}
-	.services .wrapper a{
-		margin: 20px 15px 0 30px;
-		padding-bottom: 74px;
+	.services .item{
+		padding: 10px;
 	}
-	.services .wrapper a.DB{
-		margin: 20px 15px 0 30px;
-		font-size: 25px;
+	.services .item p{
+		bottom: 150px;
+		left: 15px;
+		padding-top: 10px;
 	}
-	.services .wrapper a.sales50{
-		margin: -80px 15px 80px 30px;
+	.services .item .DB p{
+		padding-top: 5px;
+		font-size: 20px;
 	}
-	.services .wrapper .rosara{
-		left: 180px;
-	}
-	.services .wrapper .item img{
-		max-width: 200px;
+	.services .rosara{
+		width: 25%;
+		bottom: 150px;
+		left: 0;
 	}
 	.services .bg-service{
 		bottom: -620px;
 		top: 480px;
-		max-height: 350px;
+		max-height: 220px;
 	}
 	#wrapper-body .products .container{
 		max-width: 720px;
-	}
-	.products{
-		margin-top: 200px;
-	}
-	.products .line{
-		margin: 110px 0 20px 250px;
 	}
 	.products b{
 		padding-left: 40%;
@@ -648,8 +655,8 @@
 		}
 		.wrapper-header .header-mobile{
 			display: flex;
-			margin: 10px 10px;
-			justify-content: space-around;
+			padding: 10px;
+			justify-content: space-between;
 		}
 		.wrapper-header1 .container{
 			width: 100%;
@@ -658,9 +665,9 @@
 			display: none;
 		}
 		.wrapper-header1 .header-mobile{
-			padding: 10px 0;
+			padding: 10px;
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-between;
 		}
 		ul {
 			margin: 0;
@@ -673,11 +680,11 @@
 		}
 		  
 		.bd-grid {
-			max-width: 1024px;
+			/*! max-width: 100%; */
 			display: grid;
-			grid-template-columns: 100%;
-			margin-left: 1.5rem;
-			margin-right: 1.5rem;
+			/*! grid-template-columns: 100%; */
+			/*! margin-left: 1.5rem; */
+			/*! margin-right: 1.5rem; */
 		}
 		  
 		/*===== HEADER =====*/
@@ -701,7 +708,7 @@
 			max-width: 90px;
 		}
 		.wrapper-header1 #header-toggle{
-			margin: 5px 0 0 200px;
+			margin: 10px 0 0 200px;
 		}  
 		.header__toggle {
 			font-size: 1.7rem;
@@ -727,7 +734,7 @@
 			  background-color: gray;
 			  width: 80%;
 			  height: 100vh;
-			  padding: 2rem 0;
+			  padding: 20px;
 			  z-index: 100;
 			  transition: .5s;
 			  overflow-y: auto;
@@ -741,10 +748,10 @@
 		  
 		  .nav__perfil {
 			display: flex;
-			align-items: center;
-			text-align: center;
-			padding-bottom: 3rem;
-			justify-content: end;
+			/*! align-items: center; */
+			/*! text-align: center; */
+			/*! padding: 10px; */
+			justify-content: center;
 		  }
 		  
 		  .nav__img {
@@ -757,10 +764,6 @@
 			margin-right: 20px;
 		  }
 		  
-		  .nav__img img {
-			width: 70px;
-		  }
-		  
 		  .nav__name {
 			display: block;
 			font-size: 1rem;
@@ -768,7 +771,8 @@
 		  }
 		  
 		  .nav__item {
-			padding-bottom: 2rem;
+			/*! padding-bottom: ; */
+			padding: 10px;
 		  }
 		  
 		  .nav__link {
@@ -818,7 +822,7 @@
 			  transform: rotate(-180deg);
 		  }
 		  .nav {
-			width: 180px;
+			width: auto;
 		  }
 		.breadcrumb{
 			padding: 100px 10px 50px 10px;
@@ -993,10 +997,6 @@
 		.wrapper-banner .banner .banner-right{
 			display: none;
 		}
-		.services{
-			width: 320px;
-			margin: auto;
-		}
 		.services .line{
 			width: 20%;
 			padding-top: 30px;
@@ -1025,48 +1025,30 @@
 		.services .bg-service{
 			bottom: 0;
 			top: 370px;
-			max-height: 160px;
+			max-height: 150px;
 		}
 		.services .wrapper{
-			margin: 0;
-			padding-left: 0;
-			max-height: 200px;
 			width: 100%;
 		}
-		.services .wrapper a{
-			margin: -35px 0 300px 20px;
-			padding: 0 0 35px 0;
-			border: 2px solid white;
+		.services .item{
+			width: 33.3%;
+			padding: 5px;
 		}
-		.services .wrapper a.DB{
-			margin: -35px 0 300px 20px;
-			padding: 5px 0 30px 0;
+		.services .item p{
+			bottom: 100px;
+			left: 10px;
+			padding-top: 10px;
+			font-size: 15px;
+		}
+		.services .item .DB p{
+			padding-top: 0;
 			font-size: 12px;
-			border: 2px solid white;
 		}
-		.services .wrapper a.sales50{
-			margin: -135px 0 300px 20px;
-			padding: 0px 0 35px 0;
-			border: 2px solid white;
-		}
-		.services .wrapper .item img{
-			width: 130%;
-		}
-		.services .wrapper .rosara{
-			left: 250px;
-			bottom: 0px;
-			top: -320px;
-			font-size: 10px;
-			margin: 0 0 0 -590px;
-		}
-		.services .wrapper .rosara::after {
-			max-width: 10px;
-		}
-		.services .wrapper .rosara::before {
-			max-width: 30px;
-		}
-		.products{
-			margin-top: 50px;
+		.services .rosara{
+			display: none;
+			width: 35%;
+			font-size: 11px;
+			margin: -80px 0 0 -68px;
 		}
 		#wrapper-body .products .container{
 			width: 100%;
@@ -1084,7 +1066,7 @@
 			font-size: 15px;
 		}
 		.products .wrapper{
-			padding: 20px 0 0 5px;
+			padding: 20px 0;
 			grid-template-columns: 50% 50%;
 		}
 		.products .wrapper .item{
@@ -1096,9 +1078,6 @@
 		.products .btn-details{
 			padding: 0 20px 0 15px;
 			margin-bottom: 20px;
-		}
-		.products .btn-details a{
-			padding: 0px 16px;
 		}
 		.products .bg-products{
 			top: 50px;
