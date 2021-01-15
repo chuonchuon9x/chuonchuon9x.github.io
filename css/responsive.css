@@ -923,7 +923,6 @@
 		.wrapper-banner .banner .banner-left{
 			margin: 0px;
 			padding: 100px 0 0 0;
-			/*! width: 30%; */
 			width: 40%;
 		}
 		.wrapper-banner .banner .banner-left img{
@@ -936,7 +935,6 @@
 			max-height: 80px;
 			max-width: 200px;
 			margin: 105px 0 0 0;
-			/*! width: ; */
 		}
 		.wrapper-banner .banner .slider{
 			left: 0;
@@ -944,7 +942,7 @@
 			top: 0;
 			padding-top: 145px;
 			position: unset;
-			width: 40%;
+			width: 50%;
 		}
 		.wrapper-banner .banner .slider .slide-show img{
 			width: 50%;
