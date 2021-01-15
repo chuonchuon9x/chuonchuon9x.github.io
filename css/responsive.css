@@ -375,9 +375,6 @@
 		font-size: 31px;
 		margin: 10px 0 20px 150px;
 	}
-	.wrapper-body .product-details .description .content-1{
-		margin: -30px 0 0 10px;
-	}
 	.wrapper-body .product-details .description .content-1 p{
 		line-height: 1.5;
 	}
@@ -394,7 +391,7 @@
 		width: 100%;
 	}
 	.wrapper-body .product-details .options-products{
-		padding: 65px 0 0 15px;
+		padding: 95px 0 0 15px;
 		width: 50%;
 	}
 	.wrapper-body .product-details .options-products .content-products p span{
