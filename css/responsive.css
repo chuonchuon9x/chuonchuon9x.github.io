@@ -955,16 +955,14 @@
 			width: 10px;
 			height: 10px;
 		}
+		.slide-show{
+			padding-top: 50px;
+		}
 		.wrapper-banner .banner .slider .click{
-			/*! left: 100px; */
-			/*! right: -75px; */
-			/*! top: -10px; */
-			max-height: 20px;
-			max-width: 80px;
-			/*! padding-top: 140px; */
-			position: unset;
-			/*! margin: auto; */
-			margin-left: 80px;
+			margin-left: 50px;
+			margin-top: 25px;
+			right: auto;
+			bottom: auto;
 		}
 		.wrapper-banner .banner .slider .click img{
 			width: 13px;
