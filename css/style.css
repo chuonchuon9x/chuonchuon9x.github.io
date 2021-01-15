@@ -733,7 +733,8 @@ ul.menu-footer{
     font-size: 27px;
 }
 .menu-footer li p{
-    margin-bottom: 17px;
+	margin-bottom: 17px;
+	text-align: justify;
 }
 .menu-footer li p#connect{
 	max-width: 280px;
@@ -786,8 +787,7 @@ ul.menu-footer{
 	flex-wrap: nowrap;
 }
 .wrapper-header1 .logo{
-    /*! margin: 20px 35% 0px 80px; */
-    padding: 20px 35% 0px 80px;
+    padding: 10px 35% 10px 80px;
 }
 .wrapper-header1 .navigation{
     flex-grow: 1;

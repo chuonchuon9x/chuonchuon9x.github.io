@@ -50,7 +50,7 @@
 		margin: 0;
 	}
 	.wrapper-header1 .navigation{
-		margin: 20px 0 0 -200px;
+		margin: 10px 0 0 -200px;
 	}
 	.wrapper-header1 .navigation ul li a{
 		padding: 10px 0 0 0;
@@ -313,7 +313,7 @@
 		max-width: 100%;
 	}
 	.wrapper-header1 .navigation{
-		margin: 0 -20px 0 100px;
+		margin: -5px -20px 0 100px;
 	}
 	.wrapper-header1 .navigation ul{
 		margin: 10px 0 0 0;
@@ -1092,7 +1092,7 @@
 		}
 		.wrapper-footer .container{
 			width: 100%;
-			padding: 0 20px;
+			padding: 0 10px;
 		}
 		.wrapper-footer ul.menu-footer{
 			margin: 0 0 20px 0;
