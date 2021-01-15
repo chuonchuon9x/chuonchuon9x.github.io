@@ -959,10 +959,12 @@
 			padding-top: 50px;
 		}
 		.wrapper-banner .banner .slider .click{
-			margin-left: 50px;
-			margin-top: 25px;
+			max-height: 20px;
+			max-width: 80px;
 			right: auto;
 			bottom: auto;
+			margin-left: 50px;
+			margin-top: 25px;
 		}
 		.wrapper-banner .banner .slider .click img{
 			width: 13px;
