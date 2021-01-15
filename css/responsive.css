@@ -923,9 +923,10 @@
 			margin: 0px;
 			padding: 100px 0 0 0;
 			/*! width: 30%; */
+			width: 40%;
 		}
 		.wrapper-banner .banner .banner-left img{
-			max-width: 100px;
+			width: 100%;
 			margin: 0 0 0 0;
 			left: 0;
 		}
@@ -934,6 +935,7 @@
 			max-height: 80px;
 			max-width: 200px;
 			margin: 105px 0 0 0;
+			/*! width: ; */
 		}
 		.wrapper-banner .banner .slider{
 			left: 0;
@@ -941,9 +943,10 @@
 			top: 0;
 			padding-top: 145px;
 			position: unset;
+			width: 40%;
 		}
 		.wrapper-banner .banner .slider .slide-show img{
-			max-width: 80px;
+			width: 50%;
 		}
 		.wrapper-banner .banner .pagination{
 			margin: 0;
