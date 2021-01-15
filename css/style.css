@@ -385,8 +385,9 @@ body{
 }
 .products .show-more a{
 	color: white;
+	font-size: 18px;
 }
-.products .show-more a:hover{
+.products .show-more:hover{
     background: gray;
     color: black;
 }
