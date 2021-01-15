@@ -36,6 +36,12 @@ body{
 	flex-wrap: nowrap;
 	padding: 10px 0;
 }
+.wrapper-header .header-mobile{
+	display: none;
+}
+.wrapper-header1 .header-mobile{
+	display: none;
+}
 .wrapper-header .logo{
     margin-right: 35%;
 }
