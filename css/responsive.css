@@ -946,6 +946,7 @@
 		}
 		.wrapper-banner .banner .slider .slide-show img{
 			width: 50%;
+			height: auto;
 		}
 		.wrapper-banner .banner .pagination{
 			margin: 0;

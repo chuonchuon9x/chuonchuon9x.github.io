@@ -138,8 +138,8 @@ body{
 	display: none;
 }
 .slide-show img{
-	max-width: 264px;
-	max-height: 264px;
+	width: 264px;
+	height: 264px;
 }
 .click {
 	position: absolute;
