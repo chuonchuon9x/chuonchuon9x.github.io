@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="images/logoproduct1.png">
@@ -9,167 +10,166 @@
     <link type="text/css" rel="stylesheet" href="css/responsive.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <!-- Header -->
-        <header class="wrapper-header">
-            <div class="container">
-                <div class="header">
-                    <div class="logo">
-                        <a href="home.html">
-                            <img src="images/logodemo.png" alt="">
-                        </a>
-                    </div>
-                    <!-- <a class="icon-navi" onclick="showMenu()"><img src="images/menu1.png" alt=""></a> -->
-                    <div class="navigation" id="myNav">
-                        <ul>
-                            <li>
-                                <a href="">Hàng mới về</a>
-                            </li>
-                            <li>
-                                <a href="product_details.html">Sản phẩm</a>
-                                <div class="sub-navi">
-                                    <ul>
-                                        <li><a href="">Áo</a></li>
-                                        <li><a href="">Quần</a></li>
-                                        <li><a href="">Váy</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="">Sản phẩm bán chạy</a></li>
-                            <li><a href="">Tin tức</a></li>
-                            <li><a href="">Sản phẩm sale</a></li>
-                            <div class="icon">
-                                <li><a href=""><img src="images/logo1.png" alt=""></a></li>
-                                <li><a href=""><img src="images/logo2.png" alt=""></a></li>
-                                <li><a href=""><img src="images/logo3.png" alt=""></a></li>
-                            </div>
-                        </ul>
-                    </div>
+    <header class="wrapper-header">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="home.html">
+                        <img src="images/logodemo.png" alt="">
+                    </a>
                 </div>
-                <header class="header-mobile">
-                    <a href="home.html" class="header__logo"><img src="images/logodemo.png" alt=""></a>
-        
-                    <i class='bx bx-menu header__toggle' id="header-toggle"></i>
-        
-                    <nav class="nav" id="nav-menu">
-                        <div class="nav__content bd-grid">
-                            <div href="" class="nav__perfil">
-                                <a href="#" class="nav__img">
-                                    <img src="images/logo1.png" alt="">
-                                </a>
-                                <a href="#" class="nav__img">
-                                    <img src="images/logo2.png" alt="">
-                                </a>
-                                <a href="#" class="nav__img">
-                                    <img src="images/logo3.png" alt="">
-                                </a>
-                            </div>
-            
-                            <div class="nav__menu">
-                                <ul class="nav__list">
-                                    <li class="nav__item"><a href="#" class="nav__link">Hàng mới về</a></li>
-            
-                                    <li class="nav__item dropdown">
-                                        <i id="handle-menu" onclick="myHandle()" class='bx bx-chevron-down dropdown__icon'></i>
-                                        <a href="product_details.html" class="nav__link dropdown__link">Sản phẩm</a>
-                                            
-                                        <ul class="dropdown__menu" id="dropdown_menu">
-                                            <li class="dropdown__item"><a href="product_details.html" class="nav__link">Áo </a></li>
-                                            <li class="dropdown__item"><a href="product_details.html" class="nav__link">Quần </a></li>
-                                            <li class="dropdown__item"><a href="product_details.html" class="nav__link">Váy </a></li>
-                                        </ul>
-                                    </li>
-            
-                                    <li class="nav__item"><a href="#" class="nav__link">Sản phẩm bán chạy</a></li>
-        
-                                    <li class="nav__item"><a href="#" class="nav__link">Tin tức</a></li>
-                                    <li class="nav__item"><a href="#" class="nav__link">Sản phẩm sale</a></li>
+                <!-- <a class="icon-navi" onclick="showMenu()"><img src="images/menu1.png" alt=""></a> -->
+                <div class="navigation" id="myNav">
+                    <ul>
+                        <li>
+                            <a href="">Hàng mới về</a>
+                        </li>
+                        <li>
+                            <a href="product_details.html">Sản phẩm</a>
+                            <div class="sub-navi">
+                                <ul>
+                                    <li><a href="">Áo</a></li>
+                                    <li><a href="">Quần</a></li>
+                                    <li><a href="">Váy</a></li>
                                 </ul>
                             </div>
+                        </li>
+                        <li><a href="">Sản phẩm bán chạy</a></li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="">Sản phẩm sale</a></li>
+                        <div class="icon">
+                            <li><a href=""><img src="images/logo1.png" alt=""></a></li>
+                            <li><a href=""><img src="images/logo2.png" alt=""></a></li>
+                            <li><a href=""><img src="images/logo3.png" alt=""></a></li>
                         </div>
-                    </nav>
-                </header>
-            </div>
-        </header>
-    <!-- End header -->
-    
-    <!-- Banner -->
-        <div class="wrapper-banner">
-            <div class="container">  
-                <div class="banner">
-                    <section class="banner-left">
-                        <img src="images/anhbanner.png" alt="">
-                    </section>
-                    <p class="sale">Best 50</p>
-                    <section class="slider">
-                        <div class="click">
-                            <div href="" class="prev" onclick="plusSlides(-1)"><img src="images/pre.png" alt=""></div>
-                            <div href="" class="next" onclick="plusSlides(1)"><img src="images/next.png" alt=""></div>
-                        </div>
-                        <div class="slide-show">
-                            <img src="images/anhbanner1.png" alt="">
-                            <div class="content">
-                                <h3><span class="text">Next</span></h3><br>
-                                <span class="size">Áo Dài: M 2 5 8</span><br>
-                                <span class="size">Chân váy: M 2 5 9</span>
-                            </div>
-                        </div>
-                        <div class="slide-show">
-                            <img src="images/anhbanner1.png" alt="">
-                            <div class="content">
-                                <h3><span class="text">Next</span></h3><br>
-                                <span class="size">Áo Dài: M 8 8 8</span><br>
-                                <span class="size">Chân váy: M 9 9 9</span>
-                            </div>
-                        </div>
-                        <div class="pagination">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                        </div>
-                    </section>
-                    <section class="banner-right"> 
-                        <img src="images/anhbanner2.png" alt="">
-                    </section>
+                    </ul>
                 </div>
             </div>
+            <header class="header-mobile">
+                <a href="home.html" class="header__logo"><img src="images/logodemo.png" alt=""></a>
+
+                <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+                <nav class="nav" id="nav-menu">
+                    <div class="nav__content bd-grid">
+                        <div href="" class="nav__perfil">
+                            <a href="#" class="nav__img">
+                                <img src="images/logo1.png" alt="">
+                            </a>
+                            <a href="#" class="nav__img">
+                                <img src="images/logo2.png" alt="">
+                            </a>
+                            <a href="#" class="nav__img">
+                                <img src="images/logo3.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="nav__menu">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="#" class="nav__link">Hàng mới về</a></li>
+
+                                <li class="nav__item dropdown">
+                                    <i id="handle-menu" onclick="myHandle()"
+                                        class='bx bx-chevron-down dropdown__icon'></i>
+                                    <a href="product_details.html" class="nav__link dropdown__link">Sản phẩm</a>
+
+                                    <ul class="dropdown__menu" id="dropdown_menu">
+                                        <li class="dropdown__item"><a href="product_details.html" class="nav__link">Áo
+                                            </a></li>
+                                        <li class="dropdown__item"><a href="product_details.html" class="nav__link">Quần
+                                            </a></li>
+                                        <li class="dropdown__item"><a href="product_details.html" class="nav__link">Váy
+                                            </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav__item"><a href="#" class="nav__link">Sản phẩm bán chạy</a></li>
+
+                                <li class="nav__item"><a href="#" class="nav__link">Tin tức</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Sản phẩm sale</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
         </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Banner -->
+    <div class="wrapper-banner">
+        <div class="container">
+            <div class="banner">
+                <section class="banner-left">
+                    <img src="images/anhbanner.png" alt="">
+                </section>
+                <p class="sale">Best 50</p>
+                <section class="slider">
+                    <div class="click">
+                        <div href="" class="prev" onclick="plusSlides(-1)"><img src="images/pre.png" alt=""></div>
+                        <div href="" class="next" onclick="plusSlides(1)"><img src="images/next.png" alt=""></div>
+                    </div>
+                    <div class="slide-show">
+                        <img src="images/anhbanner1.png" alt="">
+                        <div class="content">
+                            <h3><span class="text">Next</span></h3><br>
+                            <span class="size">Áo Dài: M 2 5 8</span><br>
+                            <span class="size">Chân váy: M 2 5 9</span>
+                        </div>
+                    </div>
+                    <div class="slide-show">
+                        <img src="images/anhbanner1.png" alt="">
+                        <div class="content">
+                            <h3><span class="text">Next</span></h3><br>
+                            <span class="size">Áo Dài: M 8 8 8</span><br>
+                            <span class="size">Chân váy: M 9 9 9</span>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>
+                </section>
+                <section class="banner-right">
+                    <img src="images/anhbanner2.png" alt="">
+                </section>
+            </div>
+        </div>
+    </div>
     <!-- End Banner -->
 
-    <!-- Services -->  
+    <!-- Services -->
     <div id="wrapper-body" class="wrapper-body">
         <div class="container">
             <div class="services">
-                <div class="line"></div> 
-                    <div class="title">
-                        <div class="square1"></div>
-                        <div class="square2"></div>
-                        <div class="square3"></div>
-                        <p class="Hot">HOT</p>
-                        <p>Ưu đãi mỗi tuần</p>
+                <div class="line"></div>
+                <div class="title">
+                    <div class="square1"></div>
+                    <div class="square2"></div>
+                    <div class="square3"></div>
+                    <p class="Hot">HOT</p>
+                    <p>Ưu đãi mỗi tuần</p>
+                </div>
+                <div class="wrapper">
+                    <div class="rosara">rosara.vn</div>
+                    <a href="#" class="item">
+                        <img id="img" src="images/product1.png" alt="">
+                        <p>Sales 50%</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img id="img" src="images/product2.png" alt="">
+                        <p>FreeShip</p>
+                    </a>
+                    <a href="#" class="item DB">
+                        <img id="img" src="images/product3.png" alt="">
+                        <p>Chương trình tháng</p>
+                    </a>
+                    <div class="bg-service">
                     </div>
-                    <div class="wrapper">
-                        <div class="rosara">rosara.vn</div>  
-                        <div class="item">
-                            <a href="" class="sales50">
-                                <img id="img" src="images/product1.png" alt="">
-                                <p>Sales 50%</p> 
-                            </a>   
-                        </div>
-                        <div class="item">
-                            <a href="">
-                                <img id="img" src="images/product2.png" alt="">
-                                <p>FreeShip</p> 
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="" class="DB">
-                                <img id="img" src="images/product3.png" alt="">
-                                <p>Chương trình tháng</p>
-                            </a> 
-                        </div>
-                        <div class="bg-service">
-                    </div>
-                    </div>
+                </div>
             </div>
         </div>
 
@@ -178,90 +178,99 @@
                 <div class="line"></div>
                 <b>
                     Top sản phẩm hot
-                </b> 
+                </b>
                 <div class="wrapper">
                     <div class="item">
-                        <a href=""><img src="images/product4.png" alt=""></a>
-                        <div class="btn-details"><a href="">Chi tiết</a></div>
+                        <a href="#" class="item"><img src="images/product4.png" alt=""></a>
+                        <a href="#">
+                            <div class="btn-details">Chi tiết</div>
+                        </a>
                     </div>
                     <div class="item">
-                        <a href=""><img src="images/product5.png" alt=""></a>
-                        <div class="btn-details"><a href="">Chi tiết</a></div>
+                        <a href="#"><img src="images/product5.png" alt=""></a>
+                        <a href="#">
+                            <div class="btn-details">Chi tiết</div>
+                        </a>
                     </div>
                     <div class="item">
-                        <a href=""><img src="images/product6.png" alt=""></a>
-                        <div class="btn-details"><a href="">Chi tiết</a></div>
+                        <a href="#"><img src="images/product6.png" alt=""></a>
+                        <a href="#">
+                            <div class="btn-details">Chi tiết</div>
+                        </a>
                     </div>
                     <div class="item">
-                        <a href=""><img src="images/product7.png" alt=""></a>
-                        <div class="btn-details"><a href="">Chi tiết</a></div>
+                        <a href="#"><img src="images/product7.png" alt=""></a>
+                        <a href="#">
+                            <div class="btn-details">Chi tiết</div>
+                        </a>
                     </div>
-                    <div class="show-more">
-                        <a href="">Xem thêm</a>
-                    </div>
+                    <a href="#">
+                        <div class="show-more">Xem thêm</div>
+                    </a>
                     <div class="bg-products"></div>
-                </div> 
-            </div> 
+                </div>
+            </div>
         </div>
     </div>
     <!-- End Services -->
     <!-- Products -->
-        
+
     <!-- End Products -->
     <!-- Footer -->
-        <footer class="wrapper-footer" id="wrapper-footer">
-            <section class="container">
-                <ul class="menu-footer">
-                    <li id="TDB">
-                        <h3>Giới thiệu</h3>
-                        <p>
-                            ROSARA là thương hiệu thời trang thiết kế độc quyền
-                            dành cho những người phụ nữ trẻ tự tin, yêu thích sự đơn giản, sống sâu
-                            sắc và trân trọng giá trị bản thân.
-                        </p>
-                        <p>
-                            Với các sản phẩm được thai nghén từ đội ngũ thiết kế trẻ
-                            có gout thời trang tinh tế, nắm bắt xu hướng nhanh nhạy, với
-                            nguồn nguyên phụ liệu được kiểm soát chặt chẽ cùng quy trình
-                            kiểm định chất lượng nghiêm ngặt, chúng tôi tự tin mang đến
-                            cho khách hàng những sản phẩm có chất lượng cao và giá
-                            thành tốt nhất.
-                        </p>
-                    </li>
-                    <li>
-                        <h3>Hỗ trợ</h3>
-                        <a href="" class="service">Câu hỏi thường găp</a>
-                        <a href="" class="service">Chính sách bảo mật thông tin</a>
-                        <a href="" class="service">Cách thức mua hàng</a>
-                        <a href="" class="service">Thanh toán</a>
-                        <a href="" class="service">Vận chuyển</a>
-                        <a href="" class="service">Quy định trả hàng</a>
-                        <a href="" class="service">Hướng dẫn chọn size</a>
-                    </li>
-                    <li>
-                        <h3>Đăng ký nhận tin</h3>
-                        <form action="#" method="post">
-                            <input type="email" class="email" placeholder="Nhập email của bạn">
-                        </form>
-                        <p>Hãy nhập email của bạn vào đây để nhận tin!</p>
-                        <p id="connect">Kết nối ngay với ROSARA
-                            <img src="images/fb.png" alt="">
-                            <img src="images/yt.png" alt="">
-                            <img src="images/insta.png" alt="">
-                        </p>
-                    </li>
-                </ul>
-            </section>
-            <section class="copyright">
-                <div>
-                    <p>&copy; Copyright Rosara Việt Nam - Thế giới thời trang nữ.</p>
-                </div>
-            </section>
-        </footer>
+    <footer class="wrapper-footer" id="wrapper-footer">
+        <section class="container">
+            <ul class="menu-footer">
+                <li id="TDB">
+                    <h3>Giới thiệu</h3>
+                    <p>
+                        ROSARA là thương hiệu thời trang thiết kế độc quyền
+                        dành cho những người phụ nữ trẻ tự tin, yêu thích sự đơn giản, sống sâu
+                        sắc và trân trọng giá trị bản thân.
+                    </p>
+                    <p>
+                        Với các sản phẩm được thai nghén từ đội ngũ thiết kế trẻ
+                        có gout thời trang tinh tế, nắm bắt xu hướng nhanh nhạy, với
+                        nguồn nguyên phụ liệu được kiểm soát chặt chẽ cùng quy trình
+                        kiểm định chất lượng nghiêm ngặt, chúng tôi tự tin mang đến
+                        cho khách hàng những sản phẩm có chất lượng cao và giá
+                        thành tốt nhất.
+                    </p>
+                </li>
+                <li>
+                    <h3>Hỗ trợ</h3>
+                    <a href="" class="service">Câu hỏi thường găp</a>
+                    <a href="" class="service">Chính sách bảo mật thông tin</a>
+                    <a href="" class="service">Cách thức mua hàng</a>
+                    <a href="" class="service">Thanh toán</a>
+                    <a href="" class="service">Vận chuyển</a>
+                    <a href="" class="service">Quy định trả hàng</a>
+                    <a href="" class="service">Hướng dẫn chọn size</a>
+                </li>
+                <li>
+                    <h3>Đăng ký nhận tin</h3>
+                    <form action="#" method="post">
+                        <input type="email" class="email" placeholder="Nhập email của bạn">
+                    </form>
+                    <p>Hãy nhập email của bạn vào đây để nhận tin!</p>
+                    <p id="connect">Kết nối ngay với ROSARA
+                        <img src="images/fb.png" alt="">
+                        <img src="images/yt.png" alt="">
+                        <img src="images/insta.png" alt="">
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="copyright">
+            <div>
+                <p>&copy; Copyright Rosara Việt Nam - Thế giới thời trang nữ.</p>
+            </div>
+        </section>
+    </footer>
     <!-- End footer -->
-<!-- Script -->
+    <!-- Script -->
     <script src="js/script.js">
     </script>
-<!-- End Script -->
+    <!-- End Script -->
 </body>
+
 </html>
