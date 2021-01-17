@@ -657,6 +657,7 @@
     .container {
         width: 100%;
         padding: 0 10px;
+        overflow: hidden;
     }
     .wrapper-header {
         width: 100%;
@@ -669,9 +670,6 @@
         display: flex;
         padding: 10px 0;
         justify-content: space-between;
-    }
-    .wrapper-header1 .container {
-        width: 100%;
     }
     .wrapper-header1 .header-product {
         display: none;
@@ -869,8 +867,9 @@
     .description .line-1 {
         font-size: 30px;
         font-weight: bold;
-        margin: 25px 0;
+        margin: 25px 10px;
         padding: 0 10px;
+        width: 95%;
     }
     .description .content-1 {
         padding: 0;
@@ -1053,7 +1052,7 @@
     }
     .services .wrapper a.DB p {
         padding-top: 0;
-        font-size: 16px;
+        font-size: 13px;
         line-height: 20px;
     }
     .services .rosara {
