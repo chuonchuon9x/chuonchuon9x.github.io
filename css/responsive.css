@@ -79,14 +79,14 @@
         justify-content: center;
     }
     .product-details .small-img {
-        padding: 50px 0 0 0;
-        width: 10%;
+        padding: 80px 0 0 0;
+        width: 15%;
     }
     .product-details .small-img img {
-        max-width: 80px;
+        max-width: 100%;
     }
     .product-details .small-img .line-small {
-        margin: 5px 40px;
+        margin: 5px 60px;
     }
     .product-details .product-img {
         padding-left: 15px;
@@ -106,6 +106,12 @@
     .product-details .options-products {
         padding: 65px 0 0 15px;
         width: 40%;
+    }
+    .options-products .content-products .coupon input {
+        width: 100%;
+    }
+    .options-products .content-products .coupon button {
+        width: 70%;
     }
     .product-details .content-product {
         padding: 0;
@@ -364,19 +370,19 @@
         flex-direction: column;
     }
     .wrapper-body .product-details .small-img {
-        margin: 30px 0 0 0;
+        margin: 50px 0 0 0;
         padding: 0;
-        width: 10%;
     }
     .wrapper-body .product-details .small-img img {
-        max-width: 70px;
+        width: 100%;
+        height: auto;
     }
     .wrapper-body .product-details .small-img .line-small {
-        margin: 5px 35px;
+        margin: 5px 60px;
     }
     .wrapper-body .product-details .product-img {
-        padding-left: 15;
-        width: 40%;
+        padding-left: 0;
+        width: 50%;
     }
     .wrapper-body .product-details .description {
         width: 50%;
@@ -384,7 +390,7 @@
     .wrapper-body .product-details .description .line-1 {
         width: 100%;
         font-size: 31px;
-        margin: 10px 0 20px 150px;
+        margin: 10px 0 0 150px;
     }
     .wrapper-body .product-details .description .content-1 p {
         line-height: 1.5;
@@ -396,13 +402,13 @@
     .product-details .content-product {
         width: 100%;
         justify-content: center;
-        padding: 0 0 0 25px;
+        padding: 0;
     }
     .wrapper-body .product-details .product-img img {
         width: 100%;
     }
     .wrapper-body .product-details .options-products {
-        padding: 95px 0 0 15px;
+        padding: 80px 0 0 15px;
         width: 50%;
     }
     .wrapper-body .product-details .options-products .content-products p span {
@@ -451,28 +457,24 @@
         max-height: 50px;
     }
     .wrapper-body .options-products .content-products .cart .cart-form button {
-        font-size: 10px;
         margin: 20px 0 0 0;
         padding: 7px 10px 10px 10px;
     }
+    .options-products .content-products .coupon input {
+        width: 100%;
+    }
     .wrapper-body .options-products .content-products .coupon button {
-        width: 50%;
-        margin: 10px 0 10px 40px;
-        background: no-repeat;
+        width: 70%;
         border: 1px solid #9e0b0f;
         color: #9e0b0f;
-        font-size: 15px;
-        padding: 5px 0;
-        transition: all .2s ease-in;
-        cursor: pointer;
-        max-height: 40px;
     }
     .wrapper-body .options-products .content-products .contact {
         margin: 5px 0 0 5px;
     }
     .wrapper-body .related-product .products-line {
-        left: 50px;
+        left: 0;
         margin-bottom: 50px;
+        width: 100%;
     }
     .wrapper-body .related-product {
         height: 450px;
@@ -532,7 +534,7 @@
         max-width: 80px;
     }
     .wrapper-banner .banner .slider .prev {
-        margin-right: 0px;
+        margin-right: 10px;
         max-width: 15px;
     }
     .wrapper-banner .banner .slider .click .next {
@@ -586,8 +588,8 @@
         padding-left: 0;
     }
     .services .item {
-        padding: 10px;
-        right: 70px;
+        padding: 5px;
+        right: 75px;
     }
     .services .item p {
         bottom: 150px;
@@ -616,7 +618,7 @@
     }
     .products .wrapper .item {
         padding: 0;
-        width: 90%;
+        width: 95%;
     }
     .products .wrapper .item img {
         width: 100%;
@@ -634,7 +636,7 @@
     }
     .wrapper-footer {
         width: 100%;
-        margin-top: 50px;
+        padding-top: 50px;
     }
     .wrapper-footer ul.menu-footer {
         padding: 0 0 0 0;
@@ -850,15 +852,14 @@
         justify-content: center;
     }
     .product-details .small-img {
-        max-width: 60px;
         padding: 50px 0 0 0;
         margin: 0;
     }
     .product-details .small-img img {
-        max-width: 60px;
+        width: 100%;
     }
     .product-details .small-img .line-small {
-        margin: 5px 30px;
+        margin: 5px 40px;
     }
     .product-img img {
         display: block;
@@ -1009,7 +1010,6 @@
         margin: auto;
         line-height: 0.8;
         position: unset;
-        width: auto;
     }
     .wrapper-banner .banner .slider .slide-show .content span.text {
         font-size: 20px;
@@ -1057,7 +1057,7 @@
     .services .item p {
         bottom: 100px;
         left: 10px;
-        font-size: 16px;
+        font-size: 15px;
         height: 50px;
         line-height: 50px;
         background-color: black;
