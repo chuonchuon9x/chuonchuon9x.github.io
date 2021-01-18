@@ -972,7 +972,7 @@
         height: 50%;
     }
     .wrapper-banner .banner .slider .slide-show img {
-        width: 50%;
+        width: 40%;
         height: 50%;
     }
     .wrapper-banner .banner .pagination {
@@ -1006,7 +1006,7 @@
         max-width: 15px;
     }
     .wrapper-banner .banner .slider .slide-show .content {
-        margin: auto;
+        margin: 0;
         line-height: 0.8;
         position: unset;
         width: 50%;
