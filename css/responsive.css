@@ -969,10 +969,11 @@
         padding-top: 145px;
         position: unset;
         width: 50%;
+        height: 50%;
     }
     .wrapper-banner .banner .slider .slide-show img {
         width: 50%;
-        height: 98.5px;
+        height: 50%;
     }
     .wrapper-banner .banner .pagination {
         margin: 0;
