@@ -80,7 +80,7 @@ showMenu('header-toggle', 'nav-menu')
 // showSubMenuMobile
 function myHandle() {
     document.getElementById("dropdown_menu").classList.toggle("show-sub");
-    document.getElementById("handle-menu").classList.toggle("dropdown_icon")
+    document.getElementById("handle-menu").classList.toggle("dropdown_icon");
 }
 // End showSubMenuMobile
 

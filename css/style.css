@@ -47,6 +47,14 @@ body {
     display: none;
 }
 
+.wrapper-header .dropdown__icon {
+    display: none;
+}
+
+.wrapper-header1 .dropdown__icon {
+    display: none;
+}
+
 .wrapper-header1 .header-mobile {
     display: none;
 }

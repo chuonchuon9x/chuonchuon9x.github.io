@@ -297,9 +297,148 @@
     }
     .wrapper-header .header {
         width: 720px;
+        display: none;
     }
     .wrapper-header .header-mobile {
+        display: flex;
+        padding: 10px 0;
+        justify-content: space-between;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bd-grid {
+        /*! max-width: 100%; */
+        display: grid;
+        /*! grid-template-columns: 100%; */
+        /*! margin-left: 1.5rem; */
+        /*! margin-right: 1.5rem; */
+    }
+    /*===== HEADER =====*/
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 15px 0 15px;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .header__logo {
+        color: #0E1026;
+    }
+    .header__logo img {
+        max-width: 90px;
+    }
+    .wrapper-header1 #header-toggle {
+        margin: 10px 0 0 200px;
+    }
+    .wrapper-header .dropdown__icon {
+        display: block;
+    }
+    .wrapper-header1 .dropdown__icon {
+        display: block;
+    }
+    .header__toggle {
+        font-size: 1.7rem;
+        margin: 15px 0 0 180px;
+        cursor: pointer;
+        color: #ffffff;
+    }
+    .color-menu {
+        color: black;
+    }
+    .header__togglee {
+        font-size: 1.7rem;
+        margin-left: 150px;
+        cursor: pointer;
+    }
+    /*===== NAV =====*/
+    .nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: gray;
+        width: 80%;
+        height: 100vh;
+        padding: 15px;
+        z-index: 100;
+        transition: .5s;
+        overflow-y: auto;
+    }
+    .nav__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__perfil {
+        display: flex;
+        justify-content: center;
+    }
+    .nav__img {
+        display: flex;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        margin-right: 20px;
+    }
+    .nav__name {
+        display: block;
+        font-size: 1rem;
+        color: #FBFBFB;
+    }
+    .nav__item {
+        padding: 10px 0;
+    }
+    .nav__link {
+        color: #ffffff;
+    }
+    /*Show menu*/
+    .show {
+        left: 0;
+    }
+    /*Active link*/
+    .active {
+        color: #FBFBFB;
+    }
+    /*=== Dropdown ===*/
+    .dropdown__link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin-right: 50px;
+    }
+    .dropdown__icon {
+        font-size: 20px;
+        transition: .5s;
+        position: absolute;
+        left: 120px;
+        color: white;
+    }
+    .dropdown__menu {
         display: none;
+    }
+    .dropdown__item {
+        padding: 5px 0;
+    }
+    .show-sub {
+        display: block;
+    }
+    .dropdown_icon {
+        transform: rotate(-180deg);
+    }
+    .nav {
+        width: auto;
     }
     .logo {
         margin: 0;
@@ -318,7 +457,9 @@
         box-shadow: 0px 5px 30px -20px #000;
     }
     .wrapper-header1 .header-mobile {
-        display: none;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
     }
     .wrapper-header1 .icon-navi {
         display: none;
@@ -331,6 +472,7 @@
     }
     .wrapper-header1 .navigation {
         margin: -5px -20px 0 100px;
+        display: none;
     }
     .wrapper-header1 .navigation ul {
         margin: 10px 0 0 0;
@@ -347,16 +489,23 @@
         padding: 0;
     }
     .wrapper-header .header .navigation {
-        margin: 0 0 0 -200px;
+        margin: 0 -15px 0 -210px;
     }
     .wrapper-header .header .navigation a {
         font-size: 13px;
+    }
+    .wrapper-header .navigation ul li .sub-navi li a {
+        display: none;
+    }
+    .wrapper-header1 .navigation ul li .sub-navi li a {
+        display: none;
     }
     .wrapper-header .header .icon {
         margin: 0 0 0 0;
     }
     .wrapper-header1 .header-product {
         padding: 10px 0;
+        display: none;
     }
     .wrapper-body .breadcrumb {
         margin: 0;
@@ -724,6 +873,12 @@
     }
     .wrapper-header1 #header-toggle {
         margin: 10px 0 0 200px;
+    }
+    .wrapper-header .dropdown__icon {
+        display: block;
+    }
+    .wrapper-header1 .dropdown__icon {
+        display: block;
     }
     .header__toggle {
         font-size: 1.7rem;
