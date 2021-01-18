@@ -1100,6 +1100,7 @@
     }
     .products .bg-products {
         height: 90%;
+        width: 100%;
     }
     .products .show-more {
         width: 50%;
