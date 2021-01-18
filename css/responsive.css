@@ -203,7 +203,7 @@
         width: 960px;
     }
     #wrapper-body .services .line {
-        width: 20%;
+        width: 30%;
         padding: 55px 0 0 60px;
     }
     .services .wrapper {
@@ -215,7 +215,7 @@
     .services .item p {
         bottom: 200px;
     }
-    .services .item a.DB p {
+    .services .wrapper a.DB p {
         font-size: 25px;
         line-height: 50px;
     }
@@ -236,10 +236,11 @@
         width: 100%;
     }
     .products .bg-products {
-        height: 73%;
+        height: 93%;
+        width: 100%;
     }
     .products .show-more {
-        margin-left: 720px;
+        margin: 20px auto;
     }
     .related-product .products .btn-details {
         width: 229px;
@@ -250,7 +251,7 @@
     }
     .wrapper-footer {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .wrapper-footer ul.menu-footer {
         margin: 0 0 20px 50px;
@@ -566,7 +567,7 @@
         width: 720px;
     }
     #wrapper-body .services .line {
-        width: 20%;
+        width: 30%;
         padding-top: 50px;
     }
     .services .square3 {
@@ -595,7 +596,7 @@
         line-height: 70px;
         font-size: 20px;
     }
-    .services .item a.DB p {
+    .services .wrapper a.DB p {
         font-size: 19px;
         line-height: 35px;
     }
@@ -606,8 +607,12 @@
     #wrapper-body .products .container {
         max-width: 720px;
     }
+    .products .line {
+        width: 40%;
+        margin-left: 30%;
+    }
     .products b {
-        padding-left: 40%;
+        padding-left: 0;
     }
     .products .wrapper .item {
         padding: 0;
@@ -620,10 +625,12 @@
         width: 100%;
     }
     .products .bg-products {
-        height: 70%;
+        height: 93%;
+        width: 100%;
     }
     .products .show-more {
-        margin-left: 530px;
+        margin: 20px auto;
+        width: 30%;
     }
     .wrapper-footer {
         width: 100%;
@@ -965,7 +972,7 @@
     }
     .wrapper-banner .banner .slider .slide-show img {
         width: 50%;
-        height: 98.5px;
+        height: auto;
     }
     .wrapper-banner .banner .pagination {
         margin: 0;
