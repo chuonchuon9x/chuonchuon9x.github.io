@@ -65,6 +65,27 @@
         margin: 0 0 0 0;
         padding: 20px 0 0 50px;
     }
+    @media screen and (min-width: 1024px) and (max-width: 1024px) {
+        .wrapper-header .navigation ul li a {
+            position: relative;
+        }
+        .wrapper-header1 .navigation ul li a {
+            position: relative;
+        }
+        .wrapper-header .dropdown__icon {
+            display: block;
+            position: absolute;
+            margin: -17px 70px;
+        }
+        .wrapper-header .bg-white {
+            color: white;
+        }
+        .wrapper-header1 .dropdown__icon {
+            display: block;
+            position: absolute;
+            margin: -17px 70px;
+        }
+    }
     .wrapper-body .breadcrumb {
         width: 960px;
         padding-left: 50px;
