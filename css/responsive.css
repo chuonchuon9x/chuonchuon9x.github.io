@@ -1151,8 +1151,7 @@
         max-width: 80px;
         right: auto;
         bottom: auto;
-        margin-left: 50px;
-        margin-top: 25px;
+        margin: 25px 0 0 75px;
     }
     .wrapper-banner .banner .slider .click img {
         width: 13px;
