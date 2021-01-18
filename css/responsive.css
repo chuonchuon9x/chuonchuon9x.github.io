@@ -65,7 +65,7 @@
         margin: 0 0 0 0;
         padding: 20px 0 0 50px;
     }
-    @media screen and (min-width: 1024px) and (max-width: 1024px) {
+    @media screen and (min-width: 992px) and (max-width: 1024px) {
         .wrapper-header .navigation ul li a {
             position: relative;
         }
@@ -84,6 +84,15 @@
             display: block;
             position: absolute;
             margin: -17px 70px;
+        }
+        .wrapper-header .navigation ul li:hover .sub-navi {
+            display: none;
+        }
+        .wrapper-header .navigation ul li:hover .show-sub-navi {
+            display: block;
+        }
+        .dropdown_icon {
+            transform: rotate(-180deg);
         }
     }
     .wrapper-body .breadcrumb {

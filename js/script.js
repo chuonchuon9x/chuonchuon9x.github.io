@@ -82,6 +82,10 @@ function myHandle() {
     document.getElementById("dropdown_menu").classList.toggle("show-sub");
     document.getElementById("handle-menu").classList.toggle("dropdown_icon");
 }
+
+function myHandle1() {
+    document.getElementById("sub-navi").classList.toggle("show-sub-navi");
+}
 // End showSubMenuMobile
 
 // Choose color 
