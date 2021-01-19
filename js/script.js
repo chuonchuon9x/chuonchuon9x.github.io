@@ -34,7 +34,7 @@ if (document.querySelector("header.wrapper-header1") === null) {
             var menu = document.getElementsByClassName("wrapper-header");
             var menu = menu[0];
             var height = pageYOffset;
-            if (height > 300) {
+            if (height > 100) {
                 menu.classList.add("bg-header")
             } else {
                 menu.classList.remove('bg-header');
