@@ -222,7 +222,7 @@
     .wrapper-banner .banner .slider .click {
         left: 250px;
         right: -250px;
-        top: 25px;
+        top: 12px;
     }
     .wrapper-banner .banner .slider .slide-show .content {
         left: 150px;
@@ -788,7 +788,7 @@
     }
     .services .rosara {
         width: 30%;
-        top: 180px;
+        top: 160px;
     }
     #wrapper-body .products .container {
         max-width: 720px;
