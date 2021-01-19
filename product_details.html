@@ -169,7 +169,7 @@
                             <div class="cart">
                                 <span>Số lượng:</span>
                                 <form action="#" method="post" class="cart-form">
-                                    <input type="text" name="quantity" id="qty" value="1">
+                                    <input type="text" name="quantity" id="qty" value="1" pattern="[0-9]+" oninvalid="this.setCustomValidity('Bạn phải nhập số')" oninput="this.setCustomValidity('')">
                                     <button type="submit">Thêm vào giỏ</button>
                                 </form>
                             </div>
