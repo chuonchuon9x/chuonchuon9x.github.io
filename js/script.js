@@ -85,6 +85,7 @@ function myHandle() {
 
 function myHandle1() {
     document.getElementById("sub-navi").classList.toggle("show-sub-navi");
+    document.getElementById("handle-menu1").classList.toggle("dropdown_icon");
 }
 // End showSubMenuMobile
 
@@ -110,15 +111,37 @@ function size(n) {
 
 // Click menu when click out side
 window.addEventListener('click', function(event) {
-        if (!event.target.matches('.header__toggle') && !event.target.matches('.dropdown__icon') && !event.target.matches('.nav')) {
-            var menuMobile = document.getElementsByClassName("nav");
-            var i;
-            for (i = 0; i < menuMobile.length; i++) {
-                var showMenuMobile = menuMobile[i];
-                if (showMenuMobile.classList.contains('show')) {
-                    showMenuMobile.classList.remove('show');
-                }
+    if (!event.target.matches('.header__toggle') && !event.target.matches('.dropdown__icon') && !event.target.matches('.nav')) {
+        var menuMobile = document.getElementsByClassName("nav");
+        var dropdownicon = document.getElementsByClassName('dropdown__icon');
+        var dropdownmenu = document.getElementsByClassName('dropdown__menu');
+        var showsubnavi = document.getElementsByClassName('sub-navi');
+        var i;
+        for (i = 0; i < menuMobile.length; i++) {
+            var showMenuMobile = menuMobile[i];
+            if (showMenuMobile.classList.contains('show')) {
+                showMenuMobile.classList.remove('show');
             }
         }
-    })
-    // End Click menu when click out side
+        for (i = 0; i < dropdownicon.length; i++) {
+            var showIcon = dropdownicon[i];
+            if (showIcon.classList.contains('dropdown_icon')) {
+                showIcon.classList.remove('dropdown_icon');
+            }
+        }
+        for (i = 0; i < dropdownmenu.length; i++) {
+            var showMenu = dropdownmenu[i];
+            if (showMenu.classList.contains('show-sub')) {
+                showMenu.classList.remove('show-sub');
+            }
+        }
+        for (i = 0; i < showsubnavi.length; i++) {
+            var showSubMenu = showsubnavi[i];
+            if (showSubMenu.classList.contains('show-sub-navi')) {
+                showSubMenu.classList.remove('show-sub-navi');
+            }
+        }
+    }
+})
+
+// End Click menu when click out side
