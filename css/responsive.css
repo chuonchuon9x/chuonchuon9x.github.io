@@ -91,6 +91,12 @@
         .wrapper-header .navigation ul li:hover .show-sub-navi {
             display: block;
         }
+        .wrapper-header1 .navigation ul li:hover .sub-navi {
+            display: none;
+        }
+        .wrapper-header1 .navigation ul li:hover .show-sub-navi {
+            display: block;
+        }
         .dropdown_icon {
             transform: rotate(-180deg);
         }
