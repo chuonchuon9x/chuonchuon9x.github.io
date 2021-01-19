@@ -110,7 +110,7 @@ function size(n) {
 // End choose size
 
 // Click menu when click out side
-window.addEventListener('click', function(event) {
+screen.addEventListener('click', function(event) {
     if (!event.target.matches('.header__toggle') && !event.target.matches('.dropdown__icon') && !event.target.matches('.nav')) {
         var menuMobile = document.getElementsByClassName("nav");
         var dropdownicon = document.getElementsByClassName('dropdown__icon');
