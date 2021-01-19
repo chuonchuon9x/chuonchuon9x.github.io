@@ -777,11 +777,10 @@
         right: 75px;
     }
     .services .item p {
-        bottom: 150px;
-        left: 15px;
-        height: 70px;
-        line-height: 70px;
+        height: 80px;
+        line-height: 75px;
         font-size: 20px;
+        top: calc(50% - 40px);
     }
     .services .wrapper a.DB p {
         font-size: 19px;
@@ -1249,13 +1248,12 @@
         right: 0px;
     }
     .services .item p {
-        bottom: 100px;
-        left: 10px;
-        font-size: 15px;
+        font-size: 14px;
         height: 50px;
-        line-height: 50px;
+        line-height: 45px;
         background-color: black;
         opacity: 0.8;
+        top: calc(50% - 25px);
     }
     .services .wrapper a.DB p {
         padding-top: 0;
