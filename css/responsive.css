@@ -202,11 +202,8 @@
         font-size: 60px;
         max-height: 100px;
         max-width: 200px;
-        top: auto;
-        left: auto;
-        bottom: auto;
-        right: auto;
-        margin: -300px 0 0 340px;
+        top: calc(20% - 90px);
+        left: calc(40% - 50px);
     }
     .wrapper-banner .banner {
         width: 960px;
@@ -694,11 +691,8 @@
         font-size: 45px;
         max-height: 80px;
         max-width: 200px;
-        top: auto;
-        left: auto;
-        bottom: auto;
-        right: auto;
-        margin: -220px 0 0 270px;
+        top: calc(20% - 100px);
+        left: calc(45% - 50px);
     }
     .wrapper-banner .banner {
         width: 720px;
@@ -1153,9 +1147,6 @@
     }
     .wrapper-banner .banner .sale {
         font-size: 30px;
-        max-height: 80px;
-        max-width: 200px;
-        margin: 105px 0 0 0;
     }
     .wrapper-banner .banner .slider {
         left: 0;
