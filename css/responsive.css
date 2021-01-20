@@ -859,6 +859,9 @@
         display: flex;
         justify-content: space-between;
     }
+    .breadcrumb {
+        padding: 30px 0 15px 0;
+    }
     ul {
         margin: 0;
         padding: 0;
