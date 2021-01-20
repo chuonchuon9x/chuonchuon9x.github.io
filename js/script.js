@@ -68,7 +68,6 @@ window.onresize = function() {
 function csspadding() {
     let header = document.getElementById("wrapper-header1").offsetHeight;
     let body = document.getElementById("wrapper-body");
-    console.log(body);
     body.style.paddingTop = header + 'px';
 }
 
