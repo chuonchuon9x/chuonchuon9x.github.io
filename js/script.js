@@ -58,12 +58,7 @@ function zoomfooter() {
         footer1.classList.remove('fixwindow');
     }
 }
-csspadding();
-zoomfooter();
-window.onresize = function() {
-        zoomfooter();
-    }
-    // End zoom footer
+// End zoom footer
 
 function csspadding() {
     let header = document.getElementById("wrapper-header1").offsetHeight;
@@ -98,57 +93,62 @@ function myHandle1() {
 
 // Choose color 
 function color(n) {
-    var chooseColor = document.getElementsByClassName("color-choose");
-    for (i = 0; i < chooseColor.length; i++) {
-        chooseColor[i].classList = chooseColor[i].className.replace(" active", "");
+    var colorChoose = document.getElementsByClassName("color-choose");
+    for (i = 0; i < colorChoose.length; i++) {
+        colorChoose[i].classList = colorChoose[i].className.replace(" active", "");
     }
-    chooseColor[n].className += " active";
+    colorChoose[n].className += " active";
 }
 // End choose color
 
 // Choose Size
 function size(n) {
-    var chooseSize = document.getElementsByClassName("size-choose");
-    for (i = 0; i < chooseSize.length; i++) {
-        chooseSize[i].classList = chooseSize[i].className.replace(" active", "");
+    var sizechoose = document.getElementsByClassName("size-choose");
+    for (i = 0; i < sizechoose.length; i++) {
+        sizechoose[i].classList = sizechoose[i].className.replace(" active", "");
     }
-    chooseSize[n].className += " active";
+    sizechoose[n].className += " active";
 }
 // End choose size
 
 // Click menu when click out side
 window.addEventListener('click', function(event) {
-    if (!event.target.matches('.header__toggle') && !event.target.matches('.dropdown__icon') && !event.target.matches('.nav')) {
-        var menuMobile = document.getElementsByClassName("nav");
-        var dropdownicon = document.getElementsByClassName('dropdown__icon');
-        var dropdownmenu = document.getElementsByClassName('dropdown__menu');
-        var showsubnavi = document.getElementsByClassName('sub-navi');
-        var i;
-        for (i = 0; i < menuMobile.length; i++) {
-            var showMenuMobile = menuMobile[i];
-            if (showMenuMobile.classList.contains('show')) {
-                showMenuMobile.classList.remove('show');
+        if (!event.target.matches('.header__toggle') && !event.target.matches('.dropdown__icon') && !event.target.matches('.nav')) {
+            var menuMobile = document.getElementsByClassName("nav");
+            var dropdownicon = document.getElementsByClassName('dropdown__icon');
+            var dropdownmenu = document.getElementsByClassName('dropdown__menu');
+            var showsubnavi = document.getElementsByClassName('sub-navi');
+            var i;
+            for (i = 0; i < menuMobile.length; i++) {
+                var showMenuMobile = menuMobile[i];
+                if (showMenuMobile.classList.contains('show')) {
+                    showMenuMobile.classList.remove('show');
+                }
+            }
+            for (i = 0; i < dropdownicon.length; i++) {
+                var showIcon = dropdownicon[i];
+                if (showIcon.classList.contains('dropdown_icon')) {
+                    showIcon.classList.remove('dropdown_icon');
+                }
+            }
+            for (i = 0; i < dropdownmenu.length; i++) {
+                var showMenu = dropdownmenu[i];
+                if (showMenu.classList.contains('show-sub')) {
+                    showMenu.classList.remove('show-sub');
+                }
+            }
+            for (i = 0; i < showsubnavi.length; i++) {
+                var showSubMenu = showsubnavi[i];
+                if (showSubMenu.classList.contains('show-sub-navi')) {
+                    showSubMenu.classList.remove('show-sub-navi');
+                }
             }
         }
-        for (i = 0; i < dropdownicon.length; i++) {
-            var showIcon = dropdownicon[i];
-            if (showIcon.classList.contains('dropdown_icon')) {
-                showIcon.classList.remove('dropdown_icon');
-            }
-        }
-        for (i = 0; i < dropdownmenu.length; i++) {
-            var showMenu = dropdownmenu[i];
-            if (showMenu.classList.contains('show-sub')) {
-                showMenu.classList.remove('show-sub');
-            }
-        }
-        for (i = 0; i < showsubnavi.length; i++) {
-            var showSubMenu = showsubnavi[i];
-            if (showSubMenu.classList.contains('show-sub-navi')) {
-                showSubMenu.classList.remove('show-sub-navi');
-            }
-        }
-    }
-})
+    })
+    // End Click menu when click out side
+
 csspadding();
-// End Click menu when click out side
+zoomfooter();
+window.onresize = function() {
+    zoomfooter();
+}
