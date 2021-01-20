@@ -18,6 +18,7 @@ window.onload = function() {
     }
     // End zoom footer
 
+    csspadding();
     zoomfooter();
     window.onresize = function() {
         zoomfooter();
@@ -157,5 +158,3 @@ window.addEventListener('click', function(event) {
 })
 
 // End Click menu when click out side
-
-csspadding();
