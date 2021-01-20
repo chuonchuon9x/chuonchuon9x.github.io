@@ -257,6 +257,7 @@ body {
     border-style: none none solid none;
     width: 30%;
     margin-left: 5%;
+    border: 1px solid;
 }
 
 .services .title {
@@ -411,6 +412,7 @@ body {
     border-style: none none solid none;
     width: 30%;
     margin: 10% 0 2% 35%;
+    border: 1px solid;
 }
 
 .products b {
