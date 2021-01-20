@@ -198,8 +198,8 @@
     }
     .wrapper-banner .banner .sale {
         font-size: 60px;
-        top: calc(30% - 50px);
-        left: calc(40% - 50px);
+        top: calc(50% - 25%);
+        left: calc(50% - 17%);
     }
     .wrapper-banner .banner {
         width: 960px;
@@ -685,8 +685,8 @@
         font-size: 45px;
         max-height: 80px;
         max-width: 200px;
-        top: calc(50% - 100px);
-        left: calc(40% - 50px);
+        top: calc(50% - 25%);
+        left: calc(50% - 20%);
     }
     .wrapper-banner .banner {
         width: 720px;
@@ -1138,8 +1138,8 @@
     }
     .wrapper-banner .banner .sale {
         font-size: 30px;
-        left: calc(50% - 35px);
-        top: calc(60% - 80px);
+        left: calc(50% - 10%);
+        top: calc(60% - 20%);
     }
     .wrapper-banner .banner .slider {
         left: 0;
