@@ -393,7 +393,6 @@ body {
 .products {
     height: 100%;
     position: relative;
-    margin-top: 10%;
 }
 
 .products .bg-products {
@@ -407,7 +406,7 @@ body {
 .products .line {
     border-style: none none solid none;
     width: 30%;
-    margin: 0% 0 2% 35%;
+    margin: 10% 0 2% 35%;
 }
 
 .products b {
