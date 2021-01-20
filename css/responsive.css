@@ -171,12 +171,13 @@
     .related-product .products-line {
         right: 0;
         left: 0;
+        padding-bottom: 25px;
     }
     .related-product .products-line::before {
         max-width: 50px;
     }
     .related-product .products-line::after {
-        max-width: 70%;
+        width: 100%;
     }
     .related-product .products {
         width: 100%;
@@ -649,7 +650,7 @@
     }
     .wrapper-body .related-product .products-line {
         left: 0;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         width: 100%;
     }
     .wrapper-body .related-product {
