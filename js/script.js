@@ -61,8 +61,16 @@ function zoomfooter() {
 zoomfooter();
 window.onresize = function() {
         zoomfooter();
+
     }
     // End zoom footer
+
+function csspadding() {
+    let header = document.getElementById("wrapper-header1").offsetHeight;
+    let body = document.getElementById("wrapper-body");
+    console.log(body);
+    body.style.paddingTop = header + 'px';
+}
 
 // showMenu
 var showMenu = (toggleId, navId) => {
@@ -143,5 +151,5 @@ window.addEventListener('click', function(event) {
         }
     }
 })
-
+csspadding();
 // End Click menu when click out side
