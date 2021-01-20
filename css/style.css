@@ -155,8 +155,8 @@ body {
 
 .sale {
     position: absolute;
-    top: calc(30% - 100px);
-    left: calc(50% - 60px);
+    top: calc(30% - 20%);
+    left: calc(50% - 5%);
     font-size: 100px;
     color: white;
 }

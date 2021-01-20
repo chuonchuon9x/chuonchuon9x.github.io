@@ -70,9 +70,6 @@ function csspadding() {
     body.style.paddingTop = header + 'px';
 }
 csspadding();
-window.onresize = function() {
-    csspadding();
-}
 
 // showMenu
 var showMenu = (toggleId, navId) => {
