@@ -4,7 +4,6 @@ window.onload = function() {
         let window = document.documentElement.clientHeight;
         let body = document.getElementById("wrapper-body").offsetHeight;
         let banner = document.getElementsByClassName("wrapper-banner");
-        let footer = document.getElementById("wrapper-footer").offsetHeight;
         let footer1 = document.getElementById("wrapper-footer");
         let totalweb;
         let totalweb1;
