@@ -8,8 +8,10 @@ window.onload = function() {
         let footer1 = document.getElementById("wrapper-footer");
         let totalweb;
         let totalweb1;
-        totalweb = banner.length > 0 ? banner[0].offsetHeight : body + footer;
-        totalweb1 = totalweb + body + footer;
+        totalweb = banner.length > 0 ? banner[0].offsetHeight : body;
+        totalweb1 = totalweb + body;
+        console.log(totalweb);
+        console.log(totalweb1);
         if (window > totalweb1) {
             footer1.classList.add('fixwindow');
         } else {
