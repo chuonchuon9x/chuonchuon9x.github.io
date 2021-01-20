@@ -10,8 +10,6 @@ window.onload = function() {
         let totalweb1;
         totalweb = banner.length > 0 ? banner[0].offsetHeight : body;
         totalweb1 = totalweb + body;
-        console.log(totalweb);
-        console.log(totalweb1);
         if (window > totalweb1) {
             footer1.classList.add('fixwindow');
         } else {
