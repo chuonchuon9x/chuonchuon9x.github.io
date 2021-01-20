@@ -75,7 +75,7 @@
         .wrapper-header .dropdown__icon {
             display: block;
             position: absolute;
-            margin: -17px 70px;
+            margin: -17px 75px;
         }
         .wrapper-header .bg-white {
             color: white;
@@ -83,7 +83,7 @@
         .wrapper-header1 .dropdown__icon {
             display: block;
             position: absolute;
-            margin: -17px 70px;
+            margin: -17px 75px;
         }
         .wrapper-header .navigation ul li:hover .sub-navi {
             display: none;
@@ -171,7 +171,6 @@
     .related-product .products-line {
         right: 0;
         left: 0;
-        margin: 0 0 50px 50px;
     }
     .related-product .products-line::before {
         max-width: 50px;
@@ -184,7 +183,6 @@
     }
     .related-product .products .wrapper {
         margin: 0;
-        padding: 0 0 0 30px;
         width: 100%;
     }
     .products .wrapper .item img {
@@ -200,9 +198,7 @@
     }
     .wrapper-banner .banner .sale {
         font-size: 60px;
-        max-height: 100px;
-        max-width: 200px;
-        top: calc(20% - 90px);
+        top: calc(30% - 50px);
         left: calc(40% - 50px);
     }
     .wrapper-banner .banner {
@@ -293,7 +289,7 @@
         margin-top: 20px;
     }
     .wrapper-footer ul.menu-footer {
-        margin: 0 0 20px 50px;
+        padding-left: 40px;
     }
     .wrapper-footer .container {
         max-width: 960px;
@@ -542,7 +538,6 @@
     }
     .wrapper-body .breadcrumb {
         margin: 0;
-        padding: 100px 0 50px 0;
     }
     .wrapper-body ul.breadcrumb li a {
         font-size: 13px;
@@ -691,8 +686,8 @@
         font-size: 45px;
         max-height: 80px;
         max-width: 200px;
-        top: calc(20% - 100px);
-        left: calc(45% - 50px);
+        top: calc(50% - 100px);
+        left: calc(40% - 50px);
     }
     .wrapper-banner .banner {
         width: 720px;
@@ -1007,9 +1002,6 @@
     .nav {
         width: auto;
     }
-    .breadcrumb {
-        padding: 100px 0 30px 0;
-    }
     .breadcrumb li {
         font-size: 15px;
     }
@@ -1139,6 +1131,7 @@
         margin: 0px;
         padding: 100px 0 0 0;
         width: 40%;
+        left: 0;
     }
     .wrapper-banner .banner .banner-left img {
         width: 100%;
@@ -1148,6 +1141,7 @@
     .wrapper-banner .banner .sale {
         font-size: 30px;
         left: calc(50% - 35px);
+        top: calc(60% - 80px);
     }
     .wrapper-banner .banner .slider {
         left: 0;
